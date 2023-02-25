@@ -1,6 +1,8 @@
 #!/bin/sh
 #####################################################
-workspace=$(igo ctl)/Leetcode
+script_abs=$(readlink -f "$0")
+script_dir=$(dirname $script_abs)
+workspace=$script_dir
 
 #####################################################
 #           main routine
