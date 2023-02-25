@@ -1,0 +1,17 @@
++++
+date = "2022-12-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0925"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0925 (name=Long Pressed Name, ptag=Leetcode) @TAG(Term, Easy-OJ, String-OJ)
+    - [Long Pressed Name - Leetcode](https://leetcode.com/problems/long-pressed-name/ ) @TAG(LT0925)
+

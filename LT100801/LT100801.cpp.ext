@@ -1,0 +1,17 @@
++++
+date = "2023-01-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1008"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1008 (name=Construct Binary Search Tree from Preorder Traversal, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST, 前序)
+    - [Construct Binary Search Tree from Preorder Traversal - Leetcode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/ ) @TAG(LT1008)
+

@@ -1,0 +1,9 @@
+LT000105.rs: input: num='(2 7 11 15), target=9; output: '(0 1); time=18ms, memory=22m
+LT000304.rs: input: abcabcbb; output: 3; time=22ms, memory=22m
+LT000504.rs: input: babad; output: bab; time=23ms, memory=22m
+LT000705.rs: input: 12345; output: 54321; time=17ms, memory=22m
+LT000803.rs: input: 12345; output: 12345L; time=20ms, memory=22m
+LT005003.rs: input: x=2.0D, n=10; output: 1024.0D; time=18ms, memory=20m
+LT006202.rs: input: m=3, n=7; output: 28; input: m=30, n=30; output: 51542064; time=99ms, memory=33m
+LT019803.rs: input: '(2 7 9 3 1); output: 12; time=20ms, memory=22m
+LT020203.rs: input: 19; output: true; input: 1999999999; output: false; time=27ms, memory=20m

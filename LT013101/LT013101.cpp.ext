@@ -1,0 +1,16 @@
++++
+date = "2022-12-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0131"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0131 (name=Palindrome Partitioning, ptag=Leetcode) @TAG(Term, Medium-OJ, Palindrome-OJ)
+    - [Palindrome Partitioning - Leetcode](https://leetcode.com/problems/palindrome-partitioning/ ) @TAG(LT0131)

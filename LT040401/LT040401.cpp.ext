@@ -1,0 +1,28 @@
++++
+date = "2017-05-14"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0404"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0404 (name=Sum of Left Leaves, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+    - [Sum of Left Leaves - Leetcode](https://leetcode.com/problems/sum-of-left-leaves/ ) @TAG(LT0404)
+
+    Find the sum of all left leaves in a given binary tree.
+
+    **Example:**
+
+            3
+           / \
+          9  20
+            /  \
+           15   7
+        
+        There are two left leaves in the binary tree, with values <b>9</b> and <b>15</b> respectively. Return <b>24</b>.

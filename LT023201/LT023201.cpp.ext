@@ -1,0 +1,18 @@
++++
+date = "2016-05-14"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0232"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0232 (name=Implement Queue using Stacks, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Implement Queue using Stacks - Leetcode](https://leetcode.com/problems/implement-queue-using-stacks/ ) @TAG(LT0232)
+
+

@@ -1,0 +1,17 @@
++++
+date = "2022-12-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0783"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0783 (name=Minimum Distance Between BST Nodes, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, BST)
+    - [Minimum Distance Between BST Nodes - Leetcode](https://leetcode.com/problems/minimum-distance-between-bst-nodes/ ) @TAG(LT0783)
+

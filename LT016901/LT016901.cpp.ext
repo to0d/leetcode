@@ -1,0 +1,36 @@
++++
+date = "2016-04-28"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0169"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0169 (name=Majority Element, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Majority Element - Leetcode](https://leetcode.com/problems/majority-element/ ) @TAG(LT0169)
+
+    Given an array of size
+    *n* , find the majority element. The majority element is the element that appears **more than**
+    `&lfloor; n/2 &rfloor;` times.
+
+    You may assume that the array is non-empty and the majority element always exist in the array.
+
+
+- A two lines with c++ Solution from other @TAG(LT0169)
+
+
+            class Solution {
+            
+                public:
+                
+                int majorityElement(vector<int>& nums) {
+                    sort(nums.begin(),nums.end());
+                    return nums[nums.size()/2];
+                }
+            };

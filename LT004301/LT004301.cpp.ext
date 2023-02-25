@@ -1,0 +1,20 @@
++++
+date = "2016-04-09"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0043"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0043 (name=Multiply Strings, ptag=Leetcode) @TAG(Term, Medium-OJ, String-OJ)
+    - [Multiply Strings - Leetcode](https://leetcode.com/problems/multiply-strings/) @TAG(LT0043)
+
+    Given two numbers represented as strings, return multiplication of the numbers as a string.
+
+    Note: The numbers can be arbitrarily large and are non-negative.

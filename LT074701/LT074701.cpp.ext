@@ -1,0 +1,17 @@
++++
+date = "2022-12-03"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0747"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0747 (name=Largest Number At Least Twice of Others, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Largest Number At Least Twice of Others - Leetcode](https://leetcode.com/problems/largest-number-at-least-twice-of-others/ ) @TAG(LT0747)
+

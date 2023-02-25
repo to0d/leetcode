@@ -1,0 +1,16 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1207"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1207 (name=Unique Number of Occurrences, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Unique Number of Occurrences - Leetcode](https://leetcode.com/problems/unique-number-of-occurrences/ ) @TAG(LT1207)

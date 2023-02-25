@@ -1,0 +1,26 @@
++++
+date = "2016-07-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0048"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0048 (name=Rotate Image, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Rotate Image - Leetcode](https://leetcode.com/problems/rotate-image/) @TAG(LT0048)
+
+    You are given an
+    *n* x
+    *n* 2D matrix representing an image.
+
+    Rotate the image by 90 degrees (clockwise).
+
+    Follow up:
+
+    Could you do this in-place?

@@ -1,0 +1,17 @@
++++
+date = "2023-01-10"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0606"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0606 (name=Construct String from Binary Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, 前序)
+    - [Construct String from Binary Tree - Leetcode](https://leetcode.com/problems/construct-string-from-binary-tree/ ) @TAG(LT0606)
+

@@ -1,0 +1,16 @@
++++
+date = "2023-01-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0852"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0852 (name=Peak Index in a Mountain Array, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Peak Index in a Mountain Array - Leetcode](https://leetcode.com/problems/peak-index-in-a-mountain-array/ ) @TAG(LT0852)

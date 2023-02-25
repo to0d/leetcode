@@ -1,0 +1,19 @@
++++
+date = "2022-11-28"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0599"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0599 (name=Minimum Index Sum of Two Lists, ptag=Leetcode) @TAG(Term, Easy-OJ, List-OJ)
+    - [Minimum Index Sum of Two Lists - Leetcode](https://leetcode.com/problems/minimum-index-sum-of-two-lists/ ) @TAG(LT0599)
+
+
+            

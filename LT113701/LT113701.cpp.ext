@@ -1,0 +1,16 @@
++++
+date = "2022-12-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1137"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1137 (name=N-th Tribonacci Number, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [N-th Tribonacci Number - Leetcode](https://leetcode.com/problems/n-th-tribonacci-number/ ) @TAG(LT1137)

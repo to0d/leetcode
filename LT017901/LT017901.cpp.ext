@@ -1,0 +1,22 @@
++++
+date = "2017-09-05"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0179"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0179 (name=Largest Number, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Largest Number - Leetcode](https://leetcode.com/problems/largest-number ) @TAG(LT0179)
+
+    Given a list of non negative integers, arrange them such that they form the largest number.
+
+    For example, given [3, 30, 34, 5, 9], the largest formed number is 9534330.
+
+    Note: The result may be very large, so you need to return a string instead of an integer.

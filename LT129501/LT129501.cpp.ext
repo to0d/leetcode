@@ -1,0 +1,17 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1295"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1295 (name=Find Numbers with Even Number of Digits, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Find Numbers with Even Number of Digits - Leetcode](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ ) @TAG(LT1295)
+

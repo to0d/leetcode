@@ -1,0 +1,37 @@
++++
+date = "2016-05-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0205"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0205 (name=Isomorphic Strings, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Isomorphic Strings - Leetcode](https://leetcode.com/problems/isomorphic-strings/ ) @TAG(LT0205)
+
+
+    Given two strings *s* and *t* , determine if they are isomorphic.
+
+    Two strings are isomorphic if the characters in *s* can be replaced to get *t* .
+
+    All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.
+
+    For example,
+
+    Given `"egg"` , `"add"` , return true.
+
+    Given `"foo"` , `"bar"` , return false.
+
+    Given `"paper"` , `"title"` , return true.
+
+    **Note:**
+
+    You may assume both
+    *s* and
+    *t* have the same length.

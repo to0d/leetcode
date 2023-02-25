@@ -1,0 +1,17 @@
++++
+date = "2022-12-20"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1436"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1436 (name=Destination City, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Destination City - Leetcode](https://leetcode.com/problems/destination-city/ ) @TAG(LT1436)
+

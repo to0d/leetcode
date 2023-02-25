@@ -1,0 +1,23 @@
++++
+date = "2016-06-23"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0172"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0172 (name=Factorial Trailing Zeroes, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Factorial Trailing Zeroes - Leetcode](https://leetcode.com/problems/factorial-trailing-zeroes/ ) @TAG(LT0172)
+
+    Given an integer *n* , return the number of trailing zeroes in *n* !.
+
+    **Note:**
+    Your solution should be in logarithmic time complexity.
+
+

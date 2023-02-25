@@ -1,0 +1,65 @@
++++
+date = "2016-04-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0031"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0031 (name=Next Permutation, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Next Permutation - Leetcode](https://leetcode.com/problems/next-permutation/) @TAG(LT0031)
+
+    Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+
+    If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
+
+    The replacement must be in-place, do not allocate extra memory.
+
+    Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
+
+
+    `1,2,3` &#8594;
+    `1,3,2` 
+
+    `3,2,1` &#8594;
+    `1,2,3` 
+
+    `1,1,5` &#8594;
+    `1,5,1` 
+
+
+- Better solution from others
+
+            class Solution {
+            public:
+                void nextPermutation(vector<int>& nums) {
+                    int n = nums.size();
+                    if (n < 2)
+                        return;
+            
+                    int i = n - 1, j = 0, left = 0;
+            
+                    while (i > 0 && nums[i-1] >= nums[i])
+                        i--;
+            
+                    if (i != 0)
+                    {
+                        left = i;
+                        j = n - 1;
+            
+                        while (nums[left-1] >= nums[j] )
+                            j--;
+            
+                        swap(nums[left-1], nums[j]);
+                    }
+                    
+                    reverse(nums.begin()+left, nums.end());
+                }
+            };
+            

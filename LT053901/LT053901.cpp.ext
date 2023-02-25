@@ -1,0 +1,17 @@
++++
+date = "2023-01-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0539"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0539 (name=Minimum Time Difference, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Minimum Time Difference - Leetcode](https://leetcode.com/problems/minimum-time-difference/ ) @TAG(LT0539)
+

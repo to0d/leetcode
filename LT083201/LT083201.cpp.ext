@@ -1,0 +1,16 @@
++++
+date = "2022-12-06"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0832"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0832 (name=Flipping an Image, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Flipping an Image - Leetcode](https://leetcode.com/problems/flipping-an-image/ ) @TAG(LT0832)

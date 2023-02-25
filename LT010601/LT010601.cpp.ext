@@ -1,0 +1,22 @@
++++
+date = "2016-04-18"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0106"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0106 (name=Construct Binary Tree from Inorder and Postorder Traversal, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Construct Binary Tree from Inorder and Postorder Traversal - Leetcode](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/ ) @TAG(LT0106)
+
+    Given inorder and postorder traversal of a tree, construct the binary tree.
+
+    **Note:**
+
+    You may assume that duplicates do not exist in the tree.

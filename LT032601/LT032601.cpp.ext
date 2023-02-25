@@ -1,0 +1,33 @@
++++
+date = "2016-05-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0326"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0326 (name=Power of Three, ptag=Leetcode) @TAG(Term, Easy-OJ, Power)
+    - [Power of Three - Leetcode](https://leetcode.com/problems/power-of-three/ ) @TAG(LT0326)
+
+    Given an integer, write a function to determine if it is a power of three.
+
+    **Follow up:**
+
+    Could you do it without using any loop / recursion?  
+
+
+- Solution from other people: 49 ms - beats 65%** @TAG(LT0326)
+
+            static int Max3PowerInt = 1162261467; // 3^19, 3^20 = 3486784401 > MaxInt32
+            static int MaxInt32     = 2147483647; // 2^31 - 1
+            
+            bool isPowerOfThree(int n) 
+            {
+                return n > 0 && n <= Max3PowerInt && ( Max3PowerInt % n ) == 0;
+            }

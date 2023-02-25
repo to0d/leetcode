@@ -1,0 +1,16 @@
++++
+date = "2022-12-06"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0032"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0032 (name=Longest Valid Parentheses, ptag=Leetcode) @TAG(Term, Hard-OJ)
+    - [Longest Valid Parentheses - Leetcode](https://leetcode.com/problems/longest-valid-parentheses ) @TAG(LT0032)

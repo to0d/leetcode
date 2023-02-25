@@ -1,0 +1,17 @@
++++
+date = "2023-01-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0162"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0162 (name=Find Peak Element, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Find Peak Element - Leetcode](https://leetcode.com/problems/find-peak-element/ ) @TAG(LT0162)
+

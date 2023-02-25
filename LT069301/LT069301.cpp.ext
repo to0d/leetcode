@@ -1,0 +1,16 @@
++++
+date = "2022-12-01"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0693"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0693 (name=Binary Number with Alternating Bits, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Binary Number with Alternating Bits - Leetcode](https://leetcode.com/problems/binary-number-with-alternating-bits/ ) @TAG(LT0693)

@@ -1,0 +1,17 @@
++++
+date = "2016-05-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0235"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0235 (name=Lowest Common Ancestor of a Binary Search Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Lowest Common Ancestor of a Binary Search Tree - Leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/ ) @TAG(LT0235)
+

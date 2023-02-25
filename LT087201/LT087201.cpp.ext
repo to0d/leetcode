@@ -1,0 +1,17 @@
++++
+date = "2022-12-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0872"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0872 (name=Leaf-Similar Trees, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+    - [Leaf-Similar Trees - Leetcode](https://leetcode.com/problems/leaf-similar-trees/ ) @TAG(LT0872)
+

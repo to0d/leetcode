@@ -1,0 +1,16 @@
++++
+date = "2023-01-14"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1372"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1372 (name=Longest ZigZag Path in a Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Longest ZigZag Path in a Binary Tree - Leetcode](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/ ) @TAG(LT1372)

@@ -1,0 +1,20 @@
++++
+date = "2022-12-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0744",
+    "BinarySearch"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0744 (name=Find Smallest Letter Greater Than Target, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Find Smallest Letter Greater Than Target - Leetcode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/ ) @TAG(LT0744)
+
+
+- [](%"LT003501.cpp") @TAG(Ref, LT0744)

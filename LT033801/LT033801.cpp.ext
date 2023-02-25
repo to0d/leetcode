@@ -1,0 +1,43 @@
++++
+date = "2016-06-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0338"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0338 (name=Counting Bits, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Counting Bits - Leetcode](https://leetcode.com/problems/counting-bits/ ) @TAG(LT0338)
+
+    Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.
+
+    Example 1:
+
+            Input: n = 2
+            Output: [0,1,1]
+            Explanation:
+            0 --> 0
+            1 --> 1
+            2 --> 10
+
+    Example 2:
+
+            Input: n = 5
+            Output: [0,1,1,2,1,2]
+            Explanation:
+            0 --> 0
+            1 --> 1
+            2 --> 10
+            3 --> 11
+            4 --> 100
+            5 --> 101
+
+    Constraints:
+
+            0 <= n <= 105

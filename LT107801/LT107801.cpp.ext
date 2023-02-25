@@ -1,0 +1,16 @@
++++
+date = "2022-12-09"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1078"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1078 (name=Occurrences After Bigram, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Occurrences After Bigram - Leetcode](https://leetcode.com/problems/occurrences-after-bigram/ ) @TAG(LT1078)

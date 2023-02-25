@@ -1,0 +1,429 @@
+./LT000101: input: nums=[2,7,11,15], target=9; output: [0,1];
+./LT000201: input: l1=[2->4->3], l2=[5->6->4]; output: [7->0->8];
+./LT000301: input: abcabcbb; output: 3
+./LT000401: input: nums1=[1,2], nums2=[3,4]; output: 2.5;
+./LT000503: input: babad; output: bab;
+./LT000602: input: s=PAYPALISHIRING, n=4; output: PINALSIGYAHRPI;
+./LT000701: input: 123; output: 321
+./LT000801: input: 12345678; output: 12345678; input: 0000000000012345678; output: 12345678;
+./LT000901: input: -121; output: 0; input: 10; output: 0; input: 121; output: 1; input: 1234567899; output: 0;
+./LT001203: input: 1994; output: MCMXCIV;
+./LT001303: input: MCMXCIV; output: 1994;
+./LT001401: input: [flower,flow,flight]; output: fl
+./LT001501: input: [-1,0,1,2,-1,-4]; output: [[-1,-1,2],[-1,0,1]]
+./LT001601: input: target=1, nums=[-1,2,1,-4]; output: 2
+./LT001701: input: 23; output: [ad,ae,af,bd,be,bf,cd,ce,cf]
+./LT001801: input: target=0, nums=[1,0,-1,0,-2,2]; output: [[-2,-1,1,2],[-1,0,0,1],[-2,0,0,2]]
+./LT001901: input: n=2, list=[1->2->3->4->5->6->7]; output: [1->2->3->4->5->7]
+./LT002001: input: ()[]{}; output: 1
+./LT002101: input: l1=[1->2->4], l2=[1->3->4]; output: [1->1->2->3->4->4]
+./LT002201: input: 3; output: [((())),(()()),(())(),()(()),()()()]
+./LT002301: input: [[1->4->5],[1->3->4],[2->6]]; output: [1->1->2->3->4->4->5->6];
+./LT002401: input: [1->2->3->4]; output: [2->1->4->3]
+./LT002501: input: list=[1->2->3->4->5], k=2; output: [2->1->4->3->5]
+./LT002602: input: [0,0,1,1,1,2,2,3,3,4]; output: 5
+./LT002702: input: val=3, nums=[3,2,2,3]; output: 2
+./LT002801: input: haystack=sadbutsad, needle=sad; output: 0
+./LT002901: input: dividend=10, divisor=3; output: 3;
+./LT003001: input: s=barfoothefoobarman, words=[foo,bar]; output: [0,9];
+./LT003101: input: [1,2,3]; output: [1,3,2]
+./LT003201: input: ()((); output: 2;
+./LT003301: input: nums=[4,5,6,7,0,1,2], target=0; output: 4
+./LT003401: input: nums=[5,7,7,8,8,10], target=8; output: [3,4]
+./LT003501: input: nums=[1,3,5,6], target=2; output: 1;
+./LT003801: input: 1; output=1; input: 4; output=1211;
+./LT003901: input: target=7, candidates=[2,3,6,7]; output: [[2,2,3],[7]];
+./LT004001: input: candidates=[10,1,2,7,6,1,5], target=8; output: [[1,1,6],[1,2,5],[1,7],[2,6]];
+./LT004101: input: [3,4,-1,1]; output: 2;
+./LT004301: input: num1=123, num2=456; output: 56088;
+./LT004501: input: [2,3,1,1,4]; output: 1;
+./LT004601: input: [1,2,3]; output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]];
+./LT004701: input: [1,1,2]; output: [[1,1,2],[1,2,1],[2,1,1]];
+./LT004801: input: [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]; output: [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]];
+./LT004901: input: [eat,tea,tan,ate,nat,bat]; output: [[bat],[nat,tan],[ate,eat,tea]];
+./LT005001: input: x=2, n=10; output: 1024
+./LT005101: input: 4; output: [[.Q..,...Q,Q...,..Q.],[..Q.,Q...,...Q,.Q..]]
+./LT005201: input: 4; output: 2
+./LT005301: input: [-2,1,-3,4,-1,2,1,-5,4]; output: 6;
+./LT005401: input: [[1,2,3,4],[5,6,7,8],[9,10,11,12]]; output: [1,2,3,4,8,12,11,10,9,5,6,7]
+./LT005501: input: [2,3,1,1,4]; output: 1;
+./LT005601: input: [[1,3],[2,6],[8,10],[15,18]]; output: [[1,6],[8,10],[15,18]];
+./LT005701: input: intervals=[[1,3],[6,9]], newInterval=[2,5]; output: [[1,5],[6,9]];
+./LT005801: input: Hello World; output: 5;
+./LT006001: input: n=3, k=3; output: 213;
+./LT006101: input: head=[1->2->3->4->5], k=2; output: [4->5->1->2->3];
+./LT006203: input: m=3, n=7; output: 28;
+./LT006301: input: [[0,0,0],[0,1,0],[0,0,0]]; output: 2;
+./LT006401: input: [[1,3,1],[1,5,1],[4,2,1]]; output: 7;
+./LT006501: input: 0; output: 1;
+./LT006601: input: [1,2,3]; output: [1,2,4];
+./LT006701: input: a=1010, b=1011; output: 10101;
+./LT006801: input: width=8, words=[This,is,an,example,of,text]; output: [This is,an ,example ,of text ];
+./LT006901: input: 1024; output: 32;
+./LT007001: input: 2; output: 2; input: 3; output: 3;
+./LT007101: input: /home/; output: /home; input: /../; output: /; input: /home//foo/; output: /home/foo;
+./LT007301: input: [[0,1,2,0],[3,4,5,2],[1,3,1,5]]; output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]];
+./LT007401: input: matrix=[[1,3,5,7],[10,11,16,20],[23,30,34,60]], target=13; output: 0;
+./LT007501: input: [2,0,2,1,1,0]; output: [0,0,1,1,2,2];
+./LT007601: input: s=ADOBECODEBANC, t=ABC; output: BANC;
+./LT007701: input: n=4, k=2; output: [[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]];
+./LT007801: input: [1,2,3]; output: [[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]];
+./LT007902: input: word=ABCCED, board=[[A,B,C,E],[S,F,C,S],[A,D,E,E]]; output: 1;
+./LT008101: input: target=0, nums=[2,5,6,0,0,1,2]; output: 1;
+./LT008201: input: [1->1->1->2->3]; output: [2->3];
+./LT008301: input: [1->1->2->3->3]; output: [1->2->3];
+./LT008601: input: x=3, list=[1->4->3->2->5->2]; output: [1->2->2->4->3->5];
+./LT008901: input: 2; output: [0,1,3,2];
+./LT009001: input: [1,2,2]; output: [[],[2],[2,1],[2,2],[2,2,1],[1]];
+./LT009101: input: 12; output: 2; input: 226; output: 3; input: 06; output: 0;
+./LT009201: input: list=[1->2->3->4->5], m=2, n=4; output: [1->4->3->2->5]
+./LT009301: input: 25525511135; output: [255.255.11.135,255.255.111.35];
+./LT009401: input: [1,null,2,3]; output: [1,3,2];
+./LT009501: input: 3; output: [[1,null,2,null,3][1,null,3,2][2,1,3][3,1,null,null,2][3,2,null,1]];
+./LT009601: input: 3; output: 5; input: 1; output: 1;
+./LT009701: input: s1=aabcc, s2=dbbca, s3=aadbbbaccc; output: 0;
+./LT009801: input: [5,1,4,null,null,3,6]; output: 0;
+./LT010001: input: p=[1,2,3], q=[1,2,3]; output: 1;
+./LT010101: input: [1,2,2,3,4,4,3]; output: 1;
+./LT010201: input: [3,9,20,null,null,15,7]; output: [[3],[9,20],[15,7]];
+./LT010301: input: [3,9,20,null,null,15,7]; output: [[3],[20,9],[15,7]];
+./LT010401: input: [3,9,20,null,null,15,7]; output: 3;
+./LT010501: input: preorder=[3,9,20,15,7], inorder=[9,3,15,20,7]; output: [3,9,20,null,null,15,7];
+./LT010601: input: inorder=[9,3,15,20,7], postorder=[9,15,7,20,3]; output: [3,9,20,null,null,15,7];
+./LT010701: input: [3,9,20,null,null,15,7]; output: [[15,7],[9,20],[3]];
+./LT010801: input: [-10,-3,0,5,9]; output: [0,-3,9,-10,null,5];
+./LT010901: input: [-10->-3->0->5->9]; output: [0,-10,5,null,-3,null,9];
+./LT011001: input: [3,9,20,null,null,15,7]; output: 1;
+./LT011101: input: [3,9,20,null,null,15,7]; output: 2;
+./LT011201: input: sum=22, tree=[5,4,8,11,null,13,4,7,2,null,null,null,1]; output: 1;
+./LT011301: input: [5,4,8,11,null,13,4,7,2,null,null,5,1]; output: [[5,4,11,2],[5,8,4,5]];
+./LT011401: input: [1,2,5,3,4,null,6]; output: [1,null,2,null,3,null,4,null,5,null,6];
+./LT011601: output: done!;
+./LT011701: output: done!;
+./LT011801: input: 5; output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]];
+./LT011901: input: 3; output: [1,3,3,1];
+./LT012001: input: [[2],[3,4],[6,5,7],[4,1,8,3]]; output: 11;
+./LT012101: input: [7,1,5,3,6,4]; output: 5
+./LT012201: input: [7,1,5,3,6,4]; output: 7
+./LT012401: input: [-10,9,20,null,null,15,7]; output: 42;
+./LT012501: input: A man, a plan, a canal: Panama; output: 1
+./LT012901: input: [1,2,3]; output: 25;
+./LT013001: input: [[X,X,X,X],[X,O,O,X],[X,X,O,X],[X,O,X,X]]; output: [[X,X,X,X],[X,X,X,X],[X,X,X,X],[X,O,X,X]];
+./LT013101: input: aab; output: [[a,a,b],[aa,b]];
+./LT013201: input: aaabaa; output: 1;
+./LT013301: output: done!
+./LT013401: input: gas=[1,2,3,4,5], cost=[3,4,5,1,2]; output: 3;
+./LT013601: input: [2,2,1]; output: 1;
+./LT013701: input: nums=[2,2,3,2]; output: 3;
+./LT013901: input: s=leetcode, dict=[leet,code]; output: 1;
+./LT014001: input: s=catsanddog, dict=[cat,cats,and,sand,dog]; output: [cats and dog,cat sand dog];
+./LT014101: input: [3->2->0->-4]; output: 0
+./LT014201: input: [3->2->0->-4]; output: [];
+./LT014301: input: [1->2->3->4->5]; output: [1->5->2->4->3];
+./LT014401: input: [1,null,2,3]; output: [1,2,3];
+./LT014501: input: [1,null,2,3]; output: [3,2,1];
+./LT014601: output: done!;
+./LT014701: input: [-1->5->3->4->0]; output: [-1->0->3->4->5];
+./LT014801: input: [4->2->1->3]; output: [1->2->3->4];
+./LT014901: input: [[1,1],[2,2],[3,3]]; output: 3;
+./LT015001: input: [2,1,+,3,*]; output: 9;
+./LT015101: input: the sky is blue; output: blue is sky the;
+./LT015201: input: [2,3,-2,4]; output: 6;
+./LT015301: input: [3,4,5,1,2]; output: 1;
+./LT015401: input: [2,2,2,0,1]; output: 0;
+./LT015501: output: done
+./LT016201: input: [1,2,3,1]; output: 2;
+./LT016501: input: version1=1.01, version2=1.001; output: 0;
+./LT016601: input: num=4, den=333; output: 0.(012);
+./LT016701: input: target=9, numbers=[2,7,11,15]; output: [1,2];
+./LT016801: input: 1; output: A; input: 28; output: AB;
+./LT016901: input: [3,2,3]; output: 3;
+./LT017101: input: A; output: 1; input: AB; output: 28;
+./LT017201: input: 3; output: 0; input: 5; output: 1;
+./LT017301: output: done!
+./LT017901: input: [10,2]; output: 210;
+./LT018901: input: k=3, nums=[1,2,3,4,5,6,7]; output: [5,6,7,1,2,3,4];
+./LT019001: input: 43261596; output: 964176192;
+./LT019101: input: 11; output: 3;
+./LT019801: input: [2,7,9,3,1]; output: 12
+./LT019901: input: [1,2,3,null,5,null,4]; output: [1,3,4];
+./LT020001: input: [[1,1,1,1,0],[1,1,0,1,0],[1,1,0,0,0],[0,0,0,0,0]]; output: 1;
+./LT020101: input: m=0, n=0; output: 0; input: m=5, n=7; output: 4; input: m=2147483646, n=2147483647; output: 2147483646;
+./LT020201: input: 19; output: 1; input: 1999999999; output: 0;
+./LT020301: input: val=6, head=[1->2->6->3->4->5->6]; output: [1->2->3->4->5];
+./LT020401: input: 0; output: 0; input: 1; output: 0; input: 10; output: 4;
+./LT020501: input: s=egg, t=add; output: 1;
+./LT020601: input: [1->2->3->4->5]; output: [5->4->3->2->1]
+./LT020701: input: num=2, pre=[[1,0]]; output: 1;
+./LT020801: output: done!;
+./LT020901: input: target=7, nums=[2,3,1,2,4,3]; output: 2;
+./LT021001: input: num=4pre=[[1,0],[2,0],[3,1],[3,2]]; output: [0,1,2,3];
+./LT021101: output: done!;
+./LT021301: input: [2,3,2]; output: 3
+./LT021501: input: nums=[3,2,1,5,6,4], k=2; output: 5;
+./LT021601: input: k=3, n=9; output: [[1,2,6],[1,3,5],[2,3,4]];
+./LT021701: input: [1,2,3,1]; output: 1;
+./LT021901: input: k=3, nums=[1,2,3,1]; output: 1;
+./LT022201: input: [1,2,3,4,5,6]; output: 6;
+./LT022301: input: [-3 0 3 4 0 -1 9 2]; output: 45;
+./LT022501: output: done!
+./LT022502: output: done!
+./LT022601: input: [4,2,7,1,3,6,9]; output: [4,7,2,9,6,3,1];
+./LT022701: input: 3+2*2; output: 7; input: 3/2 ; output: 1; input: 3+5 / 2 ; output: 5;
+./LT022801: input: [0,1,2,4,5,7]; output: [0->2,4->5,7];
+./LT023001: input: k=3, tree=[5,3,6,2,4,null,null,1]; output: 3;
+./LT023101: input: 1; output: 1 input: 16; output: 1 input: 3; output: 0
+./LT023201: output: done!
+./LT023401: input: [1->2->2->1]; output: 1;
+./LT023501: input: root=[6,2,8,0,4,7,9,null,null,3,5], p=2, q=8; output: 6;
+./LT023601: input: root=[3,5,1,6,2,0,8,null,null,7,4], p=5, q=1; output: 3;
+./LT023701: input: [4->5->1->9]; output: [4->1->9];
+./LT023801: input: [1,2,3,4]; output: [24,12,8,6];
+./LT024001: input: matrix=[[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target=5; output: 1;
+./LT024201: input: s=anagram, t=nagaram; output: 1; input: s=rat, t=car; output: 0;
+./LT025701: input: [1,2,3,null,5]; output: [1->2->5,1->3];
+./LT025801: input: 0; output: 0 input: 38; output: 2
+./LT026301: input: 6; output: 1; input: 1; output: 1; input: 14; output: 0;
+./LT026401: input: 10; output: 12; input: 1; output: 1;
+./LT026801: input: [9,6,4,2,3,5,7,0,1]; output: 8
+./LT027501: input: [0,1,3,5,6]; output: 3;
+./LT027801: output: done;
+./LT028401: output: done!
+./LT028701: input: [1,3,4,2,2]; output: 2
+./LT028901: input: [[1,1],[1,0]]; output: [[1,1],[1,1]];
+./LT029001: input: pattern=abba, s=dog cat cat dog; output: 1;
+./LT029201: input: 4; output: 0
+./LT029701: input: [1,2,3,null,null,4,5]; output: #2,#4,#5,3,1,;
+./LT029901: input: secret=1807, guess=7810; output: 1A3B
+./LT030301: input: i=0, j=2; output: 1; input: i=2, j=5; output: -1; input: i=0, j=5; output: -3;
+./LT030401: input: row1=2, col1=1, row2=4, col2=3; output: 8;
+./LT030601: input: 112358; output: 1; input: 199100199; output: 1;
+./LT031301: input: n=12, primes=[2,7,13,19]; output: 32;
+./LT031601: output: error
+./LT031801: input: [abcw,baz,foo,bar,xtfn,abcdef]; output: 16;
+./LT032601: input: 27; output: 1; input: 0; output: 0;
+./LT032801: input: [2->1->3->5->6->4->7]; output: [2->3->6->7->1->5->4];
+./LT033101: input: 9,3,4,#,#,1,#,#,2,#,6,#,#; output: 1;
+./LT033201: input: [[MUC,LHR],[JFK,MUC],[SFO,SJC],[LHR,SFO]]; output: [JFK,MUC,LHR,SFO,SJC];
+./LT033701: input: [3,4,5,1,3,null,1]; output: 9;
+./LT033801: input: 5; output: [0,1,1,2,1,2]
+./LT034101: output: done
+./LT034201: input: 16; output: 1 input: 5; output: 0
+./LT034401: input: [h,e,l,l,o]; output: [o,l,l,e,h]
+./LT034501: input: hello; output: holle; input: leetcode; output: leotcede;
+./LT034701: input: nums=[1,1,1,2,2,3], k=2; output: [2,1];
+./LT034901: input: nums1=[4,9,5], nums2=[9,4,9,8,4]; output: [4,9]
+./LT035001: input: nums1=[4,9,5], nums2=[9,4,9,8,4]; output: [4,9]
+./LT036701: input: 16; output: 1;
+./LT037101: input: a=1, b=2; output: 3 input: a=2, b=3; output: 5
+./LT037201: input: a=1, b=[4,3,3,8,5,2]; output: 1;
+./LT037401: output: done;
+./LT037801: input: k=8, matrix=[[1,5,9],[10,11,13],[12,13,15]]; output: 13;
+./LT038301: input: r=aa, m=aab; output: 1;
+./LT038401: output: done!
+./LT038501: output: done!
+./LT038601: input: 13; output: [1,10,11,12,13,2,3,4,5,6,7,8,9];
+./LT038901: input: s=abcd, t=abcde; output: e;
+./LT039201: input: s=aaaaaa, t=bbaaaa; output: 0;
+./LT039301: input: [197,130,1]; output: 1;
+./LT039401: input: 3[a]2[bc]; output: aaabcbc;
+./LT039601: input: [4,3,2,6]; output: 26;
+./LT040401: input: [3,9,20,null,null,15,7]; output: 24;
+./LT040501: input: 26; output: 1a; input: -1; output: ffffffff;
+./LT040901: input: abccccdd; output: 7; input: ccc; output: 3;
+./LT041201: input: 3; output: [1,2,Fizz];
+./LT041501: input: a=456, b=77; output: 533;
+./LT041601: input: [2,2,3,5]; output: 0
+./LT042901: output: done!
+./LT043401: input: Hello, my name is John; output: 5;
+./LT043701: input: [10,5,-3,3,2,null,11,3,-2,null,1]; output: 3;
+./LT044101: input: 5; output: 2
+./LT044201: input: [4,3,2,7,8,2,3,1]; output: [3,2];
+./LT044301: input: [a,a,b,b,c,c,c]; output: [a,2,b,2,c,3];
+./LT044501: input: l1=[7->2->4->3], l2=[5->6->4]; output: [7->8->0->7];
+./LT044801: input: [4,3,2,7,8,2,3,1]; output: [5,6]
+./LT045001: input: key=3, tree=[5,3,6,2,4,null,7]; output: [5,4,6,2,null,null,7];
+./LT045101: input: tree; output: eert;
+./LT045901: input: abab; output: 1;
+./LT046301: input: [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]; output: 16;
+./LT048501: input: [1,1,0,1,1,1]; output: 3;
+./LT049401: input: nums=[1,1,1,1,1], target=3; output: 5;
+./LT049801: input: [[1,2,3],[4,5,6],[7,8,9]]; output: [1,2,4,7,5,3,6,8,9];
+./LT050001: input: [Hello,Alaska,Dad,Peace]; output: [Alaska,Dad];
+./LT050101: input: [1,null,2,2]; output: [2];
+./LT050401: input: 0; output: 0; input: 100; output: 202;
+./LT050801: input: [5,2,-3]; output: [-3,2,4];
+./LT050901: input: 3; output: 2;
+./LT051301: input: [1,2,3,4,null,5,6,null,null,7]; output: 7;
+./LT051501: input: [1,3,2,5,3,null,9]; output: [1,3,9];
+./LT052001: input: USA; output: 1;
+./LT053001: input: [4,2,6,1,3]; output: 1;
+./LT053901: input: [23:59,00:00]; output: 1;
+./LT054001: input: [1,1,2,3,3,4,4,8,8]; output: 2;
+./LT054101: input: s=abcdefg, k=2; output: bacdfeg;
+./LT054201: input: [[0,0,0],[0,1,0],[0,0,0]]; output: [[0,0,0],[0,1,0],[0,0,0]];
+./LT054301: input: [1,2,3,4,5]; output: 3;
+./LT054701: input: [[1,1,0],[1,1,0],[0,0,1]]; output: 2;
+./LT055101: input: PPALLP; output: 1;
+./LT055701: input: God Ding; output:doG gniD;
+./LT055901: output: done!
+./LT056101: input: [6,2,6,5,1,2]; output: 9;
+./LT056301: input: [1,2,3]; output: 1;
+./LT056601: input: r=1, c=4, mat=[[1,2],[3,4]]; output: [[1,2,3,4]];
+./LT057201: input: root=[3,4,5,1,2,null,null,null,null,0], subRoot=[4,1,2]; output: 0;
+./LT057501: input: [1,1,2,2,3,3]; output: 3;
+./LT058101: input: [2,6,4,8,10,9,15]; output: 5;
+./LT058901: output: done!
+./LT059001: output: done!
+./LT059801: input: m=3, n=3, ops=[[2,2],[3,3]]; output: 4;
+./LT059901: input: l1=[happy,sad,good], l2=[sad,happy,good]; output: [sad,happy];
+./LT060501: input: n=1, flowerbed=[1,0,0,0,1]; output: 1;
+./LT060601: input: [1,2,3,4]; output: 1(2(4))(3);
+./LT061701: input: root1=[1,3,2,5], root2=[2,1,3,null,4,null,7]; output: [3,4,5,5,4,null,7];
+./LT062301: input: val=1, depth=2, tree=[4,2,6,3,1,5]; output: [4,1,1,2,null,null,6,3,1,5];
+./LT062801: input: [1,2,3,4]; output: 24; input: [1,2,3,-2,-5]; output: 30;
+./LT063701: input: [3,9,20,null,null,15,7]; output: [3,14.5,11];
+./LT064301: input: k=4, nums=[1,12,-5,-6,50,3]; output: 12.75;
+./LT064501: input: [1,2,2,4]; output: [2,3];
+./LT065201: input: [1,2,3,4,null,2,4,null,null,4]; output: [[2,4][4]];
+./LT065301: input: k=4, root=[2,1,3]; output: 1;
+./LT065401: input: [3,2,1,6,0,5]; output: [6,3,5,null,2,0,null,null,1];
+./LT065701: input: UD; output: 1;
+./LT066501: input: [4,2,3]; output: 1;
+./LT066901: input: low=1, high=3, tree=[3,0,4,null,2,null,null,1]; output: [3,2,null,1];
+./LT067101: input: [2,2,5,null,null,5,7]; output: 5;
+./LT068001: input: abca; output: 1;
+./LT068701: input: [5,4,5,1,1,null,5]; output: 2;
+./LT069301: input: 5; output: 1;
+./LT069501: input: [[0,1,1,0],[0,0,1,0]]; output: 3;
+./LT070001: input: val=2, tree=[4,2,7,1,3]; output: [2,1,3];
+./LT070101: input: val=5, tree=[4,2,7,1,3]; output: [4,2,7,1,3,5];
+./LT070301: input: k=3, nums=[4,5,8,2]; output: 4;
+./LT070401: input: target=9, nums=[-1,0,3,5,9,12]; output: 4;
+./LT070901: input: Hello; output: hello;
+./LT071701: input: [1,0,0]; output: 1;
+./LT072401: input: [1,7,3,6,5,6]; output: 3;
+./LT072501: input: k=3, list=[1->2->3->4->5->6->7->8->9->10]; output: [[1->2->3->4],[5->6->7],[8->9->10]];
+./LT073301: input: sr=1, sc=1, color=2, image=[[1,1,1],[1,1,0],[1,0,1]]; output: [[2,2,2],[2,2,0],[2,0,1]];
+./LT074401: input: target=a, letters=[c,f,j]; output: c;
+./LT074601: input: [10,15,20]; output: 15;
+./LT074701: input: [3,6,1,0]; output: 1;
+./LT076601: input: [[1,2,3,4],[5,1,2,3],[9,5,1,2]]; output: 1;
+./LT078301: input: [4,2,6,1,3]; output: 1;
+./LT078401: input: a1b2; output: [a1b2,a1B2,A1b2,A1B2];
+./LT079101: input: order=cba, s=abcd; output: cbad;
+./LT079601: input: s=abcde, goal=cdeab; output: 1;
+./LT079701: input: [[1,2],[3],[3],[]]; output: [[0,1,3],[0,2,3]];
+./LT081401: input: [1,null,0,0,1]; output: [1,null,0,null,1];
+./LT081701: input: list=[0->1->2->3->4], nums=[0,3,1,4]; output: 2;
+./LT081901: input: paragraph=Bob hit a ball, the hit BALL., banned=[hit]; output: ball;
+./LT082401: input: I speak Goat Latin; output: Imaa peaksmaaa oatGmaaaa atinLmaaaaa;
+./LT083001: input: abbxxxxzzy; output: [[3,6]];
+./LT083201: input: [[1,1,0],[1,0,1],[0,0,0]]; output: [[1,0,0],[0,1,0],[1,1,1]];
+./LT084101: input: [[1],[2],[3],[]]; output: 1;
+./LT084401: input: s=ab#c, t=ad#c; output: 1;
+./LT085201: input: [0,10,5,2]; output: 1;
+./LT085901: input: s=ab, goal=ba; output: 1;
+./LT086001: input: [5,5,5,10,20]; output: 1;
+./LT086301: input: target=5, k=2, tree=[3,5,1,6,2,0,8,null,null,7,4]; output: [7,4,1];
+./LT086501: input: [3,5,1,6,2,0,8,null,null,7,4]; output: [2,7,4];
+./LT086701: input: [[1,2,3],[4,5,6]]; output: [[1,4],[2,5],[3,6]];
+./LT087201: input: tree1=[3,5,1,6,2,9,8,null,null,7,4], tree2=[3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]; output: 1;
+./LT087601: input: [1->2->3->4->5]; output: 3;
+./LT088401: input: s1=apple apple, s2=banana; output: [banana];
+./LT088901: input: pre=[1,2,4,5,3,6,7], post=[4,5,2,6,7,3,1]; output: [1,2,3,4,5,6,7];
+./LT089401: input: 5; output: [[0,0,0,null,null,0,0][0,0,0,0,0]];
+./LT089601: input: [1,2,2,3]; output: 1;
+./LT089701: input: [5,1,7]; output: [1,null,5,null,7];
+./LT090501: input: [3,1,2,4]; output: [4,2,1,3];
+./LT090801: input: k=2, nums=[0,10]; output: 6;
+./LT091201: input: [5,2,3,1]; output: [1,2,3,5];
+./LT091701: input: ab-cd; output: dc-ba;
+./LT092201: input: [4,2,5,7]; output: [4,5,2,7];
+./LT092501: input: name=alex, typed=aaleex; output: 1;
+./LT092901: input: [a.x@bc.c,ax@bc.c]; output: 1;
+./LT093301: output: done!
+./LT093801: input: low=7, high=15, root=[10,5,15,3,7,null,18]; output: 32;
+./LT094101: input: [0,3,2,1]; output: 1;
+./LT094201: input: IDID; output: [2,3,1,4,0];
+./LT094401: input: [cba,daf,ghi]; output: 1;
+./LT095101: input: r1=[1,2,3,4,5,6,null,null,null,7,8], r2=[1,3,2,null,6,4,5,null,null,null,null,8,7]; output: 1;
+./LT095801: input: [1,2,3,4,5,6]; output: 1;
+./LT096501: input: [1,1,1,1,1,null,1]; output: 1;
+./LT097701: input: [-4,-1,0,3,10]; output: [0,1,9,16,100];
+./LT098801: input: [0,1,2,3,4,3,4]; output: dba;
+./LT098901: input: k=34, num=[1,2,0,0]; output: [1,2,3,4];
+./LT099301: input: x=4, y=3, tree=[1,2,3,4]; output: 0;
+./LT099801: input: val=5, tree=[4,1,3,null,null,2]; output: [5,4,null,1,3,null,null,2];
+./LT100201: input: [bella,label,roller]; output: [e,l,l];
+./LT100501: input: k=1, nums=[4,2,3]; output: 5;
+./LT100801: input: [8,5,1,7,10,12]; output: [8,5,10,1,7,null,12];
+./LT100901: input: 5; output: 2;
+./LT101801: input: [0,1,1]; output: [1,0,0];
+./LT102001: input: [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]; output: 3;
+./LT102101: input: (()())(()); output: ()()();
+./LT102201: input: [1,0,1,0,1,0,1]; output: 22;
+./LT102601: input: [8,3,10,1,6,null,14,null,null,4,7,13]; output: 7;
+./LT103701: input: [[1,1],[2,3],[3,2]]; output: 1;
+./LT104601: input: [2,7,4,1,8,1]; output: 1;
+./LT104701: input: abbaca; output: ca;
+./LT105101: input: [1,1,4,2,1,3]; output: 3;
+./LT107101: input: str1=ABCABC, str2=ABC; output: ABC;
+./LT107801: input: text=we will we will rock you, first=we, second=will; output: [we,rock];
+./LT108001: input: limit=1, tree=[1,2,3,4,-99,-99,7,8,9,-99,-99,12,13,-99,14]; output: [1,2,3,4,null,null,7,8,9,null,14];
+./LT108901: input: [1,0,2,3,0,4,5,0]; output: [1,0,0,2,3,0,0,4];
+./LT110401: input: 14; output: [1,3,4,14];
+./LT110801: input: 1.1.1.1; output: 1[.]1[.]1[.]1;
+./LT112201: input: arr1=[28,6,22,8,44,17], arr2=[22,28,8,6]; output: [22,28,8,6,17,44];
+./LT112801: input: [[1,2],[1,2],[1,1],[1,2],[2,2]]; output: 3;
+./LT113701: input: 4; output: 4; input: 25; output: 1389537;
+./LT115401: input: 2019-01-09; output: 9; input: 1900-05-02; output: 122;
+./LT116001: input: chars=atach, words=[cat,bt,hat,tree]; output: 6;
+./LT116101: input: [1,7,0,7,-8]; output: 2;
+./LT118401: input: s=0, d=1[1,2,3,4]; output: 1;
+./LT118501: input: day=31, month=8, year=2019; output: Saturday;
+./LT118901: input: loonbalxballpoon; output: 2;
+./LT120001: input: [4,2,1,3]; output: [[1,2],[2,3],[3,4]];
+./LT120701: input: [1,2,2,1,1,3]; output: 1;
+./LT122101: input: RLRRLLRLRL; output: 4;
+./LT123201: input: [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]; output: 1;
+./LT128101: input: 234; output: 15;
+./LT129001: input: [1->0->1]; output: 5;
+./LT129501: input: [12,345,2,6,7896]; output: 2;
+./LT130401: input: 5; output: [1,-1,2,-2,0];
+./LT130501: input: t1=[2,1,4], t2=[1,0,3]; output: [0,1,1,2,3,4];
+./LT130901: input: 10#11#12; output: jkab;
+./LT131301: input: [1,2,3,4]; output: [2,4,4,4];
+./LT132301: input: 9669; output: 9969;
+./LT133101: input: [40,10,20,30]; output: [4,1,2,3];
+./LT133701: input: k=2, mat=[[1,0,0,0],[1,1,1,1],[1,0,0,0],[1,0,0,0]]; output: [0,2];
+./LT134201: input: 14; output: 6;
+./LT134601: input: [10,2,5,3]; output: 1;
+./LT135101: input: [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]; output: 8;
+./LT135601: input: [0,1,2,3,4,5,6,7,8]; output: [0,1,2,4,8,3,5,6,7];
+./LT136001: input: date1=2020-01-15, date2=2019-12-31; output: 15;
+./LT136501: input: [8,1,2,2,3]; output: [4,0,1,1,3];
+./LT136701: input: list=[4->2->8], tree=[1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]; output: 1;
+./LT137201: input: [1,null,1,1,1,null,null,1,1,null,1,null,null,null,1,null,1]; output: 3;
+./LT137401: input: 4; output: abbb; input: 14; output: xyyyyyyyyyabbb;
+./LT137901: output: done!
+./LT138001: input: [[3,7,8],[9,11,13],[15,16,17]]; output: [15];
+./LT138901: input: nums=[0,1,2,3,4], index=[0,1,2,2,1]; output: [0,4,1,3,2];
+./LT139401: input: [2,2,3,4]; output: 2;
+./LT141701: input: a0b1c2; output: a2b1c0;
+./LT143601: input: [[B,C],[D,B],[C,A]]; output: A;
+./LT144801: input: [3,1,4,3,null,1,5]; output: 4;
+./LT145501: input: sentence=i kk, searchWord=k; output: 2;
+./LT146001: input: target=[1,2,3,4], arr=[2,4,1,3]; output: 1;
+./LT146401: input: [3,4,5,2]; output: 12;
+./LT148001: input: [1,2,3,4]; output: [1,3,6,10];
+./LT150701: input: 20th Oct 2052; output: 2052-10-20;
+./LT151201: input: [1,2,3,1,1,3]; output: 4;
+./LT152301: input: low=3, high=7; output: 3;
+./LT152801: input: s=codeleet, indices=[4,5,6,7,0,2,1,3]; output: leetcode;
+./LT153901: input: k=5, arr=[2,3,4,7,11]; output: 9;
+./LT154401: input: leEeetcode; output: leetcode;
+./LT155001: input: [1,2,34,3,4,5,7,23,12]; output: 1;
+./LT155601: input: 1234; output: 1.234;
+./LT215401: input: original=3, nums=[5,3,6,1,12]; output: 24;
+./LT216401: input: [4,1,2,3]; output: [2,3,4,1];

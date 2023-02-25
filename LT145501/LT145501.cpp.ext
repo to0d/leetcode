@@ -1,0 +1,18 @@
++++
+date = "2022-12-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1455"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1455 (name=Check If a Word Occurs As a Prefix of Any Word in a Sentence, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Check If a Word Occurs As a Prefix of Any Word in a Sentence - Leetcode](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/ ) @TAG(LT1455)
+
+

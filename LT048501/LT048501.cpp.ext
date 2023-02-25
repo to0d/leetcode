@@ -1,0 +1,17 @@
++++
+date = "2023-01-09"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0485"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0485 (name=Max Consecutive Ones, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Max Consecutive Ones - Leetcode](https://leetcode.com/problems/max-consecutive-ones/ ) @TAG(LT0485)
+

@@ -1,0 +1,17 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1304"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1304 (name=Find N Unique Integers Sum up to Zero, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Find N Unique Integers Sum up to Zero - Leetcode](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/ ) @TAG(LT1304)
+

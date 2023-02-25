@@ -1,0 +1,24 @@
++++
+date = "2016-04-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0020"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0020 (name=Valid Parentheses, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Valid Parentheses - Leetcode](https://leetcode.com/problems/valid-parentheses) @TAG(LT0020)
+
+    Given a string containing just the characters `'('` , `')'` , `'{'` , `'}'` , `'['` and `']'` , determine if the input string is valid.
+
+    An input string is valid if:
+
+    Open brackets must be closed by the same type of brackets.
+    Open brackets must be closed in the correct order.
+    Every close bracket has a corresponding open bracket of the same type.

@@ -1,0 +1,17 @@
++++
+date = "2022-12-03"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0876"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0876 (name=Middle of the Linked List, ptag=Leetcode) @TAG(Term, Easy-OJ, List-OJ)
+    - [Middle of the Linked List - Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/ ) @TAG(LT0876)
+

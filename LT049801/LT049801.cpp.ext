@@ -1,0 +1,17 @@
++++
+date = "2023-01-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0498"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0498 (name=Diagonal Traverse, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Diagonal Traverse - Leetcode](https://leetcode.com/problems/diagonal-traverse/ ) @TAG(LT0498)
+

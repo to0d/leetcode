@@ -1,0 +1,16 @@
++++
+date = "2022-11-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0605"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0605 (name=Can Place Flowers, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Can Place Flowers - Leetcode](https://leetcode.com/problems/can-place-flowers/ ) @TAG(LT0605)

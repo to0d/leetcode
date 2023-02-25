@@ -1,0 +1,23 @@
++++
+date = "2022-11-25"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0415"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0415 (name=Add Strings, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Add Strings - Leetcode](https://leetcode.com/problems/add-strings/ ) @TAG(LT0415)
+
+    Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string.
+
+    You must solve the problem without using any built-in library for handling large integers (such as BigInteger). You must also not convert the inputs to integers directly.
+    
+
+- [](%"LT006701.cpp") @TAG(Ref, LT0415)

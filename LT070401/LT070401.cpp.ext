@@ -1,0 +1,20 @@
++++
+date = "2022-12-01"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0704",
+    "BinarySearch"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0704 (name=Binary Search, ptag=Leetcode) @TAG(Term, Easy-OJ, Search)
+    - [Binary Search - Leetcode](https://leetcode.com/problems/binary-search/ ) @TAG(LT0704)
+
+
+- [](%"LT003501.cpp") @TAG(Ref, LT0704)

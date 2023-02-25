@@ -1,0 +1,17 @@
++++
+date = "2022-12-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1346"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1346 (name=Check If N and Its Double Exist, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Check If N and Its Double Exist - Leetcode](https://leetcode.com/problems/check-if-n-and-its-double-exist/ ) @TAG(LT1346)
+

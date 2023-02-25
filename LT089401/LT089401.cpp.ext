@@ -1,0 +1,17 @@
++++
+date = "2023-01-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0894"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0894 (name=All Possible Full Binary Trees, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [All Possible Full Binary Trees - Leetcode](https://leetcode.com/problems/all-possible-full-binary-trees/ ) @TAG(LT0894)
+

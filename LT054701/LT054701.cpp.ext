@@ -1,0 +1,17 @@
++++
+date = "2023-01-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0547"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0547 (name=Number of Provinces, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Number of Provinces - Leetcode](https://leetcode.com/problems/number-of-provinces/ ) @TAG(LT0547)
+

@@ -1,0 +1,19 @@
++++
+date = "2016-06-19"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0009"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0009 (name=Palindrome Number, ptag=Leetcode) @TAG(Term, Palindrome-OJ, Easy-OJ)
+    - [Palindrome Number - Leetcode](https://leetcode.com/problems/palindrome-number/ ) @TAG(LT0009)
+
+
+- [](%"LT000701.cpp") @TAG(Ref, LT0009)

@@ -1,0 +1,20 @@
++++
+date = "2016-04-10"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0100"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0100 (name=Same Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+    - [Same Tree - Leetcode](https://leetcode.com/problems/same-tree/ ) @TAG(LT0100)
+
+    Given two binary trees, write a function to check if they are equal or not.
+
+    Two binary trees are considered equal if they are structurally identical and the nodes have the same value.

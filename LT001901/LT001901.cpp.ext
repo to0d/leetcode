@@ -1,0 +1,30 @@
++++
+date = "2016-05-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0019"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0019 (name=Remove Nth Node From End of List, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ)
+    - [Remove Nth Node From End of List - Leetcode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) @TAG(LT0019)
+
+    Given a linked list, remove the *n* -th node from the end of list and return its head.
+
+    For example,
+
+           Given linked list: 1->2->3->4->5, and n = 2.
+           After removing the second node from the end, the linked list becomes 1->2->3->5.
+
+    **Note:**
+
+    Given
+    *n* will always be valid.
+
+    Try to do this in one pass.

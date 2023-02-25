@@ -1,0 +1,16 @@
++++
+date = "2022-12-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1047"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1047 (name=Remove All Adjacent Duplicates In String, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Remove All Adjacent Duplicates In String - Leetcode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ ) @TAG(LT1047)

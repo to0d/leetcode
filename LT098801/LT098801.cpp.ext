@@ -1,0 +1,16 @@
++++
+date = "2023-01-31"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0988"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0988 (name=Smallest String Starting From Leaf, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Smallest String Starting From Leaf - Leetcode](https://leetcode.com/problems/smallest-string-starting-from-leaf/ ) @TAG(LT0988)

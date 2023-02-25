@@ -1,0 +1,19 @@
++++
+date = "2018-04-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0011"
+]
+!template = md2.template
+!domain = ""
++++
+
+- LT0011 (name=Container With Most Water, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Container With Most Water - Leetcode](https://leetcode.com/problems/container-with-most-water/ ) @TAG(LT0011)
+
+    Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+
+    Note: You may not slant the container and n is at least 2.

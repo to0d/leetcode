@@ -1,0 +1,17 @@
++++
+date = "2023-01-07"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0396"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0396 (name=Rotate Function, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Rotate Function - Leetcode](https://leetcode.com/problems/rotate-function/ ) @TAG(LT0396)
+

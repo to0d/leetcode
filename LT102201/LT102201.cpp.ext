@@ -1,0 +1,17 @@
++++
+date = "2022-12-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1022"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1022 (name=Sum of Root To Leaf Binary Numbers, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+    - [Sum of Root To Leaf Binary Numbers - Leetcode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/ ) @TAG(LT1022)
+

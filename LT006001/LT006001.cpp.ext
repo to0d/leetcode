@@ -1,0 +1,44 @@
++++
+date = "2016-04-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0060"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0060 (name=Permutation Sequence, ptag=Leetcode) @TAG(Term, Hard-OJ)
+    - [Permutation Sequence - Leetcode](https://leetcode.com/problems/permutation-sequence/ ) @TAG(LT0060)
+
+    The set
+    `[1,2,3,...,`*n* ]
+    contains a total of *n*! unique permutations.
+
+    By listing and labeling all of the permutations in order,
+
+    We get the following sequence (ie, for
+    *n* = 3):
+
+    1. `"123"` 
+    - `"132"` 
+    - `"213"` 
+    - `"231"`  
+    - `"312"`  
+    - `"321"` 
+
+    Given
+    *n* and
+    *k* , return the
+    <sup>th</sup>
+    *k* permutation sequence.
+
+
+
+    **Note:**
+    Given
+    *n* will be between 1 and 9 inclusive.

@@ -1,0 +1,22 @@
++++
+date = "2016-04-21"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0228"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0228 (name=Summary Ranges, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Summary Ranges - Leetcode](https://leetcode.com/problems/summary-ranges/ ) @TAG(LT0228)
+
+    Given a sorted integer array without duplicates, return the summary of its ranges.
+
+    For example, given
+    `[0,1,2,4,5,7]` , return
+    `["0->2","4->5","7"].` 

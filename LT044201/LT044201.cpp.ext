@@ -1,0 +1,16 @@
++++
+date = "2023-01-28"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0442"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0442 (name=Find All Duplicates in an Array, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Find All Duplicates in an Array - Leetcode](https://leetcode.com/problems/find-all-duplicates-in-an-array/ ) @TAG(LT0442)

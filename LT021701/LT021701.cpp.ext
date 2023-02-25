@@ -1,0 +1,19 @@
++++
+date = "2016-05-25"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0217"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0217 (name=Contains Duplicate, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Contains Duplicate - Leetcode](https://leetcode.com/problems/contains-duplicate/ ) @TAG(LT0217)
+
+    Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
+

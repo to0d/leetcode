@@ -1,0 +1,20 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1185",
+    "闰年"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1185 (name=Day of the Week, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Day of the Week - Leetcode](https://leetcode.com/problems/day-of-the-week/ ) @TAG(LT1185)
+
+
+- [](%"LT115401.cpp") @TAG(Ref, LT1185)

@@ -1,0 +1,17 @@
++++
+date = "2022-12-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1351"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1351 (name=Count Negative Numbers in a Sorted Matrix, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Count Negative Numbers in a Sorted Matrix - Leetcode](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/ ) @TAG(LT1351)
+

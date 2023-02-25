@@ -1,0 +1,16 @@
++++
+date = "2022-12-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1021"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1021 (name=Remove Outermost Parentheses, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Remove Outermost Parentheses - Leetcode](https://leetcode.com/problems/remove-outermost-parentheses/ ) @TAG(LT1021)

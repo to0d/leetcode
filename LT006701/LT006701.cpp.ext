@@ -1,0 +1,22 @@
++++
+date = "2016-04-09"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0067"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0067 (name=Add Binary, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Add Binary - Leetcode](https://leetcode.com/problems/add-binary/ ) @TAG(LT0067)
+
+    Given two binary strings, return their sum (also a binary string).
+
+    For example,
+
+    a = `"11"` b = `"1"` Return `"100"` .

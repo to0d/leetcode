@@ -1,0 +1,47 @@
++++
+date = "2016-05-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0040"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0040 (name=Combination Sum II, ptag=Leetcode) @TAG(Term, Medium-OJ, xSum-OJ)
+    - [Combination Sum II - Leetcode](https://leetcode.com/problems/combination-sum-ii/) @TAG(LT0040)
+
+    Given a collection of candidate numbers (
+    *C* ) and a target number (
+    *T* ), find all unique combinations in
+    *C* where the candidate numbers sums to
+    *T* .
+
+    Each number in
+    *C* may only be used **once**
+    in the combination.
+
+    **Note:**
+
+    - All numbers (including target) will be positive integers.
+    - The solution set must not contain duplicate combinations.
+
+    For example, given candidate set
+    `10,1,2,7,6,1,5` and target
+    `8` ,
+
+    A solution set is:
+
+            [
+              [1, 7],
+              [1, 2, 5],
+              [2, 6],
+              [1, 1, 6]
+            ]
+            
+            
+- [](%"LT003901.cpp") @TAG(Ref, LT0040)

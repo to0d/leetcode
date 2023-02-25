@@ -1,0 +1,17 @@
++++
+date = "2023-01-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0669"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0669 (name=Trim a Binary Search Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST)
+    - [Trim a Binary Search Tree - Leetcode](https://leetcode.com/problems/trim-a-binary-search-tree/ ) @TAG(LT0669)
+

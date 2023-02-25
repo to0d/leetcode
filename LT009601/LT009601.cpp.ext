@@ -1,0 +1,34 @@
++++
+date = "2016-05-07"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0096"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0096 (name=Unique Binary Search Trees, ptag=Leetcode) @TAG(Term, Medium-OJ, BST)
+    - [Unique Binary Search Trees - Leetcode](https://leetcode.com/problems/unique-binary-search-trees/ ) @TAG(LT0096)
+
+    Given
+    *n* , how many structurally unique
+
+    **BST's**
+    (binary search trees) that store values 1...
+    *n* ?
+
+    For example,
+
+    Given
+    *n* = 3, there are a total of 5 unique BST's.
+
+            1         3     3      2      1
+            \       /     /      / \      \
+             3     2     1      1   3      2
+            /     /       \                 \
+           2     1         2                 3

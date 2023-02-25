@@ -1,0 +1,17 @@
++++
+date = "2022-12-05"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0030"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0030 (name=Substring with Concatenation of All Words, ptag=Leetcode) @TAG(Term, Hard-OJ, String-OJ)
+    - [Substring with Concatenation of All Words - Leetcode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/ ) @TAG(LT0030)
+

@@ -1,0 +1,19 @@
++++
+date = "2023-01-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1161"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1161 (name=Maximum Level Sum of a Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, LevelOrder)
+    - [Maximum Level Sum of a Binary Tree - Leetcode](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/ ) @TAG(LT1161)
+
+
+- [](%"LT010701.cpp") @TAG(Ref, LT1161)

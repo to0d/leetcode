@@ -1,0 +1,19 @@
++++
+date = "2023-01-10"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0637"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0637 (name=Average of Levels in Binary Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, LevelOrder)
+    - [Average of Levels in Binary Tree - Leetcode](https://leetcode.com/problems/average-of-levels-in-binary-tree/ ) @TAG(LT0637)
+
+
+- [](%"LT051501.cpp") @TAG(Ref, LT0637)

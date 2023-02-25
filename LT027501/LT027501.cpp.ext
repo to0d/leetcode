@@ -1,0 +1,21 @@
++++
+date = "2016-04-23"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0275"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0275 (name=H-Index II, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [H-Index II - Leetcode](https://leetcode.com/problems/h-index-ii/ ) @TAG(LT0275)
+
+    **Follow up** for [H-Index](https://leetcode.com/problems/h-index/): What if the `citations` array is sorted in ascending order? Could you optimize your algorithm?
+    
+    **Hint:**
+    1. Expected runtime complexity is in *O* (log *n* ) and the input is sorted.

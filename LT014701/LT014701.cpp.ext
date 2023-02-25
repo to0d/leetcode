@@ -1,0 +1,22 @@
++++
+date = "2016-04-21"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0147"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0147 (name=Insertion Sort List, ptag=Leetcode) @TAG(Term, Medium-OJ, sort-OJ)
+    - [Insertion Sort List - Leetcode](https://leetcode.com/problems/insertion-sort-list/ ) @TAG(LT0147)
+
+    Sort a linked list using insertion sort.
+    
+- **Two optimize** @TAG(LT0147)
+    - compare tail node
+    - compare last node

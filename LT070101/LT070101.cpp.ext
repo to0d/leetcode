@@ -1,0 +1,17 @@
++++
+date = "2023-01-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0701"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0701 (name=Insert into a Binary Search Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST)
+    - [Insert into a Binary Search Tree - Leetcode](https://leetcode.com/problems/insert-into-a-binary-search-tree/ ) @TAG(LT0701)
+

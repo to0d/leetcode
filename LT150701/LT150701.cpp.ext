@@ -1,0 +1,19 @@
++++
+date = "2022-12-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1507"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1507 (name=Reformat Date, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Reformat Date - Leetcode](https://leetcode.com/problems/reformat-date/ ) @TAG(LT1507)
+
+
+    

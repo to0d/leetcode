@@ -1,0 +1,40 @@
++++
+date = "2016-04-24"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0242"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0242 (name=Valid Anagram, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Valid Anagram - Leetcode](https://leetcode.com/problems/valid-anagram/ ) @TAG(LT0242)
+
+    Given two strings
+    *s* and
+    *t* , write a function to determine if
+    *t* is an anagram of
+    *s* .
+
+    For example,
+
+    *s* = "anagram",
+    *t* = "nagaram", return true.
+
+
+    *s* = "rat",
+    *t* = "car", return false.
+
+    **Note:**
+
+    You may assume the string contains only lowercase alphabets.
+
+    **Follow up:**
+
+    What if the inputs contain unicode characters? How would you adapt your solution to such case?
+

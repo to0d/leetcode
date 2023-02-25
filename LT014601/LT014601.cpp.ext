@@ -1,0 +1,16 @@
++++
+date = "2023-02-01"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0146"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0146 (name=LRU Cache, ptag=Leetcode) @TAG(Term, Medium-OJ, LRU)
+    - [LRU Cache - Leetcode](https://leetcode.com/problems/lru-cache/ ) @TAG(LT0146)

@@ -1,0 +1,16 @@
++++
+date = "2023-01-31"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1080"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1080 (name=Insufficient Nodes in Root to Leaf Paths, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Insufficient Nodes in Root to Leaf Paths - Leetcode](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/ ) @TAG(LT1080)

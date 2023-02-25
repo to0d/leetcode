@@ -1,0 +1,17 @@
++++
+date = "2023-01-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1104"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1104 (name=Path In Zigzag Labelled Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Path In Zigzag Labelled Binary Tree - Leetcode](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/ ) @TAG(LT1104)
+

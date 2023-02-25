@@ -1,0 +1,17 @@
++++
+date = "2023-02-01"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0086"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0086 (name=Partition List, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ)
+    - [Partition List - Leetcode](https://leetcode.com/problems/partition-list/ ) @TAG(LT0086)
+

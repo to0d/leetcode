@@ -1,0 +1,17 @@
++++
+date = "2022-12-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT2154"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT2154 (name=Keep Multiplying Found Values by Two, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Keep Multiplying Found Values by Two - Leetcode](https://leetcode.com/problems/keep-multiplying-found-values-by-two/ ) @TAG(LT2154)
+

@@ -1,0 +1,18 @@
++++
+date = "2022-12-21"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0884"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0884 (name=Uncommon Words from Two Sentences, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Uncommon Words from Two Sentences - Leetcode](https://leetcode.com/problems/uncommon-words-from-two-sentences/ ) @TAG(LT0884)
+
+

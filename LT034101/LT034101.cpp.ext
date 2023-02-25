@@ -1,0 +1,17 @@
++++
+date = "2016-04-24"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0341"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0341 (name=Flatten Nested List Iterator, ptag=Leetcode) @TAG(Term, Medium-OJ, Iterator)
+    - [Flatten Nested List Iterator - Leetcode](https://leetcode.com/problems/flatten-nested-list-iterator/ ) @TAG(LT0341)
+

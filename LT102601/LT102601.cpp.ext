@@ -1,0 +1,17 @@
++++
+date = "2023-01-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1026"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1026 (name=Maximum Difference Between Node and Ancestor, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Maximum Difference Between Node and Ancestor - Leetcode](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/ ) @TAG(LT1026)
+

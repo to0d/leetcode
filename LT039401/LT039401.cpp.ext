@@ -1,0 +1,16 @@
++++
+date = "2023-01-05"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0394"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0394 (name=Decode String, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Decode String - Leetcode](https://leetcode.com/problems/decode-string/ ) @TAG(LT0394)

@@ -1,0 +1,16 @@
++++
+date = "2022-12-07"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1009"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1009 (name=Complement of Base 10 Integer, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Complement of Base 10 Integer - Leetcode](https://leetcode.com/problems/complement-of-base-10-integer/ ) @TAG(LT1009)

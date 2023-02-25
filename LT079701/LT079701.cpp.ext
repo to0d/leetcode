@@ -1,0 +1,16 @@
++++
+date = "2023-01-18"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0797"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0797 (name=All Paths From Source to Target, ptag=Leetcode) @TAG(Term, Medium-OJ, Graph-OJ, DAG)
+    - [All Paths From Source to Target - Leetcode](https://leetcode.com/problems/all-paths-from-source-to-target/ ) @TAG(LT0797)

@@ -1,0 +1,17 @@
++++
+date = "2022-12-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1460"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1460 (name=Make Two Arrays Equal by Reversing Subarrays, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Make Two Arrays Equal by Reversing Subarrays - Leetcode](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/ ) @TAG(LT1460)
+

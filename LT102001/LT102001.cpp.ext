@@ -1,0 +1,19 @@
++++
+date = "2023-01-31"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1020"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1020 (name=Number of Enclaves, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Number of Enclaves - Leetcode](https://leetcode.com/problems/number-of-enclaves/ ) @TAG(LT1020)
+
+
+- [](%"LT069501.cpp") @TAG(Ref, LT1020)

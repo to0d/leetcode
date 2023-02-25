@@ -1,0 +1,46 @@
++++
+date = "2016-05-07"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0038"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0038 (name=Count and Say, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Count and Say - Leetcode](https://leetcode.com/problems/count-and-say/) @TAG(LT0038)
+
+    The count-and-say sequence is the sequence of integers beginning as follows:
+
+
+    `1, 11, 21, 1211, 111221, ...` 
+
+    `1` is read off as
+    `"one 1"` or
+    `11` .
+
+
+    `11` is read off as
+    `"two 1s"` or
+    `21` .
+
+
+    `21` is read off as
+    `"one 2` , then
+    `one 1"` or
+    `1211` .
+
+
+
+    Given an integer
+    *n* , generate the
+    <sup>th</sup>
+    *n* sequence.
+
+    Note: The sequence of integers will be represented as a string.
+            

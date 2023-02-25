@@ -1,0 +1,79 @@
++++
+date = "2016-05-14"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0148",
+    "SimpleInsertSort"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0148 (name=Sort List, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ, sort-OJ)
+    - [Sort List - Leetcode](https://leetcode.com/problems/sort-list/ ) @TAG(LT0148)
+
+    Sort a linked list in *O* ( *n* log *n* ) time using constant space complexity.
+    
+- Quick Sort learn from others : 64 ms @TAG(LT0148)
+
+            class Solution {
+            public:
+                ListNode* merge(ListNode * l1, ListNode * l2){
+            
+                    ListNode dummy = ListNode(0);
+                    ListNode *p = &dummy;
+            
+                    while(l1 && l2)
+                    {
+                        if(l1->val < l2->val)
+                        {
+                            p->next = l1;
+                            l1 = l1->next;
+                        }
+                        else
+                        {
+                            p->next = l2;
+                            l2 = l2->next;
+                        }
+            
+                        p = p->next;
+                    }
+            
+                    if(l1)
+                        p->next = l1;
+                    if(l2)
+                        p->next = l2;
+            
+                    return dummy.next;
+                }
+            
+                ListNode* sortList(ListNode* head) {
+            
+                    if(head == NULL || head->next == NULL)
+                        return head;
+            
+                    ListNode * slow = head;
+                    ListNode * fast = head;
+            
+                    // Divides the list in two parts
+                    while(fast->next && fast->next->next)
+                    {
+                        slow = slow->next;
+                        fast = fast->next->next;
+                    }
+            
+            
+                    ListNode * headB = sortList(slow->next);
+            
+                    // So we know where to stop
+                    slow->next = NULL;
+                    ListNode * headA = sortList(head);
+            
+                    return merge(headA,headB);
+                }
+            };
+            

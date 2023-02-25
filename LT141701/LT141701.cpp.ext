@@ -1,0 +1,18 @@
++++
+date = "2022-12-14"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1417"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1417 (name=Reformat The String, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Reformat The String - Leetcode](https://leetcode.com/problems/reformat-the-string/ ) @TAG(LT1417)
+
+

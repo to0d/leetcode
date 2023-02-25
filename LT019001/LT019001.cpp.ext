@@ -1,0 +1,28 @@
++++
+date = "2016-04-24"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0190"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0190 (name=Reverse Bits, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Reverse Bits - Leetcode](https://leetcode.com/problems/reverse-bits/ ) @TAG(LT0190)
+
+    Reverse bits of a given 32 bits unsigned integer.
+
+    For example, given input 43261596 (represented in binary as **00000010100101000001111010011100** ), return 964176192 (represented in binary as **00111001011110000010100101000000**
+    ).
+
+    **Follow up** :
+
+    If this function is called many times, how would you optimize it?
+
+    Related problem:
+    [Reverse Integer](https://leetcode.com/problems/reverse-integer/)

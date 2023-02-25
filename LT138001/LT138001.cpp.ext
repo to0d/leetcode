@@ -1,0 +1,17 @@
++++
+date = "2022-12-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1380"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1380 (name=Lucky Numbers in a Matrix, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Lucky Numbers in a Matrix - Leetcode](https://leetcode.com/problems/lucky-numbers-in-a-matrix/ ) @TAG(LT1380)
+

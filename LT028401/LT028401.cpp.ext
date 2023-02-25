@@ -1,0 +1,17 @@
++++
+date = "2023-01-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0284"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0284 (name=Peeking Iterator, ptag=Leetcode) @TAG(Term, Medium-OJ, Iterator)
+    - [Peeking Iterator - Leetcode](https://leetcode.com/problems/peeking-iterator/ ) @TAG(LT0284)
+

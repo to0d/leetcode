@@ -1,0 +1,17 @@
++++
+date = "2016-06-29"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0332"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0332 (name=Reconstruct Itinerary, ptag=Leetcode) @TAG(Term, Hard-OJ)
+    - [Reconstruct Itinerary - Leetcode](https://leetcode.com/problems/reconstruct-itinerary/ ) @TAG(LT0332)
+

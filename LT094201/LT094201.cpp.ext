@@ -1,0 +1,18 @@
++++
+date = "2022-12-22"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0942"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0942 (name=DI String Match, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [DI String Match - Leetcode](https://leetcode.com/problems/di-string-match/ ) @TAG(LT0942)
+
+

@@ -1,0 +1,43 @@
++++
+date = "2022-11-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0628"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0628 (name=Maximum Product of Three Numbers, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Maximum Product of Three Numbers - Leetcode](https://leetcode.com/problems/maximum-product-of-three-numbers/ ) @TAG(LT0628)
+
+    Given an integer array nums, find three numbers whose product is maximum and return the maximum product.
+
+
+    Example 1:
+
+            Input: nums = [1,2,3]
+            Output: 6
+
+    Example 2:
+
+            Input: nums = [1,2,3,4]
+            Output: 24
+
+    Example 3:
+
+            Input: nums = [-1,-2,-3]
+            Output: -6
+    
+
+    Constraints:
+
+            3 <= nums.length <= 104
+            -1000 <= nums[i] <= 1000
+
+
+            

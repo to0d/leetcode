@@ -1,0 +1,35 @@
++++
+date = "2016-04-26"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+mark = "Runtime Error"
+tags = [
+    "LT0074"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0074 (name=Search a 2D Matrix, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Search a 2D Matrix - Leetcode](https://leetcode.com/problems/search-a-2d-matrix/) @TAG(LT0074)
+
+    Write an efficient algorithm that searches for a value in an
+    *m* x
+    *n* matrix. This matrix has the following properties:
+
+    - Integers in each row are sorted from left to right.
+    - The first integer of each row is greater than the last integer of the previous row.
+
+    For example,
+
+    Consider the following matrix:
+
+        [
+          [1,   3,  5,  7],
+          [10, 11, 16, 20],
+          [23, 30, 34, 50]
+        ]
+
+    Given **target** = `3` , return `true` .

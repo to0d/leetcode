@@ -1,0 +1,19 @@
++++
+date = "2023-01-03"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0153"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0153 (name=Find Minimum in Rotated Sorted Array, ptag=Leetcode) @TAG(Term, Medium-OJ, RotateArray-OJ)
+    - [Find Minimum in Rotated Sorted Array - Leetcode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ ) @TAG(LT0153)
+
+
+- [](%"LT008101.cpp") @TAG(Ref, LT0153)

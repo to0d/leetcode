@@ -1,0 +1,38 @@
++++
+date = "2016-04-17"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0145"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0145 (name=Binary Tree Postorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+    - [Binary Tree Postorder Traversal - Leetcode](https://leetcode.com/problems/binary-tree-postorder-traversal/ ) @TAG(LT0145)
+
+    Given a binary tree, return the
+    *postorder* traversal of its nodes' values.
+
+    For example:
+
+    Given binary tree
+    `{1,#,2,3}` ,
+
+
+
+           1
+            \
+             2
+            /
+           3
+
+    return
+    `[3,2,1]` .
+
+    **Note:**
+    Recursive solution is trivial, could you do it iteratively?

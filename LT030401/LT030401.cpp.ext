@@ -1,0 +1,66 @@
++++
+date = "2016-04-24"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0304"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0304 (name=Range Sum Query 2D - Immutable, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Range Sum Query 2D - Immutable - Leetcode](https://leetcode.com/problems/range-sum-query-2d-immutable/) @TAG(LT0304)
+
+    Given a 2D matrix
+    *matrix* , find the sum of the elements inside the rectangle defined by its upper left corner (
+    *row* 1,
+    *col* 1) and lower right corner (
+    *row* 2,
+    *col* 2).
+
+
+    ![](https://assets.leetcode.com/uploads/2021/03/14/sum-grid.jpg)
+
+
+    <small>The&nbsp;above&nbsp;rectangle&nbsp;(with&nbsp;the&nbsp;red&nbsp;border)&nbsp;is&nbsp;defined&nbsp;by&nbsp;(row1,&nbsp;col1)&nbsp;=
+        <b>(2,&nbsp;1)</b>
+        and&nbsp;(row2,&nbsp;col2)&nbsp;=
+        <b>(4,&nbsp;3)</b>
+        ,&nbsp;which&nbsp;contains&nbsp;sum&nbsp;=
+        <b>8</b>
+        .
+    </small>
+
+    **Example:**
+
+        Given matrix = [
+          [3, 0, 1, 4, 2],
+          [5, 6, 3, 2, 1],
+          [1, 2, 0, 1, 5],
+          [4, 1, 0, 1, 7],
+          [1, 0, 3, 0, 5]
+        ]
+        
+        sumRegion(2, 1, 4, 3) -> 8
+        sumRegion(1, 1, 2, 2) -> 11
+        sumRegion(1, 2, 2, 4) -> 12
+
+
+
+    **Note:**
+
+
+
+    1. You may assume that the matrix does not change.
+    1. There are many calls to
+    *sumRegion* function.
+    1. You may assume that
+    *row* 1 ≤
+    *row* 2 and
+    *col* 1 ≤
+    *col* 2.
+

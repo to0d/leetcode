@@ -1,0 +1,16 @@
++++
+date = "2022-12-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1128"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1128 (name=Number of Equivalent Domino Pairs, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Number of Equivalent Domino Pairs - Leetcode](https://leetcode.com/problems/number-of-equivalent-domino-pairs/ ) @TAG(LT1128)

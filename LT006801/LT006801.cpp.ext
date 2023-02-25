@@ -1,0 +1,17 @@
++++
+date = "2022-12-27"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0068"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0068 (name=Text Justification, ptag=Leetcode) @TAG(Term, Hard-OJ)
+    - [Text Justification - Leetcode](https://leetcode.com/problems/text-justification/ ) @TAG(LT0068)
+

@@ -1,0 +1,17 @@
++++
+date = "2023-01-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0652"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0652 (name=Find Duplicate Subtrees, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Find Duplicate Subtrees - Leetcode](https://leetcode.com/problems/find-duplicate-subtrees/ ) @TAG(LT0652)
+

@@ -1,0 +1,51 @@
++++
+date = "2016-05-19"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0114"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0114 (name=Flatten Binary Tree to Linked List, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Flatten Binary Tree to Linked List - Leetcode](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/ ) @TAG(LT0114)
+
+    Given a binary tree, flatten it to a linked list in-place.
+
+    For example,
+
+    Given
+
+                 1
+                / \
+               2   5
+              / \   \
+             3   4   6
+    The flattened tree should look like:
+
+
+
+           1
+            \
+             2
+              \
+               3
+                \
+                 4
+                  \
+                   5
+                    \
+                     6
+
+
+    [click to show hints.](#)
+
+
+    **Hints:**
+
+    If you notice carefully in the flattened tree, each node's right child points to the next node of a pre-order traversal.

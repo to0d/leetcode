@@ -1,0 +1,62 @@
++++
+date = "2016-05-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0331"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0331 (name=Verify Preorder Serialization of a Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Verify Preorder Serialization of a Binary Tree - Leetcode](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/ ) @TAG(LT0331)
+
+    One way to serialize a binary tree is to use pre-order traversal. When we encounter a non-null node, we record the node's value. If it is a null node, we record using a sentinel value such as
+    `#` .
+
+             _9_
+            /   \
+           3     2
+          / \   / \
+         4   1  #  6
+        / \ / \   / \
+        # # # #   # #
+
+    For example, the above binary tree can be serialized to the string
+    `"9,3,4,#,#,1,#,#,2,#,6,#,#"` , where
+    `#` represents a null node.
+
+    Given a string of comma separated values, verify whether it is a correct preorder traversal serialization of a binary tree. Find an algorithm without reconstructing the tree.
+
+    Each comma separated value in the string must be either an integer or a character
+    `'#'` representing
+    `null` pointer.
+
+    You may assume that the input format is always valid, for example it could never contain two consecutive commas such as
+    `"1,,3"` .
+
+
+    <strong>Example&nbsp;1:</strong>
+
+
+    `"9,3,4,#,#,1,#,#,2,#,6,#,#"` 
+    Return
+    `true` 
+
+    <strong>Example&nbsp;2:</strong>
+
+
+    `"1,#"` 
+    Return
+    `false` 
+
+    <strong>Example&nbsp;3:</strong>
+
+
+    `"9,#,#,1"` 
+    Return
+    `false` 

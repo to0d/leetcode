@@ -1,0 +1,17 @@
++++
+date = "2022-12-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1539"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1539 (name=Kth Missing Positive Number, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Kth Missing Positive Number - Leetcode](https://leetcode.com/problems/kth-missing-positive-number/ ) @TAG(LT1539)
+

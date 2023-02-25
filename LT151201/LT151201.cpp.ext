@@ -1,0 +1,17 @@
++++
+date = "2022-12-20"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1512"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1512 (name=Number of Good Pairs, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Number of Good Pairs - Leetcode](https://leetcode.com/problems/number-of-good-pairs/ ) @TAG(LT1512)
+

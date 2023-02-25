@@ -1,0 +1,17 @@
++++
+date = "2023-01-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0863"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0863 (name=All Nodes Distance K in Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [All Nodes Distance K in Binary Tree - Leetcode](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/ ) @TAG(LT0863)
+

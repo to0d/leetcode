@@ -1,0 +1,19 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1309"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1309 (name=Decrypt String from Alphabet to Integer Mapping, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Decrypt String from Alphabet to Integer Mapping - Leetcode](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/ ) @TAG(LT1309)
+
+
+    

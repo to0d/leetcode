@@ -1,0 +1,17 @@
++++
+date = "2023-02-05"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0386"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0386 (name=Lexicographical Numbers, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Lexicographical Numbers - Leetcode](https://leetcode.com/problems/lexicographical-numbers/ ) @TAG(LT0386)
+

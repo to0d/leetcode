@@ -1,0 +1,19 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1221"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1221 (name=Split a String in Balanced Strings, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Split a String in Balanced Strings - Leetcode](https://leetcode.com/problems/split-a-string-in-balanced-strings/ ) @TAG(LT1221)
+
+
+    

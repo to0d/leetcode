@@ -1,0 +1,30 @@
++++
+date = "2017-08-20"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0059"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0059 (name=Spiral Matrix II, ptag=Leetcode) @TAG(Term, Medium-OJ, SpiralMatrix-OJ)
+    - [Spiral Matrix II - Leetcode](https://leetcode.com/problems/spiral-matrix-ii/ ) @TAG(LT0059)
+    
+    Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
+
+    For example,
+    Given n = 3,
+    You should return the following matrix:
+
+        [
+         [ 1, 2, 3 ],
+         [ 8, 9, 4 ],
+         [ 7, 6, 5 ]
+        ]
+
+

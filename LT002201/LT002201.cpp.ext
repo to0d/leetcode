@@ -1,0 +1,32 @@
++++
+date = "2017-09-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0022"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0022 (name=Generate Parentheses, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Generate Parentheses - Leetcode](https://leetcode.com/problems/generate-parentheses/ ) @TAG(LT0022)
+
+    Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+    Example 1:
+
+            Input: n = 3
+            Output: ["((()))","(()())","(())()","()(())","()()()"]
+
+    Example 2:
+
+            Input: n = 1
+            Output: ["()"]
+
+    Constraints:
+
+            1 <= n <= 8

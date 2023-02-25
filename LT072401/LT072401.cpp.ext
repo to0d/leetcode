@@ -1,0 +1,17 @@
++++
+date = "2022-12-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0724"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0724 (name=Find Pivot Index, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Find Pivot Index - Leetcode](https://leetcode.com/problems/find-pivot-index/ ) @TAG(LT0724)
+

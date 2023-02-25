@@ -1,0 +1,22 @@
++++
+date = "2016-05-03"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0344"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0344 (name=Reverse String, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Reverse String - Leetcode](https://leetcode.com/problems/reverse-string/ ) @TAG(LT0344)
+
+    Write a function that takes a string as input and returns the string reversed.
+
+    **Example:**
+
+    Given s = "hello", return "olleh".

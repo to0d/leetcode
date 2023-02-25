@@ -1,0 +1,19 @@
++++
+date = "2023-01-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0429"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0429 (name=N-ary Tree Level Order Traversal, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, LevelOrder)
+    - [N-ary Tree Level Order Traversal - Leetcode](https://leetcode.com/problems/n-ary-tree-level-order-traversal/ ) @TAG(LT0429)
+
+
+- [](%"LT010201.cpp") @TAG(Ref, LT0429)

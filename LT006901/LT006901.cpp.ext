@@ -1,0 +1,19 @@
++++
+date = "2022-12-27"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0069"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0069 (name=Sqrt, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Sqrt - Leetcode](https://leetcode.com/problems/sqrtx/ ) @TAG(LT0069)
+
+
+    

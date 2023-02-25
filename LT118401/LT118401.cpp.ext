@@ -1,0 +1,16 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1184"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1184 (name=Distance Between Bus Stops, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Distance Between Bus Stops - Leetcode](https://leetcode.com/problems/distance-between-bus-stops/ ) @TAG(LT1184)

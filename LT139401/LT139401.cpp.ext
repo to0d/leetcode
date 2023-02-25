@@ -1,0 +1,17 @@
++++
+date = "2022-12-14"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1394"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1394 (name=Find Lucky Integer in an Array, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Find Lucky Integer in an Array - Leetcode](https://leetcode.com/problems/find-lucky-integer-in-an-array/ ) @TAG(LT1394)
+

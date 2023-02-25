@@ -1,0 +1,17 @@
++++
+date = "2023-02-05"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0384"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0384 (name=Shuffle an Array, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Shuffle an Array - Leetcode](https://leetcode.com/problems/shuffle-an-array/ ) @TAG(LT0384)
+

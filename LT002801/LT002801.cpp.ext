@@ -1,0 +1,21 @@
++++
+date = "2017-08-22"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0028"
+]
+!template = md2.template
+!domain = ""
++++
+
+- LT0028 (name=Implement strStr, ptag=Leetcode) @TAG(Term, Medium-OJ, C-strstr, Substring-OJ)
+    - [Implement strStr - Leetcode](https://leetcode.com/problems/implement-strstr/ ) @TAG(LT0028)
+
+    Implement strStr().
+
+    Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack. 
+
+

@@ -1,0 +1,19 @@
++++
+date = "2023-01-09"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0501"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0501 (name=Find Mode in Binary Search Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, BST, 中序)
+    - [Find Mode in Binary Search Tree - Leetcode](https://leetcode.com/problems/find-mode-in-binary-search-tree/ ) @TAG(LT0501)
+
+
+- [](%"LT017301.cpp") @TAG(Ref, LT0501)

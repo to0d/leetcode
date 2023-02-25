@@ -1,0 +1,17 @@
++++
+date = "2023-01-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0623"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0623 (name=Add One Row to Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Add One Row to Tree - Leetcode](https://leetcode.com/problems/add-one-row-to-tree/ ) @TAG(LT0623)
+

@@ -1,0 +1,33 @@
++++
+date = "2016-05-27"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0349"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0349 (name=Intersection of Two Arrays, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Intersection of Two Arrays - Leetcode](https://leetcode.com/problems/intersection-of-two-arrays/ ) @TAG(LT0349)
+
+
+    Given two arrays, write a function to compute their intersection.
+
+    **Example:**
+
+    Given
+    *nums1* =
+    `[1, 2, 2, 1]` ,
+    *nums2* =
+    `[2, 2]` , return
+    `[2]` .
+
+    **Note:**
+
+    - Each element in the result must be unique.
+    - The result can be in any order.

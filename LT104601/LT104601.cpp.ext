@@ -1,0 +1,16 @@
++++
+date = "2022-12-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1046"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1046 (name=Last Stone Weight, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Last Stone Weight - Leetcode](https://leetcode.com/problems/last-stone-weight/ ) @TAG(LT1046)

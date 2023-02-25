@@ -1,0 +1,25 @@
++++
+date = "2016-05-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0061"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0061 (name=Rotate List, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ)
+    - [Rotate List - Leetcode](https://leetcode.com/problems/rotate-list/ ) @TAG(LT0061)
+
+    Given a list, rotate the list to the right by *k* places, where *k* is non-negative.
+
+    For example:
+        Given `1->2->3->4->5->NULL` and *k* = `2` , return `4->5->1->2->3->NULL` .
+
+
+
+

@@ -1,0 +1,22 @@
++++
+date = "2016-04-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0021"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0021 (name=Merge Two Sorted Lists, ptag=Leetcode) @TAG(Term, Easy-OJ, List-OJ)
+    - [Merge Two Sorted Lists - Leetcode](https://leetcode.com/problems/merge-two-sorted-lists/) @TAG(LT0021)
+
+    You are given the heads of two sorted linked lists list1 and list2.  
+    Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.  
+    Return the head of the merged linked list.
+    
+    >![](https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg)

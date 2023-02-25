@@ -1,0 +1,17 @@
++++
+date = "2023-01-03"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0152"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0152 (name=Maximum Product Subarray, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Maximum Product Subarray - Leetcode](https://leetcode.com/problems/maximum-product-subarray/ ) @TAG(LT0152)
+

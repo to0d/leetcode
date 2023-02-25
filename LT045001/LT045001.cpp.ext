@@ -1,0 +1,17 @@
++++
+date = "2023-01-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0450"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0450 (name=Delete Node in a BST, ptag=Leetcode) @TAG(Term, Medium-OJ, BST)
+    - [Delete Node in a BST - Leetcode](https://leetcode.com/problems/delete-node-in-a-bst/ ) @TAG(LT0450)
+

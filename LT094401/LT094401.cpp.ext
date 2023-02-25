@@ -1,0 +1,16 @@
++++
+date = "2022-12-06"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0944"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0944 (name=Delete Columns to Make Sorted, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Delete Columns to Make Sorted - Leetcode](https://leetcode.com/problems/delete-columns-to-make-sorted/ ) @TAG(LT0944)

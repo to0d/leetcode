@@ -1,0 +1,17 @@
++++
+date = "2022-12-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0575"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0575 (name=Distribute Candies, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Distribute Candies - Leetcode](https://leetcode.com/problems/distribute-candies/ ) @TAG(LT0575)
+

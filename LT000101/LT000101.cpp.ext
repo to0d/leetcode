@@ -1,0 +1,29 @@
++++
+date = "2016-03-31"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0001",
+    "Map-OJSolution"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0001 (name=Two Sum, ptag=Leetcode) @TAG(Term, xSum-OJ, Easy-OJ)
+    - [Two Sum - Leetcode](https://leetcode.com/problems/two-sum/ ) @TAG(LT0001)
+
+    Given an array of integers, return **indices** of the two numbers such that they add up to a specific target. You may assume that each input would have *exactly*
+    one solution. 
+
+    **Example:**
+
+        Given nums = [2, 7, 11, 15], target = 9,
+        
+        Because nums[0] + nums[1] = 2 + 7 = 9,
+        return [0, 1].
+
+- Map-OJSolution (word=Map) @TAG(Term)

@@ -1,0 +1,15 @@
++++
+date = "2022-11-24"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0045"
+]
+!template = md2.template
+!domain = ""
++++
+
+- LT0045 (name=Jump Game II, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Jump Game II - Leetcode](https://leetcode.com/problems/jump-game-ii/) @TAG(LT0045)

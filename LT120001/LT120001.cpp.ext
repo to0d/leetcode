@@ -1,0 +1,16 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1200"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1200 (name=Minimum Absolute Difference, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Minimum Absolute Difference - Leetcode](https://leetcode.com/problems/minimum-absolute-difference/ ) @TAG(LT1200)

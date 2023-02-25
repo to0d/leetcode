@@ -1,0 +1,17 @@
++++
+date = "2023-01-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0958"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0958 (name=Check Completeness of a Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Check Completeness of a Binary Tree - Leetcode](https://leetcode.com/problems/check-completeness-of-a-binary-tree/ ) @TAG(LT0958)
+

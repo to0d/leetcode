@@ -1,0 +1,29 @@
++++
+date = "2016-05-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0052"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0052 (name=N-Queens II, ptag=Leetcode) @TAG(Term, Hard-OJ, N-Queens)
+    - [N-Queens II - Leetcode](https://leetcode.com/problems/n-queens-ii/) @TAG(LT0052)
+
+    The **n-queens** puzzle is the problem of placing *n* queens on an *n×n* chessboard such that no two queens attack each other.
+
+    Given an integer *n* , return the number of distinct solutions to the n-queens puzzle.
+
+    ![](https://assets.leetcode.com/uploads/2020/11/13/queens.jpg)
+
+        Input: n = 4
+        
+        Output: 2
+        
+        Explanation: There are two distinct solutions to the 4-queens puzzle as shown.
+    

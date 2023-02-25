@@ -1,0 +1,31 @@
++++
+date = "2017-08-20"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0054"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0054 (name=Spiral Matrix, ptag=Leetcode) @TAG(Term, Medium-OJ, SpiralMatrix-OJ)
+    - [Spiral Matrix - Leetcode](https://leetcode.com/problems/spiral-matrix/ ) @TAG(LT0054)
+    
+    Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+
+    For example,
+    Given the following matrix:
+
+        [
+         [ 1, 2, 3 ],
+         [ 4, 5, 6 ],
+         [ 7, 8, 9 ]
+        ]
+
+    You should return `[1,2,3,6,9,8,7,4,5]`. 
+
+

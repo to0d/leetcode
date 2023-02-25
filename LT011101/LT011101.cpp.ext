@@ -1,0 +1,19 @@
++++
+date = "2016-04-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0111"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0111 (name=Minimum Depth of Binary Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+    - [Minimum Depth of Binary Tree - Leetcode](https://leetcode.com/problems/minimum-depth-of-binary-tree/ ) @TAG(LT0111)
+
+    Given a binary tree, find its minimum depth.
+    The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.

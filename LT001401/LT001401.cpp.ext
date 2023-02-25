@@ -1,0 +1,32 @@
++++
+date = "2016-04-27"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0014"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0014 (name=Longest Common Prefix, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Longest Common Prefix - Leetcode](https://leetcode.com/problems/longest-common-prefix/ ) @TAG(LT0014)
+
+    Write a function to find the longest common prefix string amongst an array of strings.
+    
+    If there is no common prefix, return an empty string "".
+
+    **Example 1:**
+
+            Input: ["flower","flow","flight"]
+            Output: "fl"
+    
+    **Example 2:**
+
+            Input: ["dog","racecar","car"]
+            Output: ""
+        
+    Explanation: There is no common prefix among the input strings.

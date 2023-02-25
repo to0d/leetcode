@@ -1,0 +1,16 @@
++++
+date = "2022-12-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1122"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1122 (name=Relative Sort Array, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Relative Sort Array - Leetcode](https://leetcode.com/problems/relative-sort-array/ ) @TAG(LT1122)

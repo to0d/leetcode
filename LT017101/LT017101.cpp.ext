@@ -1,0 +1,33 @@
++++
+date = "2016-06-22"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0171"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0171 (name=Excel Sheet Column Number, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Excel Sheet Column Number - Leetcode](https://leetcode.com/problems/excel-sheet-column-number/ ) @TAG(LT0171)
+
+    Related to question
+    [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
+
+    Given a column title as appear in an Excel sheet, return its corresponding column number.
+
+    For example:
+
+            A -> 1
+            B -> 2
+            C -> 3
+            ...
+            Z -> 26
+            AA -> 27
+            AB -> 28
+
+

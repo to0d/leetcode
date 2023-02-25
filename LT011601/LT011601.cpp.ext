@@ -1,0 +1,16 @@
++++
+date = "2022-12-29"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0116"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0116 (name=Populating Next Right Pointers in Each Node, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, LevelOrder)
+    - [Populating Next Right Pointers in Each Node - Leetcode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/ ) @TAG(LT0116)

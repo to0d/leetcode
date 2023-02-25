@@ -1,0 +1,26 @@
++++
+date = "2016-04-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0056"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0056 (name=Merge Intervals, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Merge Intervals - Leetcode](https://leetcode.com/problems/merge-intervals/ ) @TAG(LT0056)
+
+    Given a collection of intervals, merge all overlapping intervals.
+
+    For example,
+
+    Given
+    `[1,3],[2,6],[8,10],[15,18]` ,
+
+    return
+    `[1,6],[8,10],[15,18]` .

@@ -1,0 +1,17 @@
++++
+date = "2022-12-06"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0222"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0222 (name=Count Complete Tree Nodes, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Count Complete Tree Nodes - Leetcode](https://leetcode.com/problems/count-complete-tree-nodes/ ) @TAG(LT0222)
+

@@ -1,0 +1,28 @@
++++
+date = "2016-04-10"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0026"
+]
+!template = md2.template
+!domain = ""
++++
+
+- LT0026 (name=Remove Duplicates from Sorted Array, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Remove Duplicates from Sorted Array - Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array ) @TAG(LT0026)
+
+    Given a sorted array, remove the duplicates in place such that each element appear only *once* and return the new length.
+
+    Do not allocate extra space for another array, you must do this in place with constant memory.
+
+    For example,
+
+    Example 1:
+
+            Input: nums = [1,1,2]
+            Output: 2, nums = [1,2,_]
+            Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+            It does not matter what you leave beyond the returned k (hence they are underscores).

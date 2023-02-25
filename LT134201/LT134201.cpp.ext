@@ -1,0 +1,19 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1342"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1342 (name=Number of Steps to Reduce a Number to Zero, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Number of Steps to Reduce a Number to Zero - Leetcode](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/ ) @TAG(LT1342)
+
+
+    

@@ -1,0 +1,17 @@
++++
+date = "2022-11-25"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0409"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0409 (name=Longest Palindrome, ptag=Leetcode) @TAG(Term, Easy-OJ, Palindrome-OJ)
+    - [Longest Palindrome - Leetcode](https://leetcode.com/problems/longest-palindrome/ ) @TAG(LT0409)
+

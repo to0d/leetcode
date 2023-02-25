@@ -1,0 +1,17 @@
++++
+date = "2022-12-05"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0908"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0908 (name=Smallest Range I, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Smallest Range I - Leetcode](https://leetcode.com/problems/smallest-range-i/ ) @TAG(LT0908)
+

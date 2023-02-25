@@ -1,0 +1,25 @@
++++
+date = "2016-04-07"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0092"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0092 (name=Reverse Linked List II, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ, Reverse-OJ)
+    - [Reverse Linked List II - Leetcode](https://leetcode.com/problems/reverse-linked-list-ii/) @TAG(LT0092)
+
+    Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
+   
+    Constraints:
+
+            The number of nodes in the list is n.
+            1 <= n <= 500
+            -500 <= Node.val <= 500
+            1 <= left <= right <= n

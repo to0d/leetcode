@@ -1,0 +1,16 @@
++++
+date = "2023-01-19"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0695"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0695 (name=Max Area of Island, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Max Area of Island - Leetcode](https://leetcode.com/problems/max-area-of-island/ ) @TAG(LT0695)

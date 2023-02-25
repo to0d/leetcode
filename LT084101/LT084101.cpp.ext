@@ -1,0 +1,16 @@
++++
+date = "2023-01-29"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0841"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0841 (name=Keys and Rooms, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Keys and Rooms - Leetcode](https://leetcode.com/problems/keys-and-rooms/ ) @TAG(LT0841)

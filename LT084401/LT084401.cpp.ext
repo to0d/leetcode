@@ -1,0 +1,17 @@
++++
+date = "2022-12-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0844"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0844 (name=Backspace String Compare, ptag=Leetcode) @TAG(Term, Easy-OJ, String-OJ)
+    - [Backspace String Compare - Leetcode](https://leetcode.com/problems/backspace-string-compare/ ) @TAG(LT0844)
+

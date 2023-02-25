@@ -1,0 +1,33 @@
++++
+date = "2016-06-25"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0041"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0041 (name=First Missing Positive, ptag=Leetcode) @TAG(Term, Hard-OJ)
+    - [First Missing Positive - Leetcode](https://leetcode.com/problems/first-missing-positive/) @TAG(LT0041)
+
+    Given an unsorted integer array, find the first missing positive integer.
+
+    For example,
+
+    Given
+    `[1,2,0]` return
+    `3` ,
+
+    and
+    `[3,4,-1,1]` return
+    `2` .
+
+    Your algorithm should run in
+    *O* (
+    *n* ) time and uses constant space.
+

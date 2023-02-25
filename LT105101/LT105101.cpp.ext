@@ -1,0 +1,17 @@
++++
+date = "2022-12-14"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1051"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1051 (name=Height Checker, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Height Checker - Leetcode](https://leetcode.com/problems/height-checker/ ) @TAG(LT1051)
+

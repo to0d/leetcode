@@ -1,0 +1,16 @@
++++
+date = "2022-12-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1018"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1018 (name=Binary Prefix Divisible By 5, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Binary Prefix Divisible By 5 - Leetcode](https://leetcode.com/problems/binary-prefix-divisible-by-5/ ) @TAG(LT1018)

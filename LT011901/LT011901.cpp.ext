@@ -1,0 +1,19 @@
++++
+date = "2022-12-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0119"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0119 (name=Pascal's Triangle II, ptag=Leetcode) @TAG(Term, Easy-OJ, Pascal-Triangle)
+    - [Pascal's Triangle II - Leetcode](https://leetcode.com/problems/pascals-triangle-ii/ ) @TAG(LT0119)
+
+
+- [](%"LT011801.cpp") @TAG(Ref, LT0119)

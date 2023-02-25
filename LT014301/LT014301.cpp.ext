@@ -1,0 +1,53 @@
++++
+date = "2016-05-01"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0143"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0143 (name=Reorder List, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ)
+    - [Reorder List - Leetcode](https://leetcode.com/problems/reorder-list/) @TAG(LT0143)
+
+    Given a singly linked list *L* : 
+    *L* <sub>0</sub> →
+    *L* <sub>1</sub> →…→
+    *L*
+    <sub>
+        <i>n</i>
+        &ndash;1
+    </sub> →
+    *L* <sub>n</sub>,
+
+    reorder it to: 
+    *L* <sub>0</sub> →
+    *L* 
+    <sub>
+        <i>n</i>
+    </sub> →
+    *L* <sub>1</sub> →
+    *L* 
+    <sub>
+        <i>n</i>
+        &ndash;1
+    </sub> →
+    *L* <sub>2</sub> →
+    *L* 
+    <sub>
+        <i>n</i>
+        &ndash;2
+    </sub> →…
+
+    You must do this in-place without altering the nodes' values.
+
+    For example,
+
+    Given
+    `{1,2,3,4}` , reorder it to
+    `{1,4,2,3}` .

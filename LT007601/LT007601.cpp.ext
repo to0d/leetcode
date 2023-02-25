@@ -1,0 +1,33 @@
++++
+date = "2016-06-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0076"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0076 (name=Minimum Window Substring, ptag=Leetcode) @TAG(Term, Hard-OJ, String-OJ)
+    - [Minimum Window Substring - Leetcode](https://leetcode.com/problems/minimum-window-substring/ ) @TAG(LT0076)
+
+    Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
+
+    For example,
+
+    **S** = `"ADOBECODEBANC"` 
+
+    **T** = `"ABC"` 
+
+    Minimum window is `"BANC"` .
+
+    **Note:**
+
+    If there is no such window in S that covers all characters in T, return the empty string
+    `""` .
+
+    If there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.

@@ -1,0 +1,29 @@
++++
+date = "2016-04-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0047",
+    "DFS"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0047 (name=Permutations II, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Permutations II - Leetcode](https://leetcode.com/problems/permutations-ii/) @TAG(LT0047)
+
+    Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+    For example,
+
+    `[1,1,2]` have the following unique permutations:
+
+        [
+          [1,1,2],
+          [1,2,1],
+          [2,1,1]
+        ]

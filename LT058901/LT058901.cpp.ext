@@ -1,0 +1,17 @@
++++
+date = "2023-01-10"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0589"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0589 (name=N-ary Tree Preorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, 前序)
+    - [N-ary Tree Preorder Traversal - Leetcode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/ ) @TAG(LT0589)
+

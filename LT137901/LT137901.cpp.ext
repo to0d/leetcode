@@ -1,0 +1,17 @@
++++
+date = "2022-12-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1379"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1379 (name=Find a Corresponding Node of a Binary Tree in a Clone of That Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+    - [Find a Corresponding Node of a Binary Tree in a Clone of That Tree - Leetcode](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/ ) @TAG(LT1379)
+

@@ -1,0 +1,28 @@
++++
+date = "2017-04-24"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+mark = "Runtime Error"
+tags = [
+    "LT0556"
+]
+!template = md2.template
+!domain = ""
++++
+
+- LT0556 (name=Next Greater Element III, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Next Greater Element III - Leetcode](https://leetcode.com/problems/next-greater-element-iii ) @TAG(LT0556)
+
+
+     Given a positive **32-bit** integer n, you need to find the smallest **32-bit** integer which has exactly the same digits existing in the integer **n** and is greater in value than n. If no such positive **32-bit** integer exists, you need to return -1.
+
+    **Example 1**:
+
+        Input: 12
+        Output: 21
+
+    **Example 2**:
+
+        Input: 21
+        Output: -1

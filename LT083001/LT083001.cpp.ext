@@ -1,0 +1,17 @@
++++
+date = "2022-12-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0830"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0830 (name=Positions of Large Groups, ptag=Leetcode) @TAG(Term, Easy-OJ, String-OJ)
+    - [Positions of Large Groups - Leetcode](https://leetcode.com/problems/positions-of-large-groups/ ) @TAG(LT0830)
+

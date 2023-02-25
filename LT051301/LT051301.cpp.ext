@@ -1,0 +1,19 @@
++++
+date = "2023-01-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0513"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0513 (name=Find Bottom Left Tree Value, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, LevelOrder)
+    - [Find Bottom Left Tree Value - Leetcode](https://leetcode.com/problems/find-bottom-left-tree-value/ ) @TAG(LT0513)
+
+
+- [](%"LT010701.cpp") @TAG(Ref, LT0513)

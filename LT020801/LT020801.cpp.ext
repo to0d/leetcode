@@ -1,0 +1,16 @@
++++
+date = "2023-02-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0208"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0208 (name=Implement Prefix Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Implement Prefix Tree - Leetcode](https://leetcode.com/problems/implement-trie-prefix-tree/ ) @TAG(LT0208)

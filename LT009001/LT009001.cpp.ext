@@ -1,0 +1,34 @@
++++
+date = "2016-06-20"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0090"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0090 (name=Subsets II, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Subsets II - Leetcode](https://leetcode.com/problems/subsets-ii/ ) @TAG(LT0090)
+
+    Given a collection of integers that might contain duplicates,
+    *nums* , return all possible subsets.
+
+    **Note:** The solution set must not contain duplicate subsets.
+
+    For example,
+
+    If *nums* = `[1,2,2]` , a solution is:
+
+        [
+          [2],
+          [1],
+          [1,2,2],
+          [2,2],
+          [1,2],
+          []
+        ]

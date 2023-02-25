@@ -1,0 +1,31 @@
++++
+date = "2016-05-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0003",
+    "ArrayMap-OJSolution"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0003 (name=Longest Substring Without Repeating Characters, ptag=Leetcode) @TAG(Term, Substring-OJ, Medium-OJ)
+    - [Longest Substring Without Repeating Characters - Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters ) @TAG(LT0003)
+
+Given a string, find the length of the **longest substring** without repeating characters.
+
+**Examples:**
+
+Given "abcabcbb", the answer is "abc", which the length is 3.
+
+Given "bbbbb", the answer is "b", with the length of 1.
+
+Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a **substring** , "pwke" is a subsequence and not a substring.
+
+
+
+- ArrayMap-OJSolution (word=ArrayMap) @TAG(Term)

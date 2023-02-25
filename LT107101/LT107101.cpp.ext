@@ -1,0 +1,16 @@
++++
+date = "2022-12-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1071"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1071 (name=Greatest Common Divisor of Strings, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Greatest Common Divisor of Strings - Leetcode](https://leetcode.com/problems/greatest-common-divisor-of-strings/ ) @TAG(LT1071)

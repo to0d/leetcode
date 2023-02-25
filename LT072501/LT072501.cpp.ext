@@ -1,0 +1,16 @@
++++
+date = "2023-01-18"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0725"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0725 (name=Split Linked List in Parts, ptag=Leetcode) @TAG(Term, List-OJ, Medium-OJ)
+    - [Split Linked List in Parts - Leetcode](https://leetcode.com/problems/split-linked-list-in-parts/ ) @TAG(LT0725)

@@ -1,0 +1,36 @@
++++
+date = "2016-06-20"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0078"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0078 (name=Subsets, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Subsets - Leetcode](https://leetcode.com/problems/subsets/ ) @TAG(LT0078)
+
+    Given a set of distinct integers, *nums* , return all possible subsets.
+
+    **Note:**
+    The solution set must not contain duplicate subsets.
+
+    For example,
+
+    If *nums* = `[1,2,3]` , a solution is:
+
+        [
+          [3],
+          [1],
+          [2],
+          [1,2,3],
+          [1,3],
+          [2,3],
+          [1,2],
+          []
+        ]

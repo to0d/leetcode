@@ -1,0 +1,19 @@
++++
+date = "2016-04-07"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0206"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0206 (name=Reverse Linked List, ptag=Leetcode) @TAG(Term, Easy-OJ, List-OJ, Reverse-OJ)
+    - [Reverse Linked List - Leetcode](https://leetcode.com/problems/reverse-linked-list/) @TAG(LT0206)
+
+    Given the head of a singly linked list, reverse the list, and return the reversed list.
+

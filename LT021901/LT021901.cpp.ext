@@ -1,0 +1,25 @@
++++
+date = "2017-03-28"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0219"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0219 (name=Contains Duplicate II, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Contains Duplicate II - Leetcode](https://leetcode.com/problems/contains-duplicate-ii/ ) @TAG(LT0219)
+
+    Given an array of integers and an integer
+    *k* , find out whether there are two distinct indices
+    *i* and
+    *j* in the array such that **nums[i] = nums[j]**
+    and the difference between
+    *i* and
+    *j* is at most
+    *k* .

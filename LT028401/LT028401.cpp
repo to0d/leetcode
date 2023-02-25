@@ -1,0 +1,61 @@
+#include <lt_help/lt.h>
+
+
+
+class Iterator {
+	struct Data;
+		Data* data;
+public:
+	Iterator(const vector<int>& nums);
+		Iterator(const Iterator& iter);
+
+		// Returns the next element in the iteration.
+	int next();
+
+	// Returns true if the iteration has more elements.
+	bool hasNext() const;
+};
+
+
+class PeekingIterator : public Iterator {
+public:
+	PeekingIterator(const vector<int>& nums) : Iterator(nums) {
+        m_peek = false;
+	}
+	
+    // Returns the next element in the iteration without advancing the iterator.
+	int peek() {
+        if( !m_peek )
+        {   m_val = Iterator::next();
+             m_peek = true;
+        }
+        return m_val;
+	}
+	
+	// hasNext() and next() should behave the same as in the Iterator interface.
+	// Override them if needed.
+	int next() {
+        if( m_peek )
+        {   m_peek = false;
+            return m_val;
+        }
+        return Iterator::next();
+	}
+	
+	bool hasNext() const {
+        return m_peek || Iterator::hasNext();
+	}
+    
+    int m_val;
+    int m_peek;
+};
+
+int main(void)
+{
+    cout << "output: done!" << endl;
+}
+
+// Result 
+//
+// 2023-01-04: Runtime 6ms 32.31% Memory 7.5MB 36.33%, https://leetcode.com/problems/peeking-iterator/submissions/871271650/
+

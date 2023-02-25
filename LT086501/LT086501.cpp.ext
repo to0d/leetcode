@@ -1,0 +1,17 @@
++++
+date = "2023-01-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0865"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0865 (name=Smallest Subtree with all the Deepest Nodes, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+    - [Smallest Subtree with all the Deepest Nodes - Leetcode](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/ ) @TAG(LT0865)
+

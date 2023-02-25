@@ -1,0 +1,22 @@
++++
+date = "2016-06-19"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0234"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0234 (name=Palindrome Linked List, ptag=Leetcode) @TAG(Term, Easy-OJ, Palindrome-OJ)
+    - [Palindrome Linked List - Leetcode](https://leetcode.com/problems/palindrome-linked-list/ ) @TAG(LT0234)
+
+    Given a singly linked list, determine if it is a palindrome.
+
+    **Follow up:**
+
+    Could you do it in O(n) time and O(1) space?

@@ -1,0 +1,17 @@
++++
+date = "2023-01-09"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0500"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0500 (name=Keyboard Row, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Keyboard Row - Leetcode](https://leetcode.com/problems/keyboard-row/ ) @TAG(LT0500)
+

@@ -1,0 +1,17 @@
++++
+date = "2022-12-22"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0933"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0933 (name=Number of Recent Calls, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Number of Recent Calls - Leetcode](https://leetcode.com/problems/number-of-recent-calls/ ) @TAG(LT0933)
+

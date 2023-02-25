@@ -1,0 +1,19 @@
++++
+date = "2023-01-15"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0540"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0540 (name=Single Element in a Sorted Array, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Single Element in a Sorted Array - Leetcode](https://leetcode.com/problems/single-element-in-a-sorted-array/ ) @TAG(LT0540)
+
+
+- [](%"LT013601.cpp") @TAG(Ref, LT0540)

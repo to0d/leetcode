@@ -1,0 +1,16 @@
++++
+date = "2022-12-09"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1089"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1089 (name=Duplicate Zeros, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Duplicate Zeros - Leetcode](https://leetcode.com/problems/duplicate-zeros/ ) @TAG(LT1089)

@@ -1,0 +1,17 @@
++++
+date = "2022-12-02"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0859"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0859 (name=Buddy Strings, ptag=Leetcode) @TAG(Term, Easy-OJ, String-OJ)
+    - [Buddy Strings - Leetcode](https://leetcode.com/problems/buddy-strings/ ) @TAG(LT0859)
+

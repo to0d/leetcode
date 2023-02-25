@@ -1,0 +1,17 @@
++++
+date = "2023-01-04"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0149"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0149 (name=Max Points on a Line, ptag=Leetcode) @TAG(Term, Hard-OJ, StraightLine-OJ)
+    - [Max Points on a Line - Leetcode](https://leetcode.com/problems/max-points-on-a-line/ ) @TAG(LT0149)
+

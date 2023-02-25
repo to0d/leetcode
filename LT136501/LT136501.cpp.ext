@@ -1,0 +1,19 @@
++++
+date = "2022-12-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1365"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1365 (name=How Many Numbers Are Smaller Than the Current Number, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [How Many Numbers Are Smaller Than the Current Number - Leetcode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/ ) @TAG(LT1365)
+
+
+- [](%"LT133101.cpp") @TAG(Ref, LT1365)

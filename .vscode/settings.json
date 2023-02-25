@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.rulp": "lisp",
+        "iostream": "cpp"
+    }
+}

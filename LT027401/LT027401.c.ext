@@ -1,0 +1,17 @@
++++
+date = "2017-04-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0274"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0274 (name=H-Index, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [H-Index - Leetcode](https://leetcode.com/problems/h-index/ ) @TAG(LT0274)
+

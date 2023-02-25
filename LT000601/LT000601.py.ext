@@ -1,0 +1,32 @@
++++
+date = "2018-04-10"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0006"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0006 (name=ZigZag Conversion, ptag=Leetcode) @TAG(Term, Medium-OJ)
+
+    - [ZigZag Conversion - Leetcode](https://leetcode.com/problems/zigzag-conversion/ ) @TAG(LT0006)
+
+    > The string !"PAYPALISHIRING"! is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+                P   A   H   N
+                A P L S I I G
+                Y   I   R
+
+    > And then read line by line: !"PAHNAPLSIIGYIR"!
+
+    > Write the code that will take a string and make this conversion given a number of rows:
+
+                string convert(string text, int nRows);
+
+    > !convert("PAYPALISHIRING", 3)! should return !"PAHNAPLSIIGYIR".!
+

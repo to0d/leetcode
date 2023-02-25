@@ -1,0 +1,17 @@
++++
+date = "2022-12-21"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1160"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1160 (name=Find Words That Can Be Formed by Characters, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Find Words That Can Be Formed by Characters - Leetcode](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/ ) @TAG(LT1160)
+

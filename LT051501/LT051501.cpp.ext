@@ -1,0 +1,19 @@
++++
+date = "2023-01-08"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0515"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0515 (name=Find Largest Value in Each Tree Row, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, LevelOrder)
+    - [Find Largest Value in Each Tree Row - Leetcode](https://leetcode.com/problems/find-largest-value-in-each-tree-row/ ) @TAG(LT0515)
+
+
+- [](%"LT010701.cpp") @TAG(Ref, LT0515)

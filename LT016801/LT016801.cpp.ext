@@ -1,0 +1,28 @@
++++
+date = "2016-06-22"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0168"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0168 (name=Excel Sheet Column Title, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Excel Sheet Column Title - Leetcode](https://leetcode.com/problems/excel-sheet-column-title/ ) @TAG(LT0168)
+
+    Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+
+    For example:
+
+            1 -> A
+            2 -> B
+            3 -> C
+            ...
+            26 -> Z
+            27 -> AA
+            28 -> AB  

@@ -1,0 +1,33 @@
++++
+date = "2022-11-29"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0504"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0504 (name=Base 7, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Base 7 - Leetcode](https://leetcode.com/problems/base-7/) @TAG(LT0504)
+
+    Given an integer num, return a string of its base 7 representation.
+  
+    Example 1:
+
+            Input: num = 100
+            Output: "202"
+
+    Example 2:
+
+            Input: num = -7
+            Output: "-10"
+
+    Constraints:
+
+            -107 <= num <= 107
+

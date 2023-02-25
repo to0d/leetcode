@@ -1,0 +1,17 @@
++++
+date = "2023-01-03"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0139"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0139 (name=Word Break, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Word Break - Leetcode](https://leetcode.com/problems/word-break/ ) @TAG(LT0139)
+

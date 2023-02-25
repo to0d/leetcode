@@ -1,0 +1,17 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1337"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1337 (name=The K Weakest Rows in a Matrix, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [The K Weakest Rows in a Matrix - Leetcode](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/ ) @TAG(LT1337)
+

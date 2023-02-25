@@ -1,0 +1,17 @@
++++
+date = "2022-12-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1331"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1331 (name=Rank Transform of an Array, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Rank Transform of an Array - Leetcode](https://leetcode.com/problems/rank-transform-of-an-array/ ) @TAG(LT1331)
+

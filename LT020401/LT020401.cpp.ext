@@ -1,0 +1,25 @@
++++
+date = "2016-04-26"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0204"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0204 (name=Count Primes, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Count Primes - Leetcode](https://leetcode.com/problems/count-primes/ ) @TAG(LT0204)
+
+
+    Given an integer n, return the number of prime numbers that are strictly less than n.
+
+    Example 1:
+
+            Input: n = 10
+            Output: 4
+            Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.

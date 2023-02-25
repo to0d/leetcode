@@ -1,0 +1,17 @@
++++
+date = "2022-12-13"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT1480"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT1480 (name=Running Sum of 1d Array, ptag=Leetcode) @TAG(Term, Easy-OJ)
+    - [Running Sum of 1d Array - Leetcode](https://leetcode.com/problems/running-sum-of-1d-array/ ) @TAG(LT1480)
+
