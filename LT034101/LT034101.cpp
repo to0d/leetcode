@@ -1,8 +1,6 @@
 #include <lt_help/lt.h>
 
 
-
-
 // This is the interface that allows for creating nested lists.
 // You should not implement it, or speculate about its implementation
 class NestedInteger {
@@ -35,32 +33,26 @@ public:
     }
 
     bool hasNext() {
-        
         while(pNestedInteger == NULL && !indexStack.empty())
-        {
-             vector<NestedInteger>* pList = listStack.top();
-             
-             int index = indexStack.top();
-             indexStack.pop();
-             ++index;
-             
-             if( index<(*pList).size())
-             {
-                 indexStack.push( index );
-                 NestedInteger* pNextedList = &(*pList)[index];
-                 
-                 if( (*pNextedList).isInteger() )
-                    pNestedInteger = pNextedList;
-                 else
-                 {
-                     indexStack.push( -1 );
-                     listStack.push(&(pNextedList->getList()));
-                 }
-             }
-             else
-                listStack.pop();
+        {   vector<NestedInteger>* pList = listStack.top();
+            int index = indexStack.top();
+            indexStack.pop();
+            ++index;
+
+            if( index<(*pList).size())
+            {   indexStack.push( index );
+                NestedInteger* pNextedList = &(*pList)[index];
+                if( (*pNextedList).isInteger() )
+                   pNestedInteger = pNextedList;
+                else
+                {
+                    indexStack.push( -1 );
+                    listStack.push(&(pNextedList->getList()));
+                }
+            }
+            else
+               listStack.pop();
         }
-        
         return pNestedInteger != NULL;
     }
 
@@ -68,6 +60,7 @@ public:
     stack<int> indexStack;
     NestedInteger* pNestedInteger;
 };
+
 
 
 int main(void)
@@ -78,6 +71,8 @@ int main(void)
 // Result 
 //
 // 2022-12-05: Runtime 37ms 11.57% Memory 12.8MB 97.96%, https://leetcode.com/problems/flatten-nested-list-iterator/submissions/855081948/
+// 2023-02-27: Runtime 11ms 97.4% Memory 13MB 73.79%, https://leetcode.com/problems/flatten-nested-list-iterator/submissions/905735917/
+
 
 
 
