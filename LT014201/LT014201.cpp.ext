@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0142 (name=Linked List Cycle II, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0142 (name=Linked List Cycle II, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ)
     - [Linked List Cycle II - Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/ ) @TAG(LT0142)
 
     Given a linked list, return the node where the cycle begins. If there is no cycle, return null.

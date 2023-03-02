@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0237 (name=Delete Node in a Linked List, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0237 (name=Delete Node in a Linked List, ptag=Leetcode) @TAG(Term, Medium-OJ, List-OJ)
     - [Delete Node in a Linked List - Leetcode](https://leetcode.com/problems/delete-node-in-a-linked-list/ ) @TAG(LT0237)
 
     Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.

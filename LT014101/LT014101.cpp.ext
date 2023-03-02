@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0141 (name=Linked List Cycle, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0141 (name=Linked List Cycle, ptag=Leetcode) @TAG(Term, Easy-OJ, List-OJ)
     - [Linked List Cycle - Leetcode](https://leetcode.com/problems/linked-list-cycle/ ) @TAG(LT0141)
 
     Given a linked list, determine if it has a cycle in it.

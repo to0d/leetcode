@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0203 (name=Remove Linked List Elements, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0203 (name=Remove Linked List Elements, ptag=Leetcode) @TAG(Term, Easy-OJ, List-OJ)
     - [Remove Linked List Elements - Leetcode](https://leetcode.com/problems/remove-linked-list-elements/ ) @TAG(LT0203)
 
     Remove all elements from a linked list of integers that have value *val* .

@@ -12,5 +12,5 @@ tags = [
 +++
 
 
-- LT1367 (name=Linked List in Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ)
+- LT1367 (name=Linked List in Binary Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, List-OJ)
     - [Linked List in Binary Tree - Leetcode](https://leetcode.com/problems/linked-list-in-binary-tree/ ) @TAG(LT1367)
