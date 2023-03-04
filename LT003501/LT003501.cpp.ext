@@ -13,7 +13,7 @@ tags = [
 +++
 
 
-- LT0035 (name=Search Insert Position, ptag=Leetcode) @TAG(Term, Easy-OJ, Search)
+- LT0035 (name=Search Insert Position, ptag=Leetcode) @TAG(Term, Easy-OJ, Search-OJ)
     - [Search Insert Position - Leetcode](https://leetcode.com/problems/search-insert-position/ ) @TAG(LT0035)
 
     Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.

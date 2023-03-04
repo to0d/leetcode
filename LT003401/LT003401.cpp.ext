@@ -13,7 +13,7 @@ tags = [
 +++
 
 
-- LT0034 (name=Find First and Last Position of Element in Sorted Array, ptag=Leetcode) @TAG(Term, Medium-OJ, Search)
+- LT0034 (name=Find First and Last Position of Element in Sorted Array, ptag=Leetcode) @TAG(Term, Medium-OJ, Search-OJ)
     - [Find First and Last Position of Element in Sorted Array - Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) @TAG(LT0034)
 
     Given a sorted array of integers, find the starting and ending position of a given target value.

@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0133 (name=Clone Graph, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0133 (name=Clone Graph, ptag=Leetcode) @TAG(Term, Medium-OJ, Graph-OJ)
     - [Clone Graph - Leetcode](https://leetcode.com/problems/clone-graph/ ) @TAG(LT0133)
 
 

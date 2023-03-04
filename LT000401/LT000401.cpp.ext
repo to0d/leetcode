@@ -6,7 +6,7 @@ date = "2020-06-30"
 !mark = ""
 tags = [
     "LT0004",
-    "BinarySearch-OJSolution"
+    "BinarySearch"
 ]
 !template = md2.template
 !domain = ""

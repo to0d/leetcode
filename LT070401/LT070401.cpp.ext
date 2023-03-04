@@ -13,7 +13,7 @@ tags = [
 +++
 
 
-- LT0704 (name=Binary Search, ptag=Leetcode) @TAG(Term, Easy-OJ, Search)
+- LT0704 (name=Binary Search, ptag=Leetcode) @TAG(Term, Easy-OJ, Search-OJ)
     - [Binary Search - Leetcode](https://leetcode.com/problems/binary-search/ ) @TAG(LT0704)
 
 
