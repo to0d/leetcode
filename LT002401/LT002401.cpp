@@ -25,6 +25,7 @@ public:
 };
 
 
+
 void test(ListNode* list)
 {
     cout << "input: ";

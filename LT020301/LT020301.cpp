@@ -4,18 +4,17 @@ class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
         ListNode tmp(0);
-        ListNode* ptail = &tmp;
+        ListNode* tail = &tmp;
         for(; head != NULL; head = head->next)
             if( head->val != val )
-            {   ptail->next = head;
-                ptail = head;
+            {   tail->next = head;
+                tail = head;
             }
 
-        ptail->next = NULL;
+        tail->next = NULL;
         return tmp.next;
     }
 };
-
 
 
 
@@ -38,4 +37,7 @@ int main(void)
 //
 // 2022-11-21: Runtime 29ms 40.55% Memory 15MB 52.89%, https://leetcode.com/problems/remove-linked-list-elements/submissions/847505150/
 // 2023-02-22: Runtime 23ms 77.76% Memory 15.1MB 53.46%, https://leetcode.com/problems/remove-linked-list-elements/submissions/902717957/
+// 2023-03-04: Runtime 24ms 72.76% Memory 14.9MB 85.1%, https://leetcode.com/problems/remove-linked-list-elements/submissions/908952336/
+
+
 

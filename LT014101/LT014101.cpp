@@ -3,17 +3,19 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head){
-        if( head == NULL || head->next == NULL) return false;
-        if( head == head->next ) return true;
+        if( head == NULL || head->next == NULL) 
+            return false;
+        if( head == head->next ) 
+            return true;
 
         ListNode* slow = head, *fast = head->next;
         while( fast != NULL && slow != NULL && fast->next != NULL )
         {   if( fast == slow )
-            {   return true;
-            }
+                return true;
             fast = fast->next->next;
             slow = slow->next;
         }
+
         return false;
     }
 };

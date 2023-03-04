@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0599 (name=Minimum Index Sum of Two Lists, ptag=Leetcode) @TAG(Term, Easy-OJ, List-OJ)
+- LT0599 (name=Minimum Index Sum of Two Lists, ptag=Leetcode) @TAG(Term, Easy-OJ)
     - [Minimum Index Sum of Two Lists - Leetcode](https://leetcode.com/problems/minimum-index-sum-of-two-lists/ ) @TAG(LT0599)
 
 

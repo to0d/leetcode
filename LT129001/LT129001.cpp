@@ -1,17 +1,15 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     int getDecimalValue(ListNode* head) {
-        ListNode* node = head;
         int v = 0;
-        for(; node != NULL ; node = node->next)
-            v = v << 1 | node->val;
+        for(; head != NULL ; head = head->next)
+            v = v << 1 | head->val;
         return v;
     }
 };
+
 
 
 void test(ListNode* head)
@@ -31,6 +29,7 @@ int main(void)
 // Result 
 //
 // 2022-12-12: Runtime 3ms 52.89% Memory 8.2MB 70.25%, https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/submissions/858691183/
+// 2023-03-04: Runtime 0ms 100% Memory 8.2MB 95.52%, https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/submissions/908963531/
 
 
 

@@ -24,9 +24,8 @@ public:
 
         bool found = false;
         for(; !found && h1 != NULL; h1 = h1->next, h2 = h2->next)
-        {   if( h1->val != h2->val )
+            if( h1->val != h2->val )
                 found = true;
-        }
 
         return !found;
     }
@@ -38,9 +37,8 @@ void test(ListNode* head)
 {
     cout << "input: ";
     outputList(head);
-    cout << "; output: "; 
     bool r = Solution().isPalindrome(head);
-    cout << r << ";" << endl;
+    cout << "; output: " << r << ";" << endl;
 }
 
 
@@ -53,5 +51,6 @@ int main(void)
 //
 // 2022-11-19: Runtime 465ms 13.24% Memory 110.4MB 95.74%, https://leetcode.com/problems/palindrome-linked-list/submissions/846338425/
 // 2023-02-19: Runtime 187ms 98.63% Memory 110.4MB 98.3%, https://leetcode.com/problems/palindrome-linked-list/submissions/900662250/
+// 2023-03-04: Runtime 186ms 98.72% Memory 110.4MB 98.31%, https://leetcode.com/problems/palindrome-linked-list/submissions/908956788/
 
 

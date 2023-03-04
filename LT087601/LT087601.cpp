@@ -1,12 +1,9 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        ListNode* p1 = head;
-        ListNode* p2 = head;
+        ListNode *p1 = head, *p2 = head;
         while( p2->next != NULL )
         {   p2 = p2->next;
             if( p2->next != NULL )
@@ -16,6 +13,8 @@ public:
         return p1;
     }
 };
+
+
 
 void test(ListNode* head)
 {
@@ -34,6 +33,7 @@ int main(void)
 // Result 
 //
 // 2022-12-03: Runtime 0ms 100% Memory 7.1MB 78.86%, https://leetcode.com/problems/middle-of-the-linked-list/submissions/853688266/
+// 2023-03-04: Runtime 0ms 100% Memory 7MB 79.9%, https://leetcode.com/problems/middle-of-the-linked-list/submissions/908961702/
 
 
 

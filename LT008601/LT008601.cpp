@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -9,8 +7,8 @@ public:
             return NULL;
         
         // find x node
-        ListNode *pnode = head, *parent = NULL, *xparent = NULL, *xnode = NULL;
-        for(; pnode != NULL; parent = pnode, pnode = pnode->next)
+        ListNode *xparent = NULL, *xnode = NULL;
+        for(ListNode *pnode = head, *parent = NULL; pnode != NULL; parent = pnode, pnode = pnode->next)
         {   if( pnode->val >= x )
             {   xparent = parent;
                 xnode   = pnode;
@@ -22,8 +20,7 @@ public:
             return head;
         
         // find node which's value is smaller than x
-        ListNode *smallHead = NULL, *smallTail = NULL;
-        pnode = xnode;
+        ListNode *smallHead = NULL, *smallTail = NULL, *pnode = xnode;
         while( pnode != NULL )
         {   if( pnode->next != NULL && pnode->next->val < x )
             {   if( smallTail == NULL )
@@ -40,8 +37,7 @@ public:
                 }
             }
             else
-            {   pnode = pnode->next;
-            }
+                pnode = pnode->next;
         }
         
         if( smallTail == NULL )
@@ -58,6 +54,8 @@ public:
         }
     }
 };
+
+
 
 void test(ListNode* head, int x)
 {
@@ -77,5 +75,6 @@ int main(void)
 // Result 
 //
 // 2023-02-01: Runtime 11ms 24.60% Memory 10.3MB 77.20%, https://leetcode.com/problems/partition-list/submissions/889442610/
+// 2023-03-05: Runtime 4ms 77.18% Memory 10.2MB 94.85%, https://leetcode.com/problems/partition-list/submissions/909000764/
 
 

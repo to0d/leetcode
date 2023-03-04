@@ -134,6 +134,7 @@
 ./LT015301: input: [3,4,5,1,2]; output: 1;
 ./LT015401: input: [2,2,2,0,1]; output: 0;
 ./LT015501: output: done
+./LT016001: input: headA=[4->1->8->4->5], headB=[5->6->1->8->4->5]; output: [1->8->4->5];
 ./LT016201: input: [1,2,3,1]; output: 2;
 ./LT016501: input: version1=1.01, version2=1.001; output: 0;
 ./LT016601: input: num=4, den=333; output: 0.(012);

@@ -6,19 +6,17 @@ public:
         if( head== NULL || head->next == NULL || m == n)
             return head;
 
-        ListNode* pm(NULL), *pmp(NULL), *pn(NULL), *p(head), *p2(NULL);
-        int i = 1;
-        for(; i < m; ++i)
+        ListNode *pmp = NULL, *p = head;
+        int pos = 1;
+        for(; pos < m; ++pos)
         {   pmp = p;
             p = p->next;
         }
         
-        pm = p;
-        pn = pm;
-        p  = p->next;
-
-        for(; i < n; ++i)
-        {   p2 = p;
+        ListNode* pm = p, *pn = p;
+        p = p->next;
+        for(; pos < n; ++pos)
+        {   ListNode* p2 = p;
             p  = p->next;
             p2->next = pn;
             pn = p2;
@@ -57,5 +55,6 @@ int main(void)
 //
 // 2022-11-08: Runtime 4ms 38.51% Memory 7.5MB 22.61%, https://leetcode.com/problems/reverse-linked-list-ii/submissions/839084341/
 // 2023-02-18: Runtime 0ms 100% Memory 7.5MB 67.98%, https://leetcode.com/problems/reverse-linked-list-ii/submissions/900109551/
+// 2023-03-05: Runtime 0ms 100% Memory 7.4MB 68.41%, https://leetcode.com/problems/reverse-linked-list-ii/submissions/909003328/
 
 

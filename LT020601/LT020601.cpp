@@ -10,10 +10,10 @@ public:
             last = head;
             head = next;
         }
-
         return last;
     }
 };
+
 
 
 void test(ListNode* list)
@@ -35,4 +35,6 @@ int main(void)
 //
 // 2022-11-08: Runtime 16ms 7.21% Memory 8.3MB 85.70%, https://leetcode.com/problems/reverse-linked-list/submissions/839076376/
 // 2023-02-16: Runtime 7ms 70.32% Memory 8.3MB 52.10%, https://leetcode.com/problems/reverse-linked-list/submissions/899179360/
+// 2023-03-04: Runtime 7ms 68.67% Memory 8.4MB 51.79%, https://leetcode.com/problems/reverse-linked-list/submissions/908913536/
+
 

@@ -1,15 +1,12 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) { // refer LT000201.cpp
         l1 = reverseList(l1);
         l2 = reverseList(l2);
         ListNode *l3 = NULL, *cur = NULL;
-        int v = 0;
-        while( l1 != NULL || l2 != NULL  || v > 0)
+        for(int v = 0; l1 != NULL || l2 != NULL  || v > 0; v /= 10)
         {   if( l1 != NULL )
             {   v += l1->val;
                 l1 = l1->next;
@@ -19,7 +16,6 @@ public:
                 l2 = l2->next;
             }
             ListNode* pnew = new ListNode( v%10 );
-            v /= 10;
             if( cur == NULL )
                 l3 = pnew;
             else
@@ -29,17 +25,19 @@ public:
         return reverseList(l3);
     }
 
-    ListNode* reverseList(ListNode* head) {
-        ListNode* plast = NULL;
+    ListNode* reverseList(ListNode* head) { // refer LT020601.cpp
+        ListNode* last = NULL;
         while( head != NULL )
-        {   ListNode* pnext = head->next;
-            head->next = plast;
-            plast = head;              
-            head  = pnext;
+        {   ListNode* next = head->next;
+            head->next = last;
+            last = head;
+            head = next;
         }
-        return plast;
+        return last;
     }
 };
+
+
 
 void test(ListNode* l1, ListNode* l2)
 {
@@ -61,4 +59,6 @@ int main(void)
 // Result 
 //
 // 2023-01-29: Runtime 43ms 54.3% Memory 71.1MB 87.55%, https://leetcode.com/problems/add-two-numbers-ii/submissions/887378957/
+// 2023-03-04: Runtime 31ms 88.86% Memory 71.1MB 93.14%, https://leetcode.com/problems/add-two-numbers-ii/submissions/908970919/
+
 

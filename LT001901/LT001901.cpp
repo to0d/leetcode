@@ -11,18 +11,16 @@ public:
             return head->next;
         
         ListNode* previous = head;
-        while( node->next != NULL)
-        {   node = node->next;
+        for( ; node->next != NULL; node = node->next)
             previous = previous->next;
-        }
-        
+
         ListNode* tmp = previous->next;
         previous->next = previous->next->next;
         delete tmp;
-
         return head;
     }  
 };
+
 
 
 void test(ListNode* list, int n)
@@ -44,5 +42,7 @@ int main(void)
 //
 // 2022-11-03: Runtime 12ms 5.47% Memory 10.6MB 97.77%, https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/836100712/
 // 2023-02-15: Runtime 3ms 85.55% Memory 10.8MB 38.75%, https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/898556763/
+// 2023-03-05: Runtime 5ms 56.23% Memory 10.8MB 39.32%, https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/908988351/
+
 
 
