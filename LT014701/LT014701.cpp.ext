@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0147 (name=Insertion Sort List, ptag=Leetcode) @TAG(Term, Medium-OJ, sort-OJ, List-OJ)
+- LT0147 (name=Insertion Sort List, ptag=Leetcode) @TAG(Term, Medium-OJ, sort-OJ, List-OJ, SimpleInsertSort)
     - [Insertion Sort List - Leetcode](https://leetcode.com/problems/insertion-sort-list/ ) @TAG(LT0147)
 
     Sort a linked list using insertion sort.

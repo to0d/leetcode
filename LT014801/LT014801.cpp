@@ -3,12 +3,15 @@
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
+        return insertionSortList(head);
+    }
+
+    ListNode* insertionSortList(ListNode* head) { // LT014701.cpp 
         if( head == NULL )
             return NULL;
 
-        ListNode* pHead(head), *pTail(head), *pNode(NULL), *pLast(NULL);         
+        ListNode* pHead(head), *pTail(head), *pNode(NULL), *pLast(NULL);
         head = head->next; 
-
         while( (pNode = head) != NULL)
         {   head = head->next;
             if( pNode->val >= pTail->val ) // optimize a
@@ -29,7 +32,7 @@ public:
 
             pLast= pNode;
         }
-        
+
         pTail->next = NULL;
         return pHead;
     }
@@ -57,4 +60,5 @@ int main(void)
 //
 // 2022-11-19: Runtime 754ms 5.7% Memory 51MB 90.14%, https://leetcode.com/problems/sort-list/submissions/846346693/
 // 2023-02-17: Runtime 481ms 6.59% Memory 50.8MB 98.35%, https://leetcode.com/problems/sort-list/submissions/899801185/
+// 2023-03-07: Runtime 461ms 5.9% Memory 50.9MB 90.46%, https://leetcode.com/problems/sort-list/submissions/910867877/
 
