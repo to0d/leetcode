@@ -1,19 +1,17 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
+#define MAX_NUM 10000
     int numComponents(ListNode* head, vector<int>& nums) {
-        unordered_set<int> _set;
+        vector<bool> hit (MAX_NUM, false);
         for(int num : nums)
-            _set.insert(num);
+            hit[num] = true;
         int count = 0; 
         ListNode* last = NULL;
         for(ListNode* node = head; node != NULL; node = node->next)
-        {   if( _set.count(node->val) == 0 )
-            {   last = NULL;
-            }
+        {   if( !hit[node->val] )
+                last = NULL;
             else
             {   if( last == NULL )
                     ++count;
@@ -23,6 +21,8 @@ public:
         return count;
     }
 };
+
+
 
 void test(ListNode* head, vector<int> nums)
 {
@@ -42,5 +42,6 @@ int main(void)
 // Result 
 //
 // 2023-01-18: Runtime 35ms 90.50% Memory 21.6MB 53.38%, https://leetcode.com/problems/linked-list-components/submissions/880428959/
+// 2023-03-07: Runtime 28ms 97.69% Memory 19.4MB 95.67%, https://leetcode.com/problems/linked-list-components/submissions/910925201/
 
 

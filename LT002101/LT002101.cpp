@@ -11,7 +11,6 @@ public:
             l3       = l3->next;
             *pmin    =(*pmin)->next;
         }
-
         l3->next= (l1==NULL)? l2 : l1;
         return tmp.next;
     }

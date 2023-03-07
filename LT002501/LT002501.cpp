@@ -4,18 +4,13 @@ class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* new_head = NULL, *new_tail = NULL;
-        
         while ( head != NULL)
-        {   
-            int len = 0;
-            ListNode* tail = head;
-            ListNode* sub_head = reverseList(head, k, len);
-
+        {   int len = 0;
+            ListNode *tail = head, *sub_head = reverseList(head, k, len);
             if( len < k )
             {   sub_head = reverseList(sub_head, k, len);
                 tail = NULL;
             }
-
             if( new_head == NULL )
             {   new_head = sub_head;
                 new_tail = tail;
@@ -25,14 +20,12 @@ public:
                 new_tail = tail;
             }            
         }
-        
         return new_head;
     }
-    
-    ListNode* reverseList(ListNode* &head, int k, int& len) {
+
+    ListNode* reverseList(ListNode* &head, int k, int& len) { // refer LT020601.cpp
         len = 0;
         ListNode* last = NULL;
-
         while( head != NULL && len < k)
         {   ListNode* next = head->next;
             head->next = last;
@@ -66,6 +59,7 @@ int main(void)
 //
 // 2022-11-08: Runtime 22ms 31.41% Memory 11.4MB 95.88%, https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/839092819/
 // 2023-02-16: Runtime 16ms 73.73% Memory 11.6MB 36.46%, https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/899183238/
+// 2023-03-08: Runtime 11ms 95.91% Memory 11.6MB 36.84%, https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/910935525/
 
 
 

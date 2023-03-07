@@ -1,26 +1,29 @@
 #include <lt_help/lt.h>
 
-
+ListNode* travelList(ListNode *head, int& len) { // refer LT006101.cpp
+    len = 0;
+    ListNode *tail = head;
+    if( tail == NULL )
+        return NULL;
+    for(++len; tail->next != NULL; tail = tail->next)
+        ++len;
+    return tail;
+}
 
 class Solution {
 public:
     bool isSubPath(ListNode* head, TreeNode* root) {
         vector<TreeNode*> nodes;
-        vector<int> deeps;
-        _findTarget(root, nodes, deeps, head->val);
-
-        int listLen = _lenfOfList(head);
-        int size = nodes.size();
+        vector<int> depths;
+        _findTarget(root, nodes, depths, head->val);
+        int size = nodes.size(), listSize = 0;
+        travelList(head, listSize);
         for(int i = 0;i < size; ++i)
-        {   if( deeps[i] < listLen )
-                continue;
-            if( _isSubPath(head, nodes[i]) )
+            if( depths[i] >= listSize && _isSubPath(head, nodes[i]) )
                 return true;
-        }
-
         return false;
     }
-    
+
     bool _isSubPath(ListNode* head, TreeNode* node) {
         if( head == NULL )
             return true;
@@ -28,18 +31,11 @@ public:
             return false;
         return _isSubPath(head->next, node->left) || _isSubPath(head->next, node->right);
     }
-    
-    int _lenfOfList(ListNode* node)
-    {   int len = 0;
-        for(; node != NULL; node = node->next )
-            ++len;
-        return len;
-    }
-    
-    int _findTarget(TreeNode* node, vector<TreeNode*>& nodes, vector<int>& deeps, int target)
-    {   if( node == NULL )
+
+    int _findTarget(TreeNode* node, vector<TreeNode*>& nodes, vector<int>& deeps, int target) {   
+        if( node == NULL )
             return 0;
-        
+
         int deepIdx = -1;
         if( node->val == target )
         {   deepIdx = deeps.size();
@@ -55,6 +51,7 @@ public:
         return deep;
     }
 };
+
 
 
 void test(ListNode* head, TreeNode* root)
@@ -76,5 +73,7 @@ int main(void)
 // Result 
 //
 // 2023-01-14: Runtime 31ms 88.87% Memory 33MB 6.10%, https://leetcode.com/problems/linked-list-in-binary-tree/submissions/877779071/
+// 2023-03-08: Runtime 32ms 85.47% Memory 33MB 7.38%, https://leetcode.com/problems/linked-list-in-binary-tree/submissions/910931133/
+
 
 

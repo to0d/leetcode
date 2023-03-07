@@ -12,7 +12,6 @@ public:
 
 
 
-
 int main(void)
 {
     ListNode* head = makeList(4, 4,5,1,9);

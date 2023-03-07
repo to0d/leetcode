@@ -32,7 +32,7 @@
 //   
 //   The intersect node should be at position c from tail. 
 
-ListNode* travelList(ListNode *head, int& len) {
+ListNode* travelList(ListNode *head, int& len) { // refer LT006101.cpp
     len = 0;
     ListNode *tail = head;
     if( tail == NULL )
