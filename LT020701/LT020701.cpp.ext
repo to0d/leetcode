@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0207 (name=Course Schedule, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0207 (name=Course Schedule, ptag=Leetcode) @TAG(Term, Medium-OJ, sort-OJ, 拓扑排序)
     - [Course Schedule - Leetcode](https://leetcode.com/problems/course-schedule/ ) @TAG(LT0207)
 
 
