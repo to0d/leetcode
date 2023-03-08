@@ -15,5 +15,4 @@ tags = [
 - LT0513 (name=Find Bottom Left Tree Value, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, LevelOrder)
     - [Find Bottom Left Tree Value - Leetcode](https://leetcode.com/problems/find-bottom-left-tree-value/ ) @TAG(LT0513)
 
-
-- [](%"LT010701.cpp") @TAG(Ref, LT0513)
+- [](%"LT010201.cpp") @TAG(Ref, LT0513)

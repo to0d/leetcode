@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0450 (name=Delete Node in a BST, ptag=Leetcode) @TAG(Term, Medium-OJ, BST)
+- LT0450 (name=Delete Node in a BST, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST)
     - [Delete Node in a BST - Leetcode](https://leetcode.com/problems/delete-node-in-a-bst/ ) @TAG(LT0450)
 

@@ -37,7 +37,7 @@ public:
 
 
 
-void test(int numCourses, vector<vector<int>>& prerequisite)
+void test(int numCourses, vector<vector<int>> prerequisite)
 {
     cout << "input: num=" << numCourses << "pre=";
     outputVector(prerequisite);

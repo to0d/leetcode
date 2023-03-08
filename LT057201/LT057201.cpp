@@ -5,15 +5,18 @@ public:
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
         if( root == NULL )
             return false;
-        return isEqualtree(root, subRoot) 
+        return isSameTree(root, subRoot) 
             || isSubtree(root->left, subRoot) 
             || isSubtree(root->right, subRoot);
-    }
-    
-    bool isEqualtree(TreeNode* s, TreeNode* t){
-        if( s == NULL || t == NULL )
-            return s == NULL && t == NULL;
-        return s->val == t->val && isEqualtree(s->left, t->left) && isEqualtree(s->right, t->right);
+    }    
+
+    bool isSameTree(TreeNode* p, TreeNode* q) { // refer LT010001.cpp
+        if( p == NULL )
+            return q == NULL;
+        if( q == NULL || p->val != q->val )
+            return false;
+        return isSameTree(p->left, q->left) 
+            && isSameTree(p->right, q->right);
     }
 };
 
@@ -39,4 +42,6 @@ int main(void)
 //
 // 2022-11-23: Runtime 57ms 8.58% Memory 28.9MB 61.80%, https://leetcode.com/problems/subtree-of-another-tree/submissions/848450211/
 // 2023-02-24: Runtime 25ms 69.28% Memory 28.8MB 62.23%, https://leetcode.com/problems/subtree-of-another-tree/submissions/904174686/
+// 2023-03-09: Runtime 10ms 99.85% Memory 28.9MB 61.45%, https://leetcode.com/problems/subtree-of-another-tree/submissions/911564531/
+
 

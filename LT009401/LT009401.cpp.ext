@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0094 (name=Binary Tree Inorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+- LT0094 (name=Binary Tree Inorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, Inorder)
     - [Binary Tree Inorder Traversal - Leetcode](https://leetcode.com/problems/binary-tree-inorder-traversal/ ) @TAG(LT0094)
 
     Given the root of a binary tree, return the inorder traversal of its nodes' values.

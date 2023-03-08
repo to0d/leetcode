@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0145 (name=Binary Tree Postorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ)
+- LT0145 (name=Binary Tree Postorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, Postorder)
     - [Binary Tree Postorder Traversal - Leetcode](https://leetcode.com/problems/binary-tree-postorder-traversal/ ) @TAG(LT0145)
 
     Given a binary tree, return the

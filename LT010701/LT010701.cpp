@@ -2,37 +2,32 @@
 
 class Solution {
 public:
-    vector<vector<int>> levelOrderBottom(TreeNode* root) {
-        vector<vector<int>> res;
-        vector<int> r;
-
-        queue<TreeNode*> nodeQueue;
-        nodeQueue.push( root );
-        nodeQueue.push( NULL );
+    vector<vector<int>> levelOrderBottom(TreeNode* root) { // refer LT010201.cpp
+        vector<vector<int>> rst;
         
-        while( !nodeQueue.empty() )
-        {   TreeNode* node = nodeQueue.front();
-            nodeQueue.pop();
+        vector<int> nodes;
+        queue<TreeNode*> nq;
+        nq.push(root);
+        nq.push(NULL);
+        while( !nq.empty() )
+        {   TreeNode* node = nq.front(); nq.pop();
             if( node == NULL )
-            {   if( !r.empty())
-                {   res.push_back(r);
-                    r.clear();
-                    nodeQueue.push( NULL );
-                }   
-                else
+            {   if(nodes.empty())
                     break;
+                rst.push_back(nodes);
+                nodes.clear();
+                nq.push(NULL);
             }
             else
-            {   r.push_back( node->val );
+            {   nodes.push_back(node->val);
                 if( node->left != NULL )
-                    nodeQueue.push( node->left );
+                    nq.push(node->left );
                 if( node->right != NULL )
-                    nodeQueue.push( node->right );
+                    nq.push(node->right );
             }
         }
-
-        reverse(res.begin(), res.end());
-        return res;
+        reverse(rst.begin(), rst.end());
+        return rst;
     }
 };
 
@@ -58,6 +53,7 @@ int main(void)
 //
 // 2022-11-23: Runtime 11ms 15.55% Memory 12.5MB 87.22%, https://leetcode.com/problems/binary-tree-level-order-traversal-ii/submissions/848480397/
 // 2023-02-18: Runtime 7ms 43.36% Memory 12.6MB 67.68%, https://leetcode.com/problems/binary-tree-level-order-traversal-ii/submissions/900125915/
+// 2023-03-09: Runtime 0ms 100% Memory 12.6MB 37.30%, https://leetcode.com/problems/binary-tree-level-order-traversal-ii/submissions/911575640/
 
 
 

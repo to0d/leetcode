@@ -1,43 +1,35 @@
 #include <lt_help/lt.h>
 
-
-
-
 class Solution {
 public:
-    int maxLevelSum(TreeNode* root) {
+    int maxLevelSum(TreeNode* root) { // refer LT010201.cpp
         int sum = 0, count = 0, level = 1, maxSum = INT_MIN, maxLevel = -1;
-        queue<TreeNode*> nodeQueue;
-        nodeQueue.push( root );
-        nodeQueue.push( NULL );
-
-        while( !nodeQueue.empty() )
-        {   TreeNode* node = nodeQueue.front();
-            nodeQueue.pop();
+        queue<TreeNode*> nq;
+        nq.push(root);
+        nq.push(NULL);
+        while( !nq.empty() )
+        {   TreeNode* node = nq.front(); nq.pop();
             if( node == NULL )
-            {   if( count > 0 )
-                {   if( sum > maxSum )
-                    {   maxSum = sum;
-                        maxLevel = level;
-                    }
-                    sum = 0;
-                    count = 0;
-                    level++;
-                    nodeQueue.push( NULL );
+            {   if( count == 0 )
+                    break;
+                if( sum > maxSum )
+                {   maxSum = sum;
+                    maxLevel = level;
                 }
-                else
-                   break;
+                count = 0;
+                sum   = 0;
+                level ++;
+                nq.push(NULL);
             }
             else
             {   sum += node->val;
                 count++;
                 if( node->left != NULL )
-                    nodeQueue.push( node->left );
+                    nq.push(node->left );
                 if( node->right != NULL )
-                    nodeQueue.push( node->right );
+                    nq.push(node->right );
             }
         }
-
         return maxLevel;
     }
 };
@@ -60,6 +52,7 @@ int main(void)
 
 // Result 
 //
-// 2023-01-13: Runtime nullms 82.93% Memory 107.3MB 74.12%, https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/submissions/877497449/
+// 2023-01-13: Runtime 194ms 82.93% Memory 107.3MB 74.12%, https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/submissions/877497449/
+// 2023-03-09: Runtime 202ms 62.25% Memory 107.4MB 47.55%, https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/submissions/911585674/
 
 

@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0173 (name=Binary Search Tree Iterator, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST, 中序, Iterator)
+- LT0173 (name=Binary Search Tree Iterator, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST, Inorder, Iterator)
     - [Binary Search Tree Iterator - Leetcode](https://leetcode.com/problems/binary-search-tree-iterator/ ) @TAG(LT0173)
 

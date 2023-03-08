@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0889 (name=Construct Binary Tree from Preorder and Postorder Traversal, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, 前序, 后序)
+- LT0889 (name=Construct Binary Tree from Preorder and Postorder Traversal, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, Preorder, Postorder)
     - [Construct Binary Tree from Preorder and Postorder Traversal - Leetcode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/ ) @TAG(LT0889)
 

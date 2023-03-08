@@ -10,16 +10,16 @@ public:
         if(len <= 0) 
             return NULL;
         if(len == 1) 
-            new TreeNode(nums[pos]);
+            return new TreeNode(nums[pos]);
         
         int mid = len/2;
         TreeNode* node = new TreeNode(nums[mid+pos]);
         node->left  = _sortedArrayToBST(nums, pos, mid);
         node->right = _sortedArrayToBST(nums, pos+mid+1, len-mid-1);
-       
         return node;
     }
 };
+
 
 
 void test(vector<int> nums)
@@ -42,6 +42,7 @@ int main(void)
 //
 // 2022-11-30: Runtime 29ms 17.9% Memory 21.9MB 19.30%, https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/852355650/
 // 2023-02-18: Runtime 14ms 70.48% Memory 21.9MB 19.6%, https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/900124513/
+// 2023-03-08: Runtime 13ms 71.42% Memory 21.3MB 82.99%, https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/911328088/
 
 
 

@@ -2,47 +2,34 @@
 
 class Solution {
 public:
-    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        vector<vector<int>> res;
-        if( root == NULL )
-            return res;
-          
-        queue<TreeNode*> nodeQueue;
-        vector<int> r;
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) { // refer LT010201.cpp
+        vector<vector<int>> rst;
         
-        nodeQueue.push(root);
-        nodeQueue.push(NULL); // End Mark;
-        
-        bool leftFirst = true;
-        
-        while( !nodeQueue.empty() || !r.empty() )
-        {
-            TreeNode* top = NULL;
-            if( !nodeQueue.empty() )
-            {   top = nodeQueue.front();
-                nodeQueue.pop();               
-            }
-            
-            if( top == NULL ) // find end mark
-            {   if( r.empty())
+        vector<int> nodes;
+        queue<TreeNode*> nq;
+        nq.push(root);
+        nq.push(NULL);
+        int level = 0;
+        while( !nq.empty() )
+        {   TreeNode* node = nq.front(); nq.pop();
+            if( node == NULL )
+            {   if(nodes.empty())
                     break;
-                if(!leftFirst)
-                    std::reverse(r.begin(), r.end());
-                res.push_back(r);
-                r.clear();
-                leftFirst = !leftFirst;
-                nodeQueue.push(NULL); // End Mark;
+                if( ++level %2 == 0 )
+                    std::reverse(nodes.begin(), nodes.end());   // <== main change
+                rst.push_back(nodes);
+                nodes.clear();
+                nq.push(NULL);
             }
             else
-            {   r.push_back( top->val );
-                if( top->left != NULL )
-                    nodeQueue.push(top->left);
-                if( top->right != NULL )
-                    nodeQueue.push(top->right);                
+            {   nodes.push_back(node->val);
+                if( node->left != NULL )
+                    nq.push(node->left );
+                if( node->right != NULL )
+                    nq.push(node->right );
             }
         }
-        
-        return res;
+        return rst;
     }
 };
 
@@ -69,5 +56,6 @@ int main(void)
 //
 // 2022-11-22: Runtime 7ms 28.88% Memory 11.9MB 93.75%, https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/848097930/
 // 2023-02-22: Runtime 4ms 41.42% Memory 12.2MB 17.87%, https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/902638034/
+// 2023-03-09: Runtime 3ms 72.4% Memory 12MB 79.15%, https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/911573128/
 
 

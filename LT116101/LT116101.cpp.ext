@@ -16,4 +16,4 @@ tags = [
     - [Maximum Level Sum of a Binary Tree - Leetcode](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/ ) @TAG(LT1161)
 
 
-- [](%"LT010701.cpp") @TAG(Ref, LT1161)
+- [](%"LT010201.cpp") @TAG(Ref, LT1161)

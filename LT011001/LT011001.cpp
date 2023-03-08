@@ -11,10 +11,9 @@ public:
             return -1;
 
         int leftHeight = 0, rightHeight = 0;
-
         if( node->left != NULL )       
         {   leftHeight = _balanceHeight( node->left, maxSearchDeep-1);
-            if( leftHeight == -1)
+            if( leftHeight == -1 )
                 return -1;
         }
 

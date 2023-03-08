@@ -1,68 +1,45 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     vector<int> findMode(TreeNode* root) {
-        m_path.clear();
-        _move(root);
-        vector<int> modeArr;
-        int modeCount = 0, lastCount = 1, lastVal = next();
-        while(hasNext())
-        {   int val = next();
-            if( val == lastVal )
-            {   ++lastCount; 
-            }
-            else
-            {   if( lastCount > modeCount )
-                {   modeArr.clear();
-                    modeArr.push_back(lastVal);
-                    modeCount = lastCount;
-                }
-                else if ( lastCount == modeCount )
-                {   modeArr.push_back(lastVal);
-                }
-                lastCount = 1;
-                lastVal = val;
-            }
+        m_maxCount = 0, m_lastCount = 0, m_lastVal = 0;
+        m_res.clear();
+        _inorderTraversal(root);
+        return m_res;
+    }
+    
+    void _inorderTraversal(TreeNode* node) {
+        if(node == NULL)
+            return;
+        
+        _inorderTraversal(node->left);
+        
+        if( node->val == m_lastVal )
+            ++m_lastCount;
+        else 
+        {   m_lastVal   = node->val;
+            m_lastCount = 1;
         }
 
-        if( lastCount > modeCount )
-        {   modeArr.clear();
-            modeArr.push_back(lastVal);
-            modeCount = lastCount;
+        if( m_lastCount > m_maxCount )
+        {   m_res.clear();
+            m_res.push_back(m_lastVal);
+            m_maxCount = m_lastCount;
         }
-        else if ( lastCount == modeCount )
-        {   modeArr.push_back(lastVal);
-        }
-        return modeArr;
-    }
-    
-    int next() {
-        TreeNode* node = m_path.back();
-        m_path.pop_back();
-        int val = node->val;
-        _move(node->right);
-        return val;
-    }       
+        else if( m_lastCount == m_maxCount )
+            m_res.push_back(m_lastVal);
 
-    bool hasNext() {
-        return m_path.size() != 0;
+        _inorderTraversal(node->right);
     }
-    
-    void _move(TreeNode* node)
-    {   while( node != NULL )
-        {   m_path.push_back(node);
-            if( node->left != NULL )
-                node = node->left;
-            else
-                node = NULL;
-        }
-    }
-    
-    vector<TreeNode*> m_path;
+
+    int m_maxCount;
+    int m_lastCount;
+    int m_lastVal;
+    vector<int> m_res;
 };
+ 
+
 
 void test(TreeNode* root)
 {
@@ -83,4 +60,5 @@ int main(void)
 // Result 
 //
 // 2023-01-09: Runtime 19ms 86.6% Memory 24MB 84.88%, https://leetcode.com/problems/find-mode-in-binary-search-tree/submissions/874802106/
+// 2023-03-09: Runtime 11ms 98.84% Memory 24MB 86.82%, https://leetcode.com/problems/find-mode-in-binary-search-tree/submissions/911548868/
 

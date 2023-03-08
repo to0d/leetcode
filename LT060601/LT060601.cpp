@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     string tree2str(TreeNode* root) {
@@ -10,8 +8,8 @@ public:
         return string(buf, len);
     }
     
-    int _tree2str(TreeNode* node, char* buf)
-    {   int len = sprintf(buf, "%d", node->val);
+    int _tree2str(TreeNode* node, char* buf) {   
+        int len = sprintf(buf, "%d", node->val);
         if( node->left != NULL && node->right == NULL )
         {   buf[len++] = '(';
             len += _tree2str(node->left, buf+len);
@@ -54,6 +52,7 @@ int main(void)
 // Result 
 //
 // 2023-01-10: Runtime 19ms 80.70% Memory 22.9MB 99.91%, https://leetcode.com/problems/construct-string-from-binary-tree/submissions/875475491/
+// 2023-03-09: Runtime 11ms 97.43% Memory 23MB 99.92%, https://leetcode.com/problems/construct-string-from-binary-tree/submissions/911566783/
 
 
 

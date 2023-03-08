@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0095 (name=Unique Binary Search Trees II, ptag=Leetcode) @TAG(Term, Medium-OJ, BST)
+- LT0095 (name=Unique Binary Search Trees II, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST)
     - [Unique Binary Search Trees II - Leetcode](https://leetcode.com/problems/unique-binary-search-trees-ii/ ) @TAG(LT0095)
 
 - [](%"LT009601.cpp") @TAG(Ref, LT0095)

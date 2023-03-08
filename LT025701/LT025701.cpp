@@ -1,42 +1,27 @@
 #include <lt_help/lt.h>
 
-
-
-
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
-        
         static char buf[1024] = {0};
-        vector<string> res; 
-        
-        if( root != NULL )
-            generate(root, buf, 0, res);
-        
-        return res;
+        m_res.clear();
+        _binaryTreePaths(root, buf, 0);
+        return m_res;
     }
     
-    void generate(TreeNode* node, char* buf, int len, vector<string>& res)
-    {
-        if( len > 0 )
-        {
-            buf[len++] = '-';
-            buf[len++] = '>';
-        }
-        
-        len += sprintf(buf+len, "%d", node->val);
+    void _binaryTreePaths(TreeNode* node, char* buf, int len) {
+        len += sprintf(buf+len, "->%d", node->val);
         if( node->left == NULL && node->right == NULL )
-        {
-            res.push_back(string(buf, buf+len));
+        {   m_res.push_back(string(buf+2, len-2));
             return;
         }
-        
         if( node->left != NULL )
-            generate(node->left, buf, len, res);
-        
+            _binaryTreePaths(node->left, buf, len);
         if( node->right != NULL )
-            generate(node->right, buf, len, res);
+            _binaryTreePaths(node->right, buf, len);
     }
+
+    vector<string> m_res;
 };
 
     
@@ -60,4 +45,5 @@ int main(void)
 // Result 
 //
 // 2022-11-23: Runtime 0ms 100% Memory 12.3MB 94.42%, https://leetcode.com/problems/binary-tree-paths/submissions/848461150/
+// 2023-03-08: Runtime 3ms 82.19% Memory 12.3MB 94.14%, https://leetcode.com/problems/binary-tree-paths/submissions/911521675/
 

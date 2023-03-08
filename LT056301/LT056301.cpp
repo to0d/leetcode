@@ -1,33 +1,25 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
-    
 public:
-
     int findTilt(TreeNode* root) {
-        int sum, tilt;
-        tilt = 0;
-        searchTilt(root, &sum, &tilt);
-        return tilt;
+        m_tilt = 0;
+        _findTilt(root);
+        return m_tilt;
     }
     
-    void searchTilt(TreeNode* node, int* sum, int* tilt) {
+    int _findTilt(TreeNode* node) {
         if( node == NULL )
-        {   *sum = 0;
-            return;
-        }
-        
-        int leftSum, rightSum;
-        searchTilt(node->left, &leftSum, tilt);
-        searchTilt(node->right, &rightSum, tilt);
-        *sum = node->val;
-        *sum += leftSum;
-        *sum += rightSum;
-        *tilt += (leftSum > rightSum)?(leftSum-rightSum):(rightSum-leftSum);
+            return 0;
+        int leftSum  = _findTilt(node->left);
+        int rightSum = _findTilt(node->right);
+        m_tilt += std::abs(leftSum-rightSum);
+        return node->val + leftSum + rightSum;
     }
+    
+    int m_tilt;
 };
+
 
 
 void test(TreeNode* root)
@@ -47,6 +39,7 @@ int main(void)
 // Result 
 //
 // 2022-11-23: Runtime 23ms 52.1% Memory 24.1MB 5.46%, https://leetcode.com/problems/binary-tree-tilt/submissions/848452331/
+// 2023-03-09: Runtime 12ms 95.7% Memory 23.7MB 84.59%, https://leetcode.com/problems/binary-tree-tilt/submissions/911561853/
 
 
 

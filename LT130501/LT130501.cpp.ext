@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT1305 (name=All Elements in Two Binary Search Trees, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST, 中序)
+- LT1305 (name=All Elements in Two Binary Search Trees, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST, Inorder)
     - [All Elements in Two Binary Search Trees - Leetcode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/ ) @TAG(LT1305)
 
 

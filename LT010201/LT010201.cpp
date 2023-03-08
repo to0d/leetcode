@@ -1,24 +1,16 @@
 #include <lt_help/lt.h>
 
-
-
-
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
-        
         vector<vector<int>> rst;
-        vector<int> nodes;
         
+        vector<int> nodes;
         queue<TreeNode*> nq;
         nq.push(root);
         nq.push(NULL);
-        
         while( !nq.empty() )
-        {
-            TreeNode* node = nq.front();
-            nq.pop();
-            
+        {   TreeNode* node = nq.front(); nq.pop();
             if( node == NULL )
             {   if(nodes.empty())
                     break;
@@ -34,7 +26,6 @@ public:
                     nq.push(node->right );
             }
         }
-        
         return rst;
     }
 };
@@ -59,5 +50,6 @@ int main(void)
 // Result 
 //
 // 2022-11-23: Runtime 3ms 83.91% Memory 12.5MB 86.22%, https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/848479253/
+// 2023-03-09: Runtime 0ms 100% Memory 12.5MB 66.53%, https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/911570311/
 
 

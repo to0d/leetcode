@@ -1,8 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
-
 // class Solution {
 // public:
 //     TreeNode* invertTree(TreeNode* root) {
@@ -33,22 +30,18 @@
 
 class Solution {
 public:
-
     TreeNode* invertTree(TreeNode* root) {
-        
         if( root != NULL)
-        {
-            TreeNode* pnode = invertTree(root->left);
+        {   TreeNode* pnode = invertTree(root->left);
             root->left      = invertTree(root->right);
-            root->right     = pnode;         
+            root->right     = pnode;
         }
-        
         return root;
     }
 };
 
     
-    
+
 void test(TreeNode* root)
 {
     cout << "input: ";
@@ -59,7 +52,6 @@ void test(TreeNode* root)
     cout << ";" << endl;
 }
 
-
 int main(void)
 {
     test(makeTree("{4,2,7,1,3,6,9}"));
@@ -68,3 +60,5 @@ int main(void)
 // Result 
 //
 // 2022-11-23: Runtime 0ms 100% Memory 9.7MB 85.60%, https://leetcode.com/problems/invert-binary-tree/submissions/848466491/
+// 2023-03-08: Runtime 0ms 100% Memory 9.8MB 46.48%, https://leetcode.com/problems/invert-binary-tree/submissions/911508197/
+

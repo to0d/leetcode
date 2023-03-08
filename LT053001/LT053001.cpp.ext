@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0530 (name=Minimum Absolute Difference in BST, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, BST)
+- LT0530 (name=Minimum Absolute Difference in BST, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, BST, Inorder)
     - [Minimum Absolute Difference in BST - Leetcode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/ ) @TAG(LT0530)
 
     Given a binary search tree with non-negative values, find the minimum

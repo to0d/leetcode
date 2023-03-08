@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0606 (name=Construct String from Binary Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, 前序)
+- LT0606 (name=Construct String from Binary Tree, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, Preorder)
     - [Construct String from Binary Tree - Leetcode](https://leetcode.com/problems/construct-string-from-binary-tree/ ) @TAG(LT0606)
 

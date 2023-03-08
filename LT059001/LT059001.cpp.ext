@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0590 (name=N-ary Tree Postorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, 后序)
+- LT0590 (name=N-ary Tree Postorder Traversal, ptag=Leetcode) @TAG(Term, Easy-OJ, Tree-OJ, Postorder)
     - [N-ary Tree Postorder Traversal - Leetcode](https://leetcode.com/problems/n-ary-tree-postorder-traversal/ ) @TAG(LT0590)
 
