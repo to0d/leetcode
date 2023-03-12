@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0416 (name=Partition Equal Subset Sum, ptag=Leetcode) @TAG(Term, Medium-OJ, 动态规划, 背包问题)
+- LT0416 (name=Partition Equal Subset Sum, ptag=Leetcode) @TAG(Term, Medium-OJ, DP-OJ)
     - [Partition Equal Subset Sum - Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/) @TAG(LT0416)
 

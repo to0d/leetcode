@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0746 (name=Min Cost Climbing Stairs, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0746 (name=Min Cost Climbing Stairs, ptag=Leetcode) @TAG(Term, Easy-OJ, DP-OJ)
     - [Min Cost Climbing Stairs - Leetcode](https://leetcode.com/problems/min-cost-climbing-stairs/ ) @TAG(LT0746)
 

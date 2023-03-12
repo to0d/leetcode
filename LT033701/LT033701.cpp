@@ -3,48 +3,23 @@
 class Solution {
 public:
     int rob(TreeNode* root) {
-        if( root == NULL )
-            return 0;
-
-        int chooseValue = 0, noChooseValue = 0;
+        int chooseValue, noChooseValue;
         robTree(root, chooseValue, noChooseValue);
         return std::max( chooseValue, noChooseValue);
     }
     
-    void robTree(TreeNode* node, int& chooseValue, int& noChooseValue) {
-        int ccount = 0;
-        TreeNode* cnode = NULL;
-        if( node->left != NULL ) {
-            ccount++;
-            cnode = node->left;
-        }
-
-        if( node->right != NULL ) {
-            ccount++;
-            cnode = node->right;
-        }
-        
-        if( ccount == 0 )
-        {   chooseValue = node->val;
-            noChooseValue = 0;
+    void robTree(TreeNode* node, int& chooseValue, int& notChooseValue) {
+        if( node == NULL )
+        {   chooseValue = 0, notChooseValue = 0;
             return;
         }
-        
-        if( ccount == 1 )
-        {   int childChooseValue = 0, childNoChooseValue = 0;
-            robTree( cnode, childChooseValue, childNoChooseValue);
-            chooseValue = childNoChooseValue + node->val;
-            noChooseValue = std::max(childChooseValue, childNoChooseValue);
-            return;
-        }
-        
-        int leftChooseValue = 0, leftNoChooseValue = 0, rightChooseValue = 0, rightNoChooseValue = 0;
-        robTree( node->left, leftChooseValue, leftNoChooseValue); 
-        robTree( node->right, rightChooseValue, rightNoChooseValue); 
+        int leftChooseValue, leftNotChooseValue, rightChooseValue, rightNotChooseValue;
+        robTree(node->left , leftChooseValue , leftNotChooseValue);
+        robTree(node->right, rightChooseValue, rightNotChooseValue);
 
-        chooseValue = leftNoChooseValue + rightNoChooseValue + node->val;
-        noChooseValue = std::max(leftChooseValue, leftNoChooseValue) 
-                      + std::max(rightChooseValue, rightNoChooseValue);
+        chooseValue    = leftNotChooseValue + rightNotChooseValue + node->val;
+        notChooseValue = std::max(leftChooseValue   , leftNotChooseValue) 
+                       + std::max(rightChooseValue  , rightNotChooseValue);
     }
 };
 
@@ -68,5 +43,6 @@ int main(void)
 //
 // 2022-11-14: Runtime 28ms 31.29% Memory 22.3MB 78.18%, https://leetcode.com/problems/house-robber-iii/submissions/843009396/
 // 2023-02-22: Runtime 19ms 62.23% Memory 22.1MB 99.52%, https://leetcode.com/problems/house-robber-iii/submissions/902750501/
+// 2023-03-12: Runtime 12ms 83.98% Memory 22.2MB 92.88%, https://leetcode.com/problems/house-robber-iii/submissions/913528704/
 
 

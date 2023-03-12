@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0198 (name=House Robber, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0198 (name=House Robber, ptag=Leetcode) @TAG(Term, Medium-OJ, DP-OJ)
     - [House Robber - Leetcode](https://leetcode.com/problems/house-robber/ ) @TAG(LT0198)
 
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and

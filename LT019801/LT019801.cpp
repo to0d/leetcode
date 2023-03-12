@@ -6,13 +6,14 @@ public:
         int size = nums.size();
         if( size < 2)
             return size == 0 ? 0 : nums[0];
-
-        //Duduce: n3 = max( num[i] + n2, n1 )
-        int n1(0), n2(nums[0]), n3(0), r=0;
-        for(int i = 2; i <= size; ++i, n1=n2, n2=n3 )
-            r = n3 = std::max( n1 + nums[i-1], n2 );
-
-        return r;
+        //f(n) = max( f(n-1), f(n-2)+ num[n])
+        int n1(0), n2(nums[0]), n3(0);
+        for(int i = 2; i <= size; ++i)
+        {   n3 = std::max( n1 + nums[i-1], n2 );
+            n1 = n2;
+            n2 = n3;
+        }
+        return n3;
     }
 };
 
@@ -36,4 +37,6 @@ int main(void)
 //
 // 2022-11-14: Runtime 4ms 28.15% Memory 7.7MB 53.77%, https://leetcode.com/problems/house-robber/submissions/842995826/
 // 2023-02-20: Runtime 0ms 100% Memory 7.7MB 61.20%, https://leetcode.com/problems/house-robber/submissions/901595719/
+// 2023-03-12: Runtime 0ms 100% Memory 7.7MB 86.64%, https://leetcode.com/problems/house-robber/submissions/913495302/
+
 

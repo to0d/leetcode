@@ -6,7 +6,6 @@ date = "2022-12-05"
 !mark = ""
 tags = [
     "LT0064",
-    "动态规划",
     "Important"
 ]
 !template = md2.template
@@ -14,6 +13,6 @@ tags = [
 +++
 
 
-- LT0064 (name=Minimum Path Sum, ptag=Leetcode) @TAG(Term, Medium-OJ, xSum-OJ)
+- LT0064 (name=Minimum Path Sum, ptag=Leetcode) @TAG(Term, Medium-OJ, xSum-OJ, DP-OJ)
     - [Minimum Path Sum - Leetcode](https://leetcode.com/problems/minimum-path-sum/ ) @TAG(LT0064)
 

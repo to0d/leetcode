@@ -11,7 +11,7 @@ tags = [
 !domain = ""
 +++
 
-- LT0070 (name=Climbing Stairs, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0070 (name=Climbing Stairs, ptag=Leetcode) @TAG(Term, Easy-OJ, DP-OJ)
     - [Climbing Stairs - Leetcode](https://leetcode.com/problems/climbing-stairs/ ) @TAG(LT0070)
 
     You are climbing a stair case. It takes

@@ -1,0 +1,19 @@
++++
+date = "2023-03-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0279"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0279 (name=Perfect Squares, ptag=Leetcode) @TAG(Term, Medium-OJ, DP-OJ)
+    - [Perfect Squares - Leetcode](https://leetcode.com/problems/perfect-squares/ ) @TAG(LT0279)
+
+
+- [](%"LT032201.cpp") @TAG(Ref, LT0279)

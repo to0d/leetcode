@@ -49,7 +49,7 @@ public:
             if( node->right != NULL )
                 makeSerialize(node->right, output);
             else
-                output += ","; 
+                output += ",";
         }
         output += to_string(node->val);
         output += ",";

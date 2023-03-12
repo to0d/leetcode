@@ -1,0 +1,16 @@
++++
+date = "2023-03-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0300"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0300 (name=Longest Increasing Subsequence, ptag=Leetcode) @TAG(Term, Medium-OJ, DP-OJ)
+    - [Longest Increasing Subsequence - Leetcode](https://leetcode.com/problems/longest-increasing-subsequence/description/ ) @TAG(LT0300)
