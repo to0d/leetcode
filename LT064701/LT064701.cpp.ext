@@ -1,0 +1,16 @@
++++
+date = "2023-03-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0647"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0647 (name=Palindromic Substrings, ptag=Leetcode) @TAG(Term, Medium-OJ, Palindrome-OJ)
+    - [Palindromic Substrings - Leetcode](https://leetcode.com/problems/palindromic-substrings/description/ ) @TAG(LT0647)

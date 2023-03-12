@@ -5,7 +5,8 @@ date = "2016-06-10"
 !top = ""
 !mark = ""
 tags = [
-    "LT0134"
+    "LT0134",
+    "std-accumulate"
 ]
 !template = md2.template
 !domain = ""

@@ -1,0 +1,17 @@
++++
+date = "2023-03-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0739"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0739 (name=Daily Temperatures, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Daily Temperatures - Leetcode](https://leetcode.com/problems/daily-temperatures/description/ ) @TAG(LT0739)
+

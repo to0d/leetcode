@@ -1,13 +1,8 @@
 #include <lt_help/lt.h>
 
-
-
-#define TRACE(x)
-//#define TRACE(x) x
 class Solution {
 public:
     int findKthPositive(vector<int>& arr, int k) {
-        TRACE(cout << "k=" << k << endl;)
         int size = arr.size();
         int findPos = -1;
         if( _miss(arr, size-1) < k )
@@ -18,7 +13,6 @@ public:
         {   int low = 0, high = size-1;
             while( low <= high && low >=0 && high < size && findPos == -1)
             {   int m = (low+high)/2;
-                TRACE(cout << "low=" << low << ", high=" << high << ", m=" << m << endl;)
                 int n = _miss(arr, m);
                 if( n >= k )
                     high = m-1;
@@ -32,14 +26,14 @@ public:
             if( findPos == -1 )
                 findPos = high;
         }
-        TRACE(cout << "findPos=" << findPos << endl;)
         return arr[findPos] + k - _miss(arr, findPos);
     }
-    int _miss(vector<int>& arr, int pos)
-    {   TRACE(cout << "_miss: pos=" << pos << ", val=" << (arr[pos] - pos - 1) << endl;)
+
+    int _miss(vector<int>& arr, int pos) {   
         return arr[pos] - pos - 1;
     }
 };
+
 
 
 void test(vector<int> arr, int k)
@@ -58,6 +52,7 @@ int main(void)
 // Result 
 //
 // 2022-12-15: Runtime 5ms 67.40% Memory 9.6MB 36.88%, https://leetcode.com/problems/kth-missing-positive-number/submissions/859976427/
+// 2023-03-11: Runtime 4ms 69.70% Memory 9.6MB 32.44%, https://leetcode.com/problems/kth-missing-positive-number/submissions/912970999/
 
 
 

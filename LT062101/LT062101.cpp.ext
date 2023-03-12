@@ -1,0 +1,16 @@
++++
+date = "2023-03-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0621"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0621 (name=Task Scheduler, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Task Scheduler - Leetcode](https://leetcode.com/problems/task-scheduler/description/ ) @TAG(LT0621)

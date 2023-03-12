@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 // 2  ==> 00000010
 // 4  ==> 00000100
 // 8  ==> 00001000
@@ -15,6 +13,8 @@ public:
         return n > 0 && ( (n&(n-1)) == 0 ); 
     }
 };
+
+
 
 void test(int n)
 {
@@ -34,4 +34,5 @@ int main(void)
 // Result 
 //
 // 2022-11-19: Runtime 0ms 100% Memory 5.8MB 97.61%, https://leetcode.com/problems/power-of-two/submissions/846312881/
+// 2023-03-11: Runtime 0ms 100% Memory 6MB 61.87%, https://leetcode.com/problems/power-of-two/submissions/912961654/
 

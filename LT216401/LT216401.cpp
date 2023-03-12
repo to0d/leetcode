@@ -9,22 +9,18 @@ public:
     }
     
     void _sortEvenOdd(vector<int>& nums, int pos, bool inc) {
-        int size = nums.size();
-        while ( pos < size)
+        for (int i = nums.size(); i > pos; i -= 2)
         {   int update = 0;
-            int pos2 = pos + 2;
-            while (pos2 < size)
-            {   if( (inc && nums[pos2] < nums[pos2-2]) || !inc && nums[pos2] > nums[pos2-2] )
-                {   int v = nums[pos2-2];
-                    nums[pos2-2] = nums[pos2];
-                    nums[pos2] = v;
+            for (int j = pos + 2; j < i; j += 2)
+            {   if( (inc && nums[j] < nums[j-2]) || !inc && nums[j] > nums[j-2] )
+                {   int v = nums[j-2];
+                    nums[j-2] = nums[j];
+                    nums[j] = v;
                     ++update;
                 }
-                pos2 += 2;
             }
             if( update == 0 )
                 break;
-            size -= 2;
         }
     }
 };
@@ -51,6 +47,7 @@ int main(void)
 //
 // 2022-12-03: Runtime 26ms 5.56% Memory 11.9MB 95.37%, https://leetcode.com/problems/sort-even-and-odd-indices-independently/submissions/853714814/
 // 2023-02-18: Runtime 7ms 75.28% Memory 12MB 91%, https://leetcode.com/problems/sort-even-and-odd-indices-independently/submissions/900113661/
+// 2023-03-10: Runtime 3ms 96.53% Memory 11.9MB 89.6%, https://leetcode.com/problems/sort-even-and-odd-indices-independently/submissions/912732276/
 
 
 

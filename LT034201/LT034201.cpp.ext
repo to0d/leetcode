@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0342 (name=Power of Four, ptag=Leetcode) @TAG(Term, Easy-OJ, Power)
+- LT0342 (name=Power of Four, ptag=Leetcode) @TAG(Term, Easy-OJ, Power-OJ)
     - [Power of Four - Leetcode](https://leetcode.com/problems/power-of-four/ ) @TAG(LT0342)
 
     Given an integer (signed 32 bits), write a function to check whether it is a power of 4.

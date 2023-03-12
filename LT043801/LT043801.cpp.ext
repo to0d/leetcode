@@ -1,0 +1,16 @@
++++
+date = "2023-03-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0438"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0438 (name=Find All Anagrams in a String, ptag=Leetcode) @TAG(Term, Medium-OJ, String-OJ)
+    - [Find All Anagrams in a String - Leetcode](https://leetcode.com/problems/find-all-anagrams-in-a-string/ ) @TAG(LT0438)

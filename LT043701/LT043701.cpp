@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     int pathSum(TreeNode* root, int targetSum) {
@@ -14,28 +12,26 @@ public:
         return m_count;
     }
     
-    void _pathSum(TreeNode* node, long target, int len) {
-        if( len == 0 )
+    void _pathSum(TreeNode* node, long target, int deep) {
+        if( deep == 0 )
         {   if( m_set.count(node) != 0 )
                 return;
             m_set.insert(node);
         }
-        //cout << "node=" << node->val << ", target=" << target << ", len=" << len << endl;
+        
         if( node->val == target)
-        {   //cout << "node->val == target" << endl;
             m_count++;
-        }
         
         if(node->left != NULL)
-            _pathSum(node->left, target - node->val, len+1);
+            _pathSum(node->left, target - node->val, deep+1);
         
         if(node->right != NULL)
-            _pathSum(node->right, target - node->val, len+1);
-                
-        if( len > 0 )
+            _pathSum(node->right, target - node->val, deep+1);
+        
+        if( deep > 0 )
             _pathSum(node, m_targetSum, 0);
     }
-    
+
     int m_count;
     long m_targetSum;
     unordered_set<TreeNode*> m_set;
@@ -61,4 +57,5 @@ int main(void)
 // Result 
 //
 // 2023-01-07: Runtime 166ms 7.11% Memory 19.3MB 37.17%, https://leetcode.com/problems/path-sum-iii/submissions/873075421/
+// 2023-03-11: Runtime 183ms 6.55% Memory 19.5MB 32.12%, https://leetcode.com/problems/path-sum-iii/submissions/913287740/
 

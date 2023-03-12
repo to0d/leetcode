@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     string makeGood(string s) {
@@ -17,10 +15,11 @@ public:
         return string(buf, buf_len);
     }
 
-    bool isBad(char c1, char c2)
-    {   return isupper(c1) != isupper(c2) && toupper(c1) == toupper(c2);
+    bool isBad(char c1, char c2) {  
+        return isupper(c1) != isupper(c2) && toupper(c1) == toupper(c2);
     }
 };
+
 
 
 void test(string s)
@@ -38,6 +37,7 @@ int main(void)
 // Result 
 //
 // 2022-12-15: Runtime 2ms 70.48% Memory 6.1MB 99.24%, https://leetcode.com/problems/make-the-string-great/submissions/859964108/
+// 2023-03-11: Runtime 0ms 100% Memory 6.1MB 92.88%, https://leetcode.com/problems/make-the-string-great/submissions/912969440/
 
 
 

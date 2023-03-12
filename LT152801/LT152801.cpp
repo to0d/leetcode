@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     string restoreString(string s, vector<int>& indices) {
@@ -12,6 +10,7 @@ public:
         return string(buf, len);
     }
 };
+
 
 
 void test(string s, vector<int> indices)
@@ -30,5 +29,6 @@ int main(void)
 // Result 
 //
 // 2022-12-15: Runtime 7ms 83.19% Memory 15.1MB 94.71%, https://leetcode.com/problems/shuffle-string/submissions/859978785/
+// 2023-03-11: Runtime 0ms 100% Memory 15.2MB 80.80%, https://leetcode.com/problems/shuffle-string/submissions/912971646/
 
 

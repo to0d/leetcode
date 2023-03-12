@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     bool threeConsecutiveOdds(vector<int>& arr) {
@@ -16,6 +14,7 @@ public:
         return false;
     }
 };
+
 
 
 void test(vector<int> arr)
@@ -34,6 +33,7 @@ int main(void)
 // Result 
 //
 // 2022-12-15: Runtime 4ms 64.38% Memory 8.3MB 11.22%, https://leetcode.com/problems/three-consecutive-odds/submissions/859956792/
+// 2023-03-11: Runtime 2ms 83.69% Memory 8.2MB 62.55%, https://leetcode.com/problems/three-consecutive-odds/submissions/912968414/
 
 
 

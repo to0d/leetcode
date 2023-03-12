@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0050 (name=Pow x n, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0050 (name=Pow x n, ptag=Leetcode) @TAG(Term, Medium-OJ, Power-OJ)
     - [Pow(x, n) - Leetcode](https://leetcode.com/problems/powx-n/ ) @TAG(LT0050)
 
     Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).

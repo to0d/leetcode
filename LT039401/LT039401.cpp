@@ -1,81 +1,52 @@
 #include <lt_help/lt.h>
 
-
-
-
 class Solution {
 public:
     string decodeString(string s) {
-        m_p = s.c_str();
-        return _decode(0);
+        int pos = 0;
+        return _decode(s, pos);
     }
     
-    string _decode(int level)
-    {   string rst;
-        char c;
-
-        while( (c = *m_p) != 0 )
-        {   if( c == ']' )
-            {   ++m_p;
+    string _decode(string& s, int& pos) {   
+        string rst;
+        int len = s.length();
+        while( pos < len )
+        {   if( s.at(pos) == ']' )
+            {   ++pos;
                 break;
             }
-            
+
             int num = 1;
-            if( _isNum(c) )
-            {   num = _nextNum();
-            }            
-            
+            if( isdigit(s.at(pos)) )
+                num = _nextNum(s, pos);
+
             string str;
-            if( *m_p == '[' )
-            {   ++m_p;
-                str = _decode(level+1);
-            }
+            if( s.at(pos) == '[' )
+                str = _decode(s, ++pos);
             else
-                str = _nextStr();
+                str = _nextStr(s, pos);
             
             for(int i = 0;i < num; ++i)
                 rst += str;
-            
-            //cout << "level=" << level << ", num=" << num << ", str=" << str << ", rst=" << rst << endl;
         }
-
         return rst;
     }
     
-    int _nextNum()
-    {   const char* p2 = m_p;
-        char c;
-        while( (c = *p2) != 0 && _isNum(c) )
-            ++p2;
-        if( m_p == p2 )
-            return 0;
-        int val = std::stoi(string(m_p, p2-m_p));
-        m_p = p2;
-        return val;
+    int _nextNum(string& s, int& pos) {
+        int old = pos++, len = s.length();
+        while( pos < len && isdigit(s.at(pos)) )
+            ++pos;
+        return std::stoi(s.substr(old, pos-old));
     }
-    
-    string _nextStr()
-    {   const char* p2 = m_p;
-        char c;
-        while( (c = *p2) != 0 && _isChar(c) )
-            ++p2;
-        if( m_p == p2 )
-            return "";
-        string str = string(m_p, p2-m_p);
-        m_p = p2;
-        return str;
+
+    string _nextStr(string& s, int& pos) { 
+        int old = pos++, len = s.length();
+        while( pos < len && isalpha(s.at(pos)) )
+            ++pos;
+        return s.substr(old, pos-old);
     }
-    
-    bool _isNum(char c)
-    {   return c >= '0' && c <= '9';
-    }
-    
-    bool _isChar(char c)
-    {   return c >= 'a' && c <= 'z';
-    }
-    
-    const char* m_p;
 };
+
 
 
 void test(string s)
@@ -95,6 +66,7 @@ int main(void)
 // Result 
 //
 // 2023-01-05: Runtime 2ms 46.46% Memory 6.6MB 55.37%, https://leetcode.com/problems/decode-string/submissions/872027039/
+// 2023-03-12: Runtime 0ms 100% Memory 6.5MB 56.74%, https://leetcode.com/problems/decode-string/submissions/913314696/
 
 
 

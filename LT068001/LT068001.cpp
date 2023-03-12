@@ -2,35 +2,20 @@
 
 class Solution {
 public:
-    bool validPalindrome(string s) {        
-        int dc = 0;                
-        for(const char *p = s.c_str(), *q = s.c_str() + s.length() - 1 ; p < q ; ++p, --q )
-        {   if(*p == *q)
-                continue;
-            
-            if( dc > 0 )
-                return false;
-            
-            if( (p+1) == q )
-                return dc == 0;
-            
-            if( *(p+1) == *q )
-                if(_validPalindrome(p+1, q))
-                   return true;
-            
-            if( *p == *(q-1) )
-                if(_validPalindrome(p, q-1))
-                   return true;
-            
-            return false;
-        }
-        
-        return true;
+    bool validPalindrome(string s) {     
+        int low = 0, high = s.length() - 1, tmp_low, tmp_high;
+        if( _validPalindrome(s, low, high) || (low+1) == high)
+            return true;
+        if( s[low+1] == s[high] && _validPalindrome(s, (tmp_low=(low+1)), (tmp_high=high)))
+            return true;
+        if( s[low] == s[high-1] && _validPalindrome(s, (tmp_low=low), (tmp_high=(high-1))))
+            return true;
+        return false;
     }
-    
-    bool _validPalindrome(const char* p, const char* q){   
-        for( ; p < q ; ++p, --q )
-            if(*p != *q)
+
+    bool _validPalindrome(string& s, int& low, int& high){   
+        for (; low < high; ++low, --high)
+            if( s[low] != s[high] )
                 return false;
         return true;
     }
@@ -54,5 +39,6 @@ int main(void)
 //
 // 2022-12-01: Runtime 223ms 5.9% Memory 19.6MB 91.36%, https://leetcode.com/problems/valid-palindrome-ii/submissions/852618345/
 // 2023-02-24: Runtime 46ms 94.82% Memory 19.7MB 64.12%, https://leetcode.com/problems/valid-palindrome-ii/submissions/904187399/
+// 2023-03-11: Runtime 39ms 99.18% Memory 19.6MB 85.30%, https://leetcode.com/problems/valid-palindrome-ii/submissions/913009019/
 
 

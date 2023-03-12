@@ -3,33 +3,22 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        int size = s.size();
-        if( size <= 1 ) 
-            return true;
-        
-        int p1 = 0, p2 = size - 1, step = 0;
-        while( p1 <= p2 )
-        {   if( step == 0 )
-            {   if( isalnum(s[p1]) )
-                    step++;
-                else
-                    ++p1;
-            }
-            else if( step == 1 )
-            {   if( isalnum(s[p2]) )
-                    step++;
-                else
-                    --p2;    
-            }
+        return isPalindrome(s.c_str(), 0, s.size() - 1);
+    }
+    
+    bool isPalindrome(const char* s, int low, int high) {
+        while( low < high )
+        {   if( !isalnum(s[low]) )
+                ++low;
+            else if( !isalnum(s[high]) )
+                --high;
             else 
-            {   if( tolower(s[p1]) != tolower(s[p2]))
-                    return false;
-                ++p1;
-                --p2;
-                step = 0;
-            }
+            {   if( tolower(s[low]) != tolower(s[high]))
+                return false;
+                ++low;
+                --high;  
+            }                
         }
-
         return true;
     }
 };
@@ -52,6 +41,7 @@ int main(void)
 //
 // 2022-11-21: Runtime 20ms 10.80% Memory 7.4MB 60.22%, https://leetcode.com/problems/valid-palindrome/submissions/847469030/
 // 2023-02-22: Runtime 10ms 32.15% Memory 7.5MB 60.61%, https://leetcode.com/problems/valid-palindrome/submissions/902640371/
+// 2023-03-11: Runtime 0ms 100% Memory 7.3MB 84.87%, https://leetcode.com/problems/valid-palindrome/submissions/912992181/
 
 
 

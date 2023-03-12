@@ -3,23 +3,16 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        if( prices.size() < 2)
-            return 0;
-        
-        int answer = 0; //At least, you do not need to by stock to loose any money
-        int p1 = 0;
-        for(int i = 1; i < prices.size(); ++i)
-        {   int p2 = prices[i] - prices[i-1];
-            p1 = std::max( p2, p1 + p2);
-            answer = std::max( answer, p1);
+        int max_profit = -1, min_price = INT_MAX;
+        for(int price : prices )
+        {   min_price  = std::min(min_price, price);
+            max_profit = std::max(max_profit, price - min_price);
         }
-
-        return answer;
+        return max_profit;
     }
 };
 
-   
-   
+
 void test(vector<int> prices)
 {
     cout << "input: ";
@@ -37,5 +30,6 @@ int main(void)
 //
 // 2022-11-21: Runtime 271ms 12.69% Memory 93.3MB 56.24%, https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/847462655/
 // 2023-02-22: Runtime 150ms 39.20% Memory 93.4MB 11.86%, https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/902639546/
+// 2023-03-10: Runtime 117ms 96.23% Memory 93.2MB 91.61%, https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/912722650/
 
 

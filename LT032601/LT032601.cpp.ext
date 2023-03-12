@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0326 (name=Power of Three, ptag=Leetcode) @TAG(Term, Easy-OJ, Power)
+- LT0326 (name=Power of Three, ptag=Leetcode) @TAG(Term, Easy-OJ, Power-OJ)
     - [Power of Three - Leetcode](https://leetcode.com/problems/power-of-three/ ) @TAG(LT0326)
 
     Given an integer, write a function to determine if it is a power of three.

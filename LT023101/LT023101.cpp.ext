@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0231 (name=Power of Two, ptag=Leetcode) @TAG(Term, Easy-OJ, Power)
+- LT0231 (name=Power of Two, ptag=Leetcode) @TAG(Term, Easy-OJ, Power-OJ)
     - [Power of Two - Leetcode](https://leetcode.com/problems/power-of-two/ ) @TAG(LT0231)
 
     Given an integer n, return true if it is a power of two. Otherwise, return false.

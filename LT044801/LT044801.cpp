@@ -4,7 +4,7 @@ class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
         int size = nums.size();
-        for( int i = 0; i < size; i++ )
+        for(int i = 0; i < size; i++ )
         {   int v = nums[i];
             if( v == 0 || v == (i+1))
                 continue;
@@ -17,13 +17,10 @@ public:
                 v = vv;
             }
         }
-
         vector<int> r;
         for( int i = 0; i < size; i++ )
-        {   if(nums[i] == 0 )
+            if(nums[i] == 0 )
                 r.push_back(i+1);
-        }
-
         return r;
     }
 };
@@ -49,6 +46,7 @@ int main(void)
 //
 // 2022-11-21: Runtime 121ms 34.48% Memory 33.7MB 87.8%, https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/846977828/
 // 2023-02-24: Runtime 56ms 84.86% Memory 33.7MB 86.82%, https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/904145014/
+// 2023-03-11: Runtime 58ms 77.62% Memory 33.5MB 95.44%, https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/913273019/
 
 
 

@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0121 (name=Best Time to Buy and Sell Stock, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0121 (name=Best Time to Buy and Sell Stock, ptag=Leetcode) @TAG(Term, Easy-OJ, Used-OJ)
     - [Best Time to Buy and Sell Stock - Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ ) @TAG(LT0121)
 
     You are given an array prices where prices[i] is the price of a given stock on the ith day.

@@ -3,7 +3,7 @@ date = "2022-11-11"
 !outline = "en_1"
 !outline_level = 3
 !top = ""
-mark = "timeout"
+!mark = ""
 tags = [
     "LT0416"
 ]
@@ -15,21 +15,3 @@ tags = [
 - LT0416 (name=Partition Equal Subset Sum, ptag=Leetcode) @TAG(Term, Medium-OJ, 动态规划, 背包问题)
     - [Partition Equal Subset Sum - Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/) @TAG(LT0416)
 
-    Example 1:
-
-            Input: nums = [1,5,11,5]
-            Output: true
-            Explanation: The array can be partitioned as [1, 5, 5] and [11].
-
-    Example 2:
-
-            Input: nums = [1,2,3,5]
-            Output: false
-            Explanation: The array cannot be partitioned into equal sum subsets.
-
-    Constraints:
-
-            1 <= nums.length <= 200
-            1 <= nums[i] <= 100
-
-- [](%"TA151229C.cpp") @TAG(Ref, LT0416)

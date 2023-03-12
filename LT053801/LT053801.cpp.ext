@@ -1,0 +1,17 @@
++++
+date = "2023-03-11"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0538"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0538 (name=Convert BST to Greater Tree, ptag=Leetcode) @TAG(Term, Medium-OJ, Tree-OJ, BST)
+    - [Convert BST to Greater Tree - Leetcode](https://leetcode.com/problems/convert-bst-to-greater-tree/description/ ) @TAG(LT0538)
+

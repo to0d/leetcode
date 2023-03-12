@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {
@@ -11,6 +9,7 @@ public:
         return nums;
     }
 };
+
 
 
 void test(vector<int> nums)
@@ -31,6 +30,7 @@ int main(void)
 // Result 
 //
 // 2022-12-13: Runtime 4ms 61.72% Memory 8.5MB 44.86%, https://leetcode.com/problems/running-sum-of-1d-array/submissions/859212859/
+// 2023-03-11: Runtime 4ms 61.7% Memory 8.5MB 78.53%, https://leetcode.com/problems/running-sum-of-1d-array/submissions/912973808/
 
 
 
