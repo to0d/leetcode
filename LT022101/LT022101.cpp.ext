@@ -1,0 +1,16 @@
++++
+date = "2023-03-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0221"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0221 (name=Maximal Square, ptag=Leetcode) @TAG(Term, Medium-OJ, DP-OJ)
+    - [Maximal Square - Leetcode](https://leetcode.com/problems/maximal-square/ ) @TAG(LT0221)

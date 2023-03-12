@@ -5,17 +5,16 @@ public:
     string minWindow(string s, string t) {
         if( t.size() == 0 || s.size() < t.size() )
             return "";
-        else if( t.size() == 1 )
+        if( t.size() == 1 )
         {   char c = t[0];
             for( char cc : s)
-            {   if( cc == c)
+                if( cc == c)
                     return t;
-            }
             return "";
         }
 
         int target[256] = {0}, hit[256] = {0};
-        int prev = 0, pos = 0, srcSize = s.size(), targetCount = 0;
+        int prev = 0, pos = 0, s_size = s.size(), targetCount = 0;
         for( char c : t )
         {   if( target[c]++ == 0)
                 ++targetCount;
@@ -23,7 +22,7 @@ public:
 
         // find first match
         int hitCount = 0;
-        for( ;hitCount < targetCount && pos < srcSize; ++pos)
+        for( ;hitCount < targetCount && pos < s_size; ++pos)
         {    char c = s[pos];
              if( target[c] > 0 && ++hit[c] == target[c] )
                 hitCount++;
@@ -33,7 +32,7 @@ public:
             return "";
 
         int minPrev = 0, minSize = INT_MAX;
-        while( pos <= srcSize )
+        while( pos <= s_size )
         {   for(; prev < pos; ++prev )
             {   char pc = s[prev];
                 int& hc = hit[pc];
@@ -43,18 +42,18 @@ public:
                     --hc;
                 }
             }
-            
+
             int len = pos - prev;
             if( len < minSize )
             {   minSize = len;
                 minPrev = prev;
             }
 
-            if( pos == srcSize)
+            if( pos == s_size)
                 break;
             
             char pc = s[prev], nc = 0;
-            while( pc != nc && pos < srcSize)
+            while( pc != nc && pos < s_size)
             {   nc = s[pos++];
                 if( target[nc] > 0 )
                     ++hit[nc];

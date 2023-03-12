@@ -1,5 +1,5 @@
 CPPFLAGS=-std=c++11 -I ../include -g
-a.out: LT006203.o
+a.out: LT012801.o
 	g++ -o $@ $^
 ..c.o:
 	g++ -c $<

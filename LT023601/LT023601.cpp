@@ -4,42 +4,31 @@ class Solution
 {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q){
-        if( root == NULL || p == NULL || q == NULL)
-            return NULL;
-            
-        if( p == q)
-            return p;
-
-        stack<TreeNode*> pPath, qPath;
-
-        if( !findNodeInBinaryTree(pPath, p, root)
-         || !findNodeInBinaryTree(qPath, q, root))
-            return NULL;
-        
-        // find common ancestor from root node
-        TreeNode* pLast = root;
-        while( !pPath.empty() && !qPath.empty() && pPath.top() == qPath.top() )
-        {   pLast = pPath.top();
-            pPath.pop();
-            qPath.pop();
-        }
-
-        return pLast;
+        vector<TreeNode*> path1, path2;
+        TreeNode* ancestor;
+        visit(root, p, q, path1, path2, &ancestor);
+        return ancestor;
     }
 
-    bool findNodeInBinaryTree( stack<TreeNode*>& path, TreeNode* pTarget, TreeNode* pNode) {
-        if( pNode == NULL )
+    bool visit(TreeNode* node, TreeNode* t1, TreeNode* t2, vector<TreeNode*>& path1, vector<TreeNode*>& path2, TreeNode** ancestor) {  
+        if( node == NULL )
             return false;
-
-        if( pTarget == pNode 
-         || findNodeInBinaryTree(path, pTarget, pNode->left) 
-         || findNodeInBinaryTree(path, pTarget, pNode->right))
-        {   path.push(pNode); 
-            return true;
+        path1.push_back(node);
+        if( node == t1 || node == t2)
+        {   if( path2.size() == 0 )
+                std::copy(begin(path1), end(path1), back_inserter(path2));
+            else
+            {   int size = std::min(path1.size(), path2.size());
+                for(int i = 0; i < size && path1[i] == path2[i]; ++i)   // find common ancestor from root node
+                    *ancestor = path1[i];
+                return true;
+            }
         }
-
+        if( visit(node->left, t1, t2, path1, path2, ancestor) || visit(node->right, t1, t2, path1, path2, ancestor) )
+            return true;
+        path1.pop_back();
         return false;
-    } 
+    }
 };
 
 
@@ -69,5 +58,6 @@ int main(void)
 //
 // 2022-11-23: Runtime 34ms 14.43% Memory 16.8MB 13.45%, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/848485979/
 // 2023-02-22: Runtime 29ms 14.15% Memory 16.6MB 13.89%, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/902723471/
+// 2023-03-12: Runtime 12ms 94.34% Memory 18.5MB 6.10%, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/913837864/
 
 

@@ -27,9 +27,8 @@ int topologicalOrder(int total, vector<vector<int>>& prerequisites) {
 
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        int count = topologicalOrder(numCourses, prerequisites);   
-        return count == numCourses;
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {  
+        return topologicalOrder(numCourses, prerequisites) == numCourses;
     }
 };
 

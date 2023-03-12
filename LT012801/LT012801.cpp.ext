@@ -1,0 +1,16 @@
++++
+date = "2023-03-12"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0128"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0128 (name=Longest Consecutive Sequence, ptag=Leetcode) @TAG(Term, Medium-OJ)
+    - [Longest Consecutive Sequence - Leetcode](https://leetcode.com/problems/longest-consecutive-sequence/ ) @TAG(LT0128)

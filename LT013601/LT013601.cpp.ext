@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0136 (name=Single Number, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0136 (name=Single Number, ptag=Leetcode) @TAG(Term, Easy-OJ, Bit-OJ)
     - [Single Number - Leetcode](https://leetcode.com/problems/single-number/) @TAG(LT0136)
 
     Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.

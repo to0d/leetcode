@@ -1,6 +1,5 @@
 #include <lt_help/lt.h>
 
-
 int findKthLargest(int* nums, int n, int k) {
 
     int target = nums[0];

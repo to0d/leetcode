@@ -3,28 +3,46 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int row = matrix.size();
-        int column = row == 0 ? 0 : matrix[0].size();
-        int r = 0, v = 0;
-        for(r = 0; r < row; ++r )
-        {   v = matrix[r][0];
-            if( v > target )  return false;
-            if( v == target ) return true;
-            v = matrix[r][column-1] ;
-            if( v == target ) return true;
-            if( v > target )  break;
-        }
-
-        for(int bound = column ; bound > 0 && r < row; ++r )
-        {   auto begin = matrix[r].begin();
-            auto end = begin + bound;
-            auto first = lower_bound(begin, end, target);
-            if(first != end && *first == target)
+        int row = matrix.size(), column = matrix[0].size();
+        int c_max = indexOfRow(matrix, target, 0, 0, column-1, true);
+        int c_min = indexOfRow(matrix, target, row-1, 0, column-1, false);
+        int r_max = indexOfColumn(matrix, target, 0, 0, row-1, true);
+        int r_min = indexOfColumn(matrix, target, column-1, 0, row-1, false);
+        for(int r = r_min; r <= r_max; ++r)
+        {   int c = indexOfRow(matrix, target, r, c_min, c_max, true);
+            if( matrix[r][c] == target )
                 return true;
-            bound = first - begin;
-        }
-        
+        }     
+
         return false;
+    }
+    
+    int indexOfRow(vector<vector<int>>& matrix, int t, int row, int l, int h, bool low) {
+        while( l <= h )
+        {   int m = (l+h)/2; 
+            int m2 = matrix[row][m];
+            if ( t == m2 )
+                return m;
+            if ( t > m2 )
+                l = m + 1;
+            else 
+                h = m - 1;
+        }
+        return low ? h : l;
+    }
+
+    int indexOfColumn(vector<vector<int>>& matrix, int t, int column, int l, int h, bool low) {
+        while( l <= h )
+        {   int m = (l+h)/2; 
+            int m2 = matrix[m][column];
+            if ( t == m2 )
+                return m;
+            if ( t > m2 )
+                l = m + 1;
+            else 
+                h = m - 1;
+        }
+        return low ? h : l;
     }
 };
 
@@ -48,5 +66,7 @@ int main(void)
 //
 // 2022-11-18: Runtime 343ms 13.41% Memory 15MB 39.34%, https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/845860925/
 // 2023-02-22: Runtime 247ms 20.47% Memory 15MB 39.86%, https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/902726798/
+// 2023-03-12: Runtime 181ms 22.24% Memory 14.9MB 73.33%, https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/913730022/
+
 
 
