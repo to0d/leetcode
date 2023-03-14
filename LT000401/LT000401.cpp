@@ -1,7 +1,5 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -14,8 +12,7 @@ public:
 
         int l = 0, h = size1, half = (size1+size2+1)/2;
         while( l <= h )
-        {
-            int i = (l+h)/2;
+        {   int i = (l+h)/2;
             int j = half - i;
 
             if( i > 0 && nums1[i-1] > nums2[j])
@@ -23,8 +20,7 @@ public:
             else if ( i < size1 && nums2[j-1] > nums1[i] )
                 l = i + 1;
             else
-            {
-                int max_left, min_right = 0 ;
+            {   int max_left, min_right = 0 ;
 
                 if ( i == 0 )
                     max_left = nums2[j-1];
@@ -52,6 +48,7 @@ public:
 };
 
 
+
 void test(vector<int> nums1, vector<int> nums2)
 {
     cout << "input: nums1=";
@@ -70,6 +67,7 @@ int main(void)
 // Result 
 //
 // 2023-02-08: Runtime 44ms 63.68% Memory 89.4MB 73.60%, https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/894118910/
+// 2023-03-13: Runtime 35ms 86.61% Memory 89.4MB 75.33%, https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/914190193/
 
 
 

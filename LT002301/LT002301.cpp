@@ -3,14 +3,13 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        int size;
-        while( (size = lists.size()) >= 2 )
-            for(int i = 0, j = size - 1; i < j; ++i, --j)
+        while( lists.size() >= 2 )
+            for(int i = 0, j = lists.size() - 1; i < j; ++i, --j)
             {   lists[i] = mergeTwoLists( lists[i], lists[j] );
                 lists.pop_back();
             }
 
-        return size == 0 ? NULL : lists[0];
+        return lists.size() == 0 ? NULL : lists[0];
     }
 
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) { // LT002101.cpp
@@ -49,6 +48,7 @@ int main(void)
 // 2022-11-07: Runtime 30ms 53.56% Memory 12.9MB 95.29%, https://leetcode.com/problems/merge-k-sorted-lists/submissions/838723307/
 // 2023-02-16: Runtime 16ms 97.81% Memory 13MB 95.29%, https://leetcode.com/problems/merge-k-sorted-lists/submissions/899177077/
 // 2023-03-08: Runtime 18ms 95.34% Memory 13MB 86.81%, https://leetcode.com/problems/merge-k-sorted-lists/submissions/910933318/
+// 2023-03-14: Runtime 24ms 74.41% Memory 13MB 86.57%, https://leetcode.com/problems/merge-k-sorted-lists/submissions/914464261/
 
 
 
