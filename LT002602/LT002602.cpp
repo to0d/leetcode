@@ -6,15 +6,10 @@ public:
         int size = nums.size();
         if( size <= 1)
             return size;
-
         int pos1 = 0;
         for(int pos2 = 1; pos2 < size; ++pos2 )
-        {   if( nums[pos1] != nums[pos2] )
-            {   if( ++pos1 != pos2)
-                    nums[pos1] = nums[pos2];
-            }
-        }
-
+            if( nums[pos1] != nums[pos2] && ++pos1 != pos2 )
+                nums[pos1] = nums[pos2];
         return pos1 + 1; 
     }
 };
@@ -37,5 +32,6 @@ int main(void)
 // Result 
 //
 // 2023-02-16: Runtime 12ms 69.6% Memory 18.3MB 94.33%, https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/899189071/
+// 2023-03-15: Runtime 9ms 82.60% Memory 18.2MB 94.36%, https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/915719485/
 
 

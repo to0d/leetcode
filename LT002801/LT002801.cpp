@@ -6,7 +6,7 @@ public:
         int len1 = haystack.length(), len2 = needle.length();
         if( len2 == 0 )
             return 0;
-        
+
         for(int i=0; i<=len1-len2; ++i)
         {   int j = 0;
             while( j<len2 && haystack.at(i+j)==needle.at(j))

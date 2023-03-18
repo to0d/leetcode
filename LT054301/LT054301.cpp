@@ -14,7 +14,7 @@ public:
         int ld = search(node->left, maxDiameter);
         int rd = search(node->right, maxDiameter);
         maxDiameter = std::max(maxDiameter, ld+rd);
-        return ld > rd ? ld+1: rd+1;
+        return std::max(ld, rd)+1;
     }
 };
 
@@ -40,6 +40,7 @@ int main(void)
 // 2023-02-24: Runtime 9ms 75.41% Memory 20.7MB 12.53%, https://leetcode.com/problems/diameter-of-binary-tree/submissions/904151458/
 // 2023-03-09: Runtime 7ms 90.99% Memory 20.7MB 12.31%, https://leetcode.com/problems/diameter-of-binary-tree/submissions/911555992/
 // 2023-03-11: Runtime 11ms 69.23% Memory 20.4MB 30.35%, https://leetcode.com/problems/diameter-of-binary-tree/submissions/913239198/
+// 2023-03-17: Runtime 13ms 52.51% Memory 20.3MB 30.50%, https://leetcode.com/problems/diameter-of-binary-tree/submissions/916682262/
 
 
 

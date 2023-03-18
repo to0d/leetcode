@@ -3,28 +3,24 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        int size = strs.size();
-        if( size == 0 ) 
-            return "";        
-        if( size == 1 ) 
-            return strs[0];
+        int size = strs.size(), len = INT_MAX;
+        if( size == 0 ) return "";        
+        if( size == 1 ) return strs[0];
 
-        string& first = strs[0];
-        int pos = 0, len = first.length();
-        for( int i = 1 ; i < size ; ++i)
-            len = std::min(len, (int)strs[i].length());
+        for(auto& s : strs)
+            len = std::min(len, (int)s.length());
 
-        for(; pos < len; ++pos )
-        {   char c = first[pos];
-            for( int i = 1 ; i < size ; ++i)
-            {  if( strs[i][pos] != c )
-                    return first.substr(0, pos);
-            }
+        for(int i = 0; i < len; ++i)
+        {   char c = strs[0][i];
+            for(int j = 1 ; j < size ; ++j)
+                if( strs[j][i] != c )
+                    return strs[0].substr(0, i);
         }
 
-        return first.substr(0, len);
+        return strs[0].substr(0, len);
     }
 };
+
 
 
 void test(vector<string> strs)
@@ -44,5 +40,6 @@ int main(void)
 //
 // 2022-11-03: Runtime 10ms 20.28% Memory 9MB 95.8%, https://leetcode.com/problems/longest-common-prefix/submissions/836054535/
 // 2023-02-15: Runtime 4ms 75.41% Memory 9.1MB 95.16%, https://leetcode.com/problems/longest-common-prefix/submissions/898539287/
+// 2023-03-15: Runtime 0ms 100% Memory 9.1MB 83.3%, https://leetcode.com/problems/longest-common-prefix/submissions/915715812/
 
 

@@ -16,10 +16,8 @@ class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
         int len = nums.size();
-        if( len == 0 )
-            return 0;
-        if( len == 1)
-            return nums[0];
+        if( len == 0 ) return 0;
+        if( len == 1)  return nums[0];
 
         int i = 0, val, max = INT_MIN;                  //-2147483648  
         for (; i < len && (val = nums.at(i)) < 0; ++i ) // find max value in negate numbers
