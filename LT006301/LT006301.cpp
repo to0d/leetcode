@@ -2,37 +2,32 @@
 
 class Solution {
 public:
-#define MAX_NUM 100
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        int m = obstacleGrid.size();
-        int n = m == 0 ? 0 : obstacleGrid[0].size();
-        if( m == 0 || n == 0 || obstacleGrid[0][0] == 1)
-            return 0;
-        unique_nums.clear();
-        unique_nums.assign(MAX_NUM*MAX_NUM, 0);
-        unique_nums[0] = 1;
-
-        return uniquePaths(obstacleGrid,m-1,n-1);
-    }
-
-    int uniquePaths(vector<vector<int>>& grid, int i, int j) {
-        if( i < 0 || j < 0 || grid[i][j] == 1) 
-            return 0;
-
-        int num = unique_nums[i*MAX_NUM+j];
-        if( num == 0 )
-        {   num = uniquePaths(grid, i-1,j)+uniquePaths(grid, i,j-1);
-            if( num == 0 )
-                num = -1;
-            unique_nums[i*MAX_NUM+j] = num;
+        int m = obstacleGrid.size(), n = obstacleGrid[0].size();  
+        vector<int> dp(m*n, 0);
+#define dpf(i, j) dp[(i)*n + (j)]
+#define obs(i, j) obstacleGrid[(i)][(j)]
+        bool obs_row = false;
+        for(int i = 0;i < m; ++i)
+        {   if( !obs_row && obs(i, 0) == 1 )
+                obs_row = true;
+            dpf(i, 0) = obs_row ? 0 : 1;
         }
-
-        return num < 0 ? 0 : num;
+        bool obs_column = false;
+        for(int j = 0;j < n; ++j)
+        {   if( !obs_column && obs(0, j) == 1 )
+                obs_column = true;
+            dpf(0, j) = obs_column ? 0 : 1;
+        } 
+        for(int i = 1;i < m; ++i)
+            for(int j = 1;j < n; ++j)
+                if( obs(i, j) == 1 )
+                    dpf(i, j) = 0;
+                else 
+                    dpf(i, j) = dpf(i-1, j)+dpf(i, j-1); 
+        return dpf(m-1, n-1);
     }
-    
-    vector<int> unique_nums;
 };
-
 
 
 void test(vector<vector<int>> obstacleGrid)
@@ -51,7 +46,7 @@ int main(void)
 
 // Result 
 //
-// 2022/11/19
 //
 // 2023-02-18: Runtime 0ms 100% Memory 9.4MB 16.53%, https://leetcode.com/problems/unique-paths-ii/submissions/900079277/
+// 2023-05-15: Runtime 3ms 73.28% Memory 7.6MB 92.51%, https://leetcode.com/problems/unique-paths-ii/submissions/950600404/
 
