@@ -1,24 +1,16 @@
 #include <lt_help/lt.h>
 
-// nums [a, b, c, d] ==> t
-// map
-//  [t-a] => 0
-//  [t-b] => 1
-//  ...
-
 class Solution {
-    public:
-    vector<int> twoSum(vector<int>& nums, int target) {   
-        map<int,int> _map;
-        _map[target - nums[0]] = 0;
-
-        for(int i = 1; i < (int)nums.size(); ++i)
-        {   auto it = _map.find(nums[i]);
-            if( it != _map.end() )
-                return {it->second, i};
-            _map[target - nums[i]] = i;
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        map<int,int> idxMap;
+        int idx = 0;
+        for( auto num : nums )
+        {   auto it = idxMap.find(target - num);
+            if( it != idxMap.end() )
+                return {it->second, idx};
+            idxMap[num] = idx++;
         }
-
         return {};
     }
 };
@@ -43,6 +35,7 @@ int main(void)
 // Result 
 //
 // 2023-02-06: Runtime 11ms 87.54% Memory 11.1MB 19.19%, https://leetcode.com/problems/two-sum/submissions/892660439/
+// 2023-07-20: Runtime 8 ms 91.52% Memory 10.7 MB 18.78%, https://leetcode.cn/submissions/detail/448556175/
 
 
 

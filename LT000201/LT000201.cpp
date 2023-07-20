@@ -3,27 +3,16 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *l3 = NULL, *cur = NULL;
-        for(int v = 0; l1 != NULL || l2 != NULL  || v > 0; v /= 10)
-        {   if( l1 != NULL )
-            {   v += l1->val;
-                l1 = l1->next;
-            }
-            if( l2 != NULL )
-            {   v += l2->val;
-                l2 = l2->next;
-            }
-            ListNode* pnew = new ListNode( v%10 );
-            if( cur == NULL )
-                l3 = pnew;
-            else
-                cur->next = pnew;
-            cur = pnew;
+        ListNode tmp, *cur = &tmp;
+#define ADD_AND_MOVE(_v, _l) if( _l != NULL ) { _v += _l->val; _l = _l->next; }
+        for(int val = 0; l1 != NULL || l2 != NULL || val > 0; val/= 10, cur = cur->next)
+        {   ADD_AND_MOVE(val, l1);
+            ADD_AND_MOVE(val, l2);
+            cur->next = new ListNode(val%10);
         }
-        return l3;
+        return tmp.next;
     }
 };
-
 
 
 void test(ListNode* l1, ListNode* l2)
@@ -47,6 +36,7 @@ int main(void)
 //
 // 2023-02-06: Runtime 38ms 70.4% Memory 71.4MB 54.24%, https://leetcode.com/problems/add-two-numbers/submissions/892673320/
 // 2023-03-04: Runtime 32ms 83.86% Memory 71.5MB 13.95%, https://leetcode.com/problems/add-two-numbers/submissions/908966730/
+// 2023-07-20: Runtime 20 ms 91.57% Memory 69.7 MB 65.10%, https://leetcode.cn/submissions/detail/448563581/
 
 
 
