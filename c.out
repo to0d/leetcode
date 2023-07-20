@@ -1,4 +1,3 @@
-./LT001201: input: 1994; output: MCMXCIV
 ./LT001301: input: MCMXCIV; output: 1994
 ./LT002601: input: [0,0,1,1,1,2,2,3,3,4]; output: 5
 ./LT002701: input: nums=[3,2,2,3], val=3; output: [2,2]
