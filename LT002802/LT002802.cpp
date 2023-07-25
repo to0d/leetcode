@@ -1,8 +1,9 @@
 #include <lt_help/lt.h>
 
-int* makeNext(char *p){
+
+int* makeNext(const char* p){
     int len = strlen(p);
-    int *next = (int*) malloc(sizeof(int)*len);
+    int *next = new int[len];
     memset(next, 0, sizeof(int)*len);
     next[0] = -1;
     
@@ -18,7 +19,7 @@ int* makeNext(char *p){
 }
 
 //KMP algorithm
-int strStr(char* s, char* t) {
+int strStr_kmp(const char* s, const char* t) {
     int len_t = strlen(t);
     if(len_t == 0)
         return 0;
@@ -39,28 +40,38 @@ int strStr(char* s, char* t) {
             j = next[j];
     }
 
-    free(next);
+    delete[] next;
     return j == len_t ? i - len_t : -1;
 }
 
-
-            
-void test(const char* s, const char* t)
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        return strStr_kmp(haystack.c_str(), needle.c_str());
+    }
+};
+     
+     
+void test(string haystack, string needle)
 {
-    printf("input: s=%s, t=%s", s, t);
-    int r = strStr(makeString(s), makeString(t));
-    printf("; output: %d\n", r);
+    cout << "input: haystack=" << haystack << ", needle=" << needle;
+    int r = Solution().strStr(haystack, needle);
+    cout << "; output: " << r << endl;
 }
+
 
 int main(void)
 {
     test("sadbutsad", "sad");
 }
 
+
 // Result 
 //
 // 2022-11-15: Runtime 0ms 100% Memory 5.8MB 21.47%, https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/843943471/
 // 2023-02-16: Runtime 0ms 100% Memory 5.6MB 68.91%, https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/899195330/
+// 2023-07-25: Runtime 0ms 100% Memory 5.93MB 74.93%, https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/450038504/
+
 
 
 

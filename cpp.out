@@ -24,6 +24,7 @@
 ./LT002601: input: [0,0,1,1,1,2,2,3,3,4]; output: 5
 ./LT002701: input: val=3, nums=[3,2,2,3]; output: 2
 ./LT002801: input: haystack=sadbutsad, needle=sad; output: 0
+./LT002802: input: haystack=sadbutsad, needle=sad; output: 0
 ./LT002901: input: dividend=10, divisor=3; output: 3;
 ./LT003001: input: s=barfoothefoobarman, words=[foo,bar]; output: [0,9];
 ./LT003101: input: [1,2,3]; output: [1,3,2]
