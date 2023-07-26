@@ -29,3 +29,4 @@ int main(void)
 //
 // 2022-11-19: Runtime 5ms 30.22% Memory 6MB 74.55%, https://leetcode.com/problems/number-of-1-bits/submissions/846361080/
 // 2023-02-22: Runtime 0ms 100% Memory 6MB 36.23%, https://leetcode.com/problems/number-of-1-bits/submissions/902627502/
+// 2023-07-26: Runtime 0ms 100% Memory 5.83MB 7.51%, https://leetcode.cn/problems/number-of-1-bits/submissions/450340534/

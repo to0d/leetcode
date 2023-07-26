@@ -7,11 +7,10 @@ public:
     }
     
     int bitNumOf(int n) {
-        int num = 0;
-        for (; n != 0; n >>= 1)
-            if ( n&1 )
-                ++num;
-        return num;
+        int sum = 0;
+        for (; n!= 0; n &= (n-1))
+            ++sum;
+        return sum;
     }
 };
 
@@ -32,6 +31,7 @@ int main(void)
 // Result 
 //
 // 2023-03-11: Runtime 0ms 100% Memory 5.9MB 93.7%, https://leetcode.com/problems/hamming-distance/submissions/913270065/
-// 2023-07-26: Runtime 0ms 100% Memory 5.63MB 68.87%, https://leetcode.cn/problems/hamming-distance/submissions/450335464/
+// 2023-07-26: Runtime 0ms 100% Memory 5.60MB 86.54%, https://leetcode.cn/problems/hamming-distance/submissions/450340978/
+
 
 

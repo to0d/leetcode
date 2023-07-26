@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0191 (name=Number of 1 Bits, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0191 (name=Number of 1 Bits, ptag=Leetcode) @TAG(Term, Easy-OJ, Bit-OJ)
     - [Number of 1 Bits - Leetcode](https://leetcode.com/problems/number-of-1-bits/ ) @TAG(LT0191)
 
     Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).

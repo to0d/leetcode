@@ -14,3 +14,6 @@ tags = [
 
 - LT0461 (name=Hamming Distance, ptag=Leetcode) @TAG(Term, Easy-OJ, Bit-OJ)
     - [Hamming Distance - Leetcode](https://leetcode.com/problems/hamming-distance/ ) @TAG(LT0461)
+
+
+- [](%"LT019101.cpp") @TAG(Ref, LT0461)
