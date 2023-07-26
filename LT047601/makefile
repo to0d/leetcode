@@ -1,8 +1,9 @@
-CFLAGS=-I ../include -g
+CPPFLAGS=-std=c++11 -I ../include -g
 a.out: LT047601.o
-	gcc -o $@ $^
+	g++ -o $@ $^
 ..c.o:
-	gcc -c $<
+	g++ -c $<
+
 clean:
 	rm -f *.o
 	rm -f a.out

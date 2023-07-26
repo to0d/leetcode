@@ -11,7 +11,7 @@ tags = [
 !domain = ""
 +++
 
-- LT0476 (name=Number Complement, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0476 (name=Number Complement, ptag=Leetcode) @TAG(Term, Easy-OJ, Bit-OJ)
     - [Number Complement - Leetcode](https://leetcode.com/problems/number-complement/ ) @TAG(LT0476)
 
     The complement of an integer is the integer you get when you flip all the 0's to 1's and all the 1's to 0's in its binary representation.

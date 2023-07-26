@@ -261,6 +261,7 @@
 ./LT045901: input: abab; output: 1;
 ./LT046101: input: x=1, y=4; output: 2;
 ./LT046301: input: [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]; output: 16;
+./LT047601: input: 5; output: 2;
 ./LT048501: input: [1,1,0,1,1,1]; output: 3;
 ./LT049401: input: nums=[1,1,1,1,1], target=3; output: 5;
 ./LT049801: input: [[1,2,3],[4,5,6],[7,8,9]]; output: [1,2,4,7,5,3,6,8,9];

@@ -3,13 +3,12 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int n = 0, size = nums.size();
-        for( int i = 0;i < size; ++i)
-            n ^= nums[i];
-        return n;
+        int val = 0;
+        for(int num : nums)
+            val ^= num;
+        return val;
     }
 };
-
 
 
 void test(vector<int> nums)
@@ -29,3 +28,5 @@ int main(void)
 //
 // 2022-11-18: Runtime 38ms 26.7% Memory 17MB 55.80%, https://leetcode.com/problems/single-number/submissions/845882748/
 // 2023-02-19: Runtime 23ms 60% Memory 17MB 56.32%, https://leetcode.com/problems/single-number/submissions/900656659/
+// 2023-07-26: Runtime 8ms 98.76% Memory 16.03MB 85.84%, https://leetcode.cn/problems/single-number/submissions/450334838/
+
