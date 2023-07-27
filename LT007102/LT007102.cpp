@@ -1,12 +1,12 @@
 #include <lt_help/lt.h>
 
-char* simplifyPath(char* path) {
+void simplify_path(char* path) {
     char* stack[1024];
     char c, *p1, *p2;
     int n = 0;
     
     if( path == NULL || path[0] != '/' )
-        return path;
+        return;
 
     p1 = p2 = path;
 STR:while(( c = *p1++ ) != '\0' )
@@ -59,16 +59,25 @@ END:
     else if( *(p2-1) == '/' && p2 > (path+1) )
         --p2;
     *(p2) = '\0';
-    return path;
 }
+
+class Solution {
+public:
+    string simplifyPath(string path) {
+        static char buf[3000];
+        strcpy(buf, path.c_str());
+        simplify_path(buf);
+        return string(buf, strlen(buf));
+    }
+};
 
 
       
-void test(const char* path)
+void test(string path)
 {
-    printf("input: %s; output:", path);
-    char* rst = simplifyPath(makeString(path));
-    printf("%s\n", rst);
+    cout << "input: " << path << "; output: "; 
+    string r = Solution().simplifyPath(path);
+    cout << r << ";" << endl;
 }
 
 int main(void)
@@ -82,6 +91,7 @@ int main(void)
 //
 // 2022-11-19: Runtime 3ms 76.92% Memory 6MB 92.31%, https://leetcode.com/problems/simplify-path/submissions/846154370/
 // 2023-02-18: Runtime 0ms 100% Memory 6MB 78.57%, https://leetcode.com/problems/simplify-path/submissions/900092384/
+// 2023-07-27: Runtime 0ms 100% Memory 6.50MB 99.48%, https://leetcode.cn/problems/simplify-path/submissions/450752854/
 
 
 
