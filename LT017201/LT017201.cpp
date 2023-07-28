@@ -3,12 +3,12 @@
 class Solution {
 public:
     int trailingZeroes(int n) {
-        return min(fm(n,5), fm(n,2));
-    }
-    
-    int fm(int n, int m)
-    {   int v = n/m;
-        return v == 0 ? 0 : v + fm(v,m);
+        int val = 0;
+        while( n > 0 )             // Assume: 1. the number of '2' is bigger than the number of '5'
+        {   n /= 5;                //         2. The number of '0' in n! is equal to the number of '5'
+            val += n;              // 
+        }
+        return val;
     }
 };
 
@@ -31,3 +31,4 @@ int main(void)
 //
 // 2022-11-21: Runtime 4ms 37.14% Memory 5.9MB 64.11%, https://leetcode.com/problems/factorial-trailing-zeroes/submissions/847497994/
 // 2023-02-22: Runtime 0ms 100% Memory 6MB 64.20%, https://leetcode.com/problems/factorial-trailing-zeroes/submissions/902642620/
+// 2023-07-28: Runtime 0ms 100% Memory 5.66MB 55.10%, https://leetcode.cn/problems/factorial-trailing-zeroes/submissions/451139162/

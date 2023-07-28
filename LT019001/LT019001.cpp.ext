@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0190 (name=Reverse Bits, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0190 (name=Reverse Bits, ptag=Leetcode) @TAG(Term, Easy-OJ, Bit-OJ)
     - [Reverse Bits - Leetcode](https://leetcode.com/problems/reverse-bits/ ) @TAG(LT0190)
 
     Reverse bits of a given 32 bits unsigned integer.

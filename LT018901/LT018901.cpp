@@ -6,32 +6,31 @@ public:
         int size = nums.size();
         if( size <= 1 || ( k %= size ) == 0)
             return;
-        _rotate(nums, 0, size, k);
+        
+        int pos = 0, n = size, kk = k;
+        while(n > 1 && kk > 0 && kk < n)
+        {   if( kk <= n /2 )
+            {   for( int i = 0; i < kk; ++i)
+                    swap( nums, i + pos, i + pos + n - kk);
+                pos += kk;
+                n   -= kk;
+            }
+            else
+            {   for( int i = 0; i < n - kk; ++i)
+                    swap( nums, i + pos, i + pos + kk);
+                int m = n;
+                n    = kk;
+                kk   = 2*kk - m;
+            }
+        }
     }
 
-    void swap(vector<int>& nums, int i, int j){
+    inline void swap(vector<int>& nums, int i, int j){
         int x   = nums[i];
         nums[i] = nums[j];
         nums[j] = x;
     }
-
-    void _rotate(vector<int>& nums, int pos, int n, int k){
-        if( n <= 1 || k == 0 || n == k)
-            return ;
-
-        if( k <= n /2 )
-        {   for( int i = 0; i < k; ++i)
-                swap( nums, i + pos, i + pos + n - k);
-            _rotate(nums, pos + k, n - k, k );
-        }
-        else
-        {   for( int i = 0; i < n - k; ++i)
-                swap( nums, i + pos, i + pos + k);
-            _rotate(nums, pos , k, 2*k - n);
-        }
-    }
 };
-
 
 
 void test(vector<int> nums, int k)
@@ -54,4 +53,5 @@ int main(void)
 //
 // 2022-11-19: Runtime 100ms 5.4% Memory 25MB 85.19%, https://leetcode.com/problems/rotate-array/submissions/846349061/
 // 2023-02-19: Runtime 34ms 60.42% Memory 25MB 85.24%, https://leetcode.com/problems/rotate-array/submissions/900671353/
+// 2023-07-28: Runtime 24ms 73.32% Memory 23.72MB 83.48%, https://leetcode.cn/problems/rotate-array/submissions/451129641/
 
