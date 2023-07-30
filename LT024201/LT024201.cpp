@@ -3,22 +3,15 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if( s.size() != t.size()) 
+        if( s.length() != t.length() )
             return false;
-
-        char sx(0), tx(0);
-        for( char sc : s )
-            sx ^= sc;
-        for( char tc : t )
-            tx ^= tc;
-        
-        if( sx != tx )
-            return false;
-        
-        sort(s.begin(),s.end());
-        sort(t.begin(),t.end());
-
-        return s == t;
+        vector<int> cmap(26, 0);
+        for(char c : s )
+            cmap[c- 'a']++;
+        for(char c : t )
+            if( --cmap[c- 'a'] < 0 )
+                return false;
+        return true;
     }
 };
 
@@ -41,4 +34,5 @@ int main(void)
 //
 // 2022-11-19: Runtime 30ms 6.80% Memory 7.4MB 62.7%, https://leetcode.com/problems/valid-anagram/submissions/846317857/
 // 2023-02-22: Runtime 12ms 58.42% Memory 7.3MB 62.9%, https://leetcode.com/problems/valid-anagram/submissions/902727646/
+// 2023-07-30: Runtime 4ms 92.39% Memory 6.94MB 71.94%, https://leetcode.cn/problems/valid-anagram/submissions/451497299/
 

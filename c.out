@@ -5,13 +5,4 @@
 ./LT007901: input: board=[[A,B,C,E],[S,F,C,S],[A,D,E,E]], word=ABCCED; output: 1
 ./LT008001: input: [1,1,1,2,2,3]; output: [1,1,2,2,3]
 ./LT015002: input: [2,1,+,3,*]; output: 9
-./LT020202: input: 19; output: 1; input: 1999999999; output: 0;
-./LT020402: input: 0; output: 0; input: 1; output: 0; input: 10; output: 4;
-./LT021502: input: nums=[3,2,1,5,6,4], k=2; output: 5;
-./LT022702: input: 3+2*2; output: 7 input: 3/2 ; output: 1 input: 3+5 / 2 ; output: 5
-./LT024202: input: s=anagram, t=nagaram; output: 1 input: s=rat, t=car; output: 0
-./LT027401: input: [3,0,6,1,5]; output: 3;
-./LT027502: input: [0,1,3,5,6]; output: 3;
-./LT030602: input: 112358; output: 1; input: 199100199; output: 1;
-./LT041401: input: [3,2,1]; output: 1
 ./LT055601: input: 12; output: 21;

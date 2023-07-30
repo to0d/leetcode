@@ -2,46 +2,21 @@
 
 class Solution {
 public:
-
     bool isHappy(int n) {
-        if( n == 0 ) return false;
-        if( n == 1 ) return true;
-        
-        int m = n;
-        bool happy = false;
-        unordered_set<int> visited;
-        
-        while( visited.count( m ) == 0 )
-        {
-            if( m == 1 )
-            {   happy = true;
+        int d = n;
+        int HappyValue[1000] = {0};         // INT_MAX: 2147483647
+        while( d != 1 )                     //      max possible value 999999999
+        {   int sum = 0;                    //      9*9*9 < 1000
+            for (; d > 0; d /=10 )
+            {   int a = d%10;
+                sum += a*a;
+            }
+            if( HappyValue[sum]++ != 0 )
                 break;
-            }
-                
-            auto it = happyMap.find(m);
-            if( it != happyMap.end() )
-            {   happy = (*it).second;
-                break;
-            }
-            
-            visited.insert( m );
-            
-            int t = 0;
-            for( ; m > 0 ; m /= 10 )
-            {   int k = m % 10;
-                t += k*k; 
-            }
-
-            m = t;
+            d = sum;
         }
-        
-        for( auto v : visited )
-            happyMap[v] = happy;
-
-        return happy;
+        return d == 1;
     }
-    
-    unordered_map<int, bool> happyMap;
 };
 
 
@@ -63,5 +38,6 @@ int main(void)
 //
 // 2022-11-21: Runtime 4ms 39.37% Memory 6.5MB 6.58%, https://leetcode.com/problems/happy-number/submissions/846973268/
 // 2023-02-22: Runtime 4ms 38.78% Memory 6.7MB 6.74%, https://leetcode.com/problems/happy-number/submissions/902628893/
+// 2023-07-30: Runtime 0ms 100% Memory 5.73MB 83.54%, https://leetcode.cn/problems/happy-number/submissions/451563367/
 
 

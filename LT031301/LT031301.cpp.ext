@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0313 (name=Super Ugly Number, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0313 (name=Super Ugly Number, ptag=Leetcode) @TAG(Term, Medium-OJ, Prime)
     - [Super Ugly Number - Leetcode](https://leetcode.com/problems/super-ugly-number/) @TAG(LT0313)
 
     A super ugly number is a positive integer whose prime factors are in the array primes.

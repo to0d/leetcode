@@ -1,0 +1,18 @@
++++
+date = "2023-07-30"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+!mark = ""
+tags = [
+    "LT0224"
+]
+!template = md2.template
+!domain = ""
++++
+
+
+- LT0224 (name=Basic Calculator, ptag=Leetcode) @TAG(Term, Hard-OJ)
+    - [Basic Calculator - Leetcode](https://leetcode.com/problems/basic-calculator ) @TAG(LT0224)
+
+- [](%"LT022701.cpp") @TAG(Ref, LT0224)

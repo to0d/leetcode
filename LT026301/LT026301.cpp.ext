@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0263 (name=Ugly Number, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0263 (name=Ugly Number, ptag=Leetcode) @TAG(Term, Easy-OJ, Prime)
     - [Ugly Number - Leetcode](https://leetcode.com/problems/ugly-number/ ) @TAG(LT0263)
 
     Write a program to check whether a given number is an ugly number.

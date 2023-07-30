@@ -12,7 +12,7 @@ tags = [
 +++
 
 
-- LT0204 (name=Count Primes, ptag=Leetcode) @TAG(Term, Medium-OJ)
+- LT0204 (name=Count Primes, ptag=Leetcode) @TAG(Term, Medium-OJ, Prime)
     - [Count Primes - Leetcode](https://leetcode.com/problems/count-primes/ ) @TAG(LT0204)
 
 
