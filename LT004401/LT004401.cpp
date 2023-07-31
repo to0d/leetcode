@@ -1,6 +1,6 @@
 #include <lt_help/lt.h>
 
-bool isMatch2(char* s, char* p, int i, int j, int* matched, int row) {
+bool isMatch2(const char* s, const char* p, int i, int j, int* matched, int row) {
     
     //printf("isMatch2: %s, %s\n", s+i, p+j);
     
@@ -57,21 +57,25 @@ MATCH: if( c == '*' )
     return c == *(s+i) && isMatch2(s,p,i+1,j+1, matched, row);
 }
 
-bool isMatch(char* s, char* p) {
-    
-#define ROW   500
-#define COL   500
-    static int matched[ROW*COL];
-    memset(matched, 0, sizeof(matched));
-    return isMatch2(s,p,0,0, matched, ROW);
+class Solution {
+public:
+    bool isMatch(string s, string p) {
+    #define ROW   500
+    #define COL   500
+        static int matched[ROW*COL];
+        memset(matched, 0, sizeof(matched));
+        return isMatch2(s.c_str(), p.c_str(), 0, 0, matched, ROW);
+    }
+};
+
+
+void test(string s, string p)
+{
+    cout << "input: s=" << s << ", p=" << p;
+    bool r = Solution().isMatch(s, p);
+    cout << "; output: " << r << ";" << endl;
 }
 
-void test(const char* s, const char* p)
-{
-    printf("input: s=%s, p=%s", s, p);
-    bool r = isMatch(makeString(s), makeString(p));
-    printf("; output: %d;\n", r);
-}
 
 int main(void)
 {

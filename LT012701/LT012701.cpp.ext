@@ -1,0 +1,17 @@
++++
+date = "2016-04-01"
+!outline = "en_1"
+!outline_level = 3
+!top = ""
+mark = "图的宽度搜索"
+tags = [
+    "LT0127",
+    "DFS"
+]
+!template = md2.template
+!domain = ""
++++
+
+- LT0127 (name=Word Ladder, ptag=Leetcode) @TAG(Term, Hard-OJ)
+    - [Word Ladder - Leetcode](https://leetcode.com/problems/word-ladder/ ) @TAG(LT0127)
+
