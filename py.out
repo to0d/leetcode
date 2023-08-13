@@ -6,7 +6,7 @@ LT000601.py: input: PAYPALISHIRING 3 ; output: PAHNAPLSIIGYIR
 LT000703.py: input: 123 ; output: 321
 LT000802.py: input: 1234567 ; output: 1234567
 LT000902.py: input: 121 ; output: True
-LT001001.py: input: ab . .. .gitignore .vscode ; output: True
+LT001001.py: input: ab . .. .git .gitignore .vscode ; output: True
 LT001101.py: input: [1, 1] ; output: 1
 LT001202.py: input: 1994 ; output: MCMXCIV
 LT001302.py: input: MCMXCIV ; output: 1994
