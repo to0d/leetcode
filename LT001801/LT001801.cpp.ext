@@ -3,7 +3,7 @@ date = "2016-06-12"
 !outline = "en_1"
 !outline_level = 3
 !top = ""
-mark = "Timeout"
+!mark = ""
 tags = [
     "LT0018"
 ]
