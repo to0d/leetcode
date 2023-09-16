@@ -1,103 +1,61 @@
 #include <lt_help/lt.h>
 
-
-
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        
-        vector<vector<int>> res;
-        int size = nums.size(); 
-
-        if( size < 4)
-            return res;
-
-        if( size == 4 )
-        {
-            long long sum = 0;
-            for( auto num : nums) 
-                sum += num;
-
-            if( sum == target )
-                res.push_back(nums);             
-
-            return res;
-        }
-
-        unordered_map<int, list<pair<int,int>>> d2map;
-        vector<int> d2vec;
-        vector<pair<int,int>> d4vec;
-
-        for( int i = 0; i < size; ++i )
-            for( int j = i+1; j < size; ++j ) {
-                int sum = nums[i]+nums[j];
-                d2map[sum].push_back(make_pair(i,j));
-            }
+        vector<vector<int>> rst;
+        std::sort(nums.begin(), nums.end(), std::less<int>());
+        int size = nums.size();
+        for(int i = 0; i < size - 3; ++i){
+            if( i > 0 && nums[i] == nums[i-1] )
+                continue;
+            int a = nums[i];
+            if( a > (long)target/4+1) // a+b+c+d = t ==> a <= t/4
+                break;
+            if( ((long)a + nums[size-3]  + nums[size-2] + nums[size-1]) < target )
+                continue;
+            if( ((long)a + nums[i+1] + nums[i+2] + nums[i+3]) > target )
+                break;
             
-        for( auto& e : d2map )
-            d2vec.push_back( e.first );
-
-        for( int d2 : d2vec ) {
-            int t2 = target - d2;
-            if( d2 < t2 && d2map.count(t2) > 0 )
-                d4vec.push_back(make_pair(d2,t2));
-        }
-
-        if( target %2 == 0 ) {
-            int d2 = target /2;
-            if( d2map.count(d2) > 0 )
-                d4vec.push_back(make_pair(d2,d2));
-        }
-
-        unordered_set<int> xorSet;
-        vector<int> xorVec;
-        for( auto& d4 : d4vec ) {
-            auto& la = d2map[d4.first];
-            auto& lb = d2map[d4.second];
-            for( auto& pa : la) {
-                 for( auto& pb : lb) 
-                 {
-                    if( pa.first == pb.first || pa.first == pb.second || pa.second== pb.first || pa.second== pb.second )
+            for(int j = i+1; j < size - 2; ++j){
+                if( j > (i+1) && nums[j] == nums[j-1] )
+                    continue;
+                int b = nums[j];  // b+c+d = t-a ==> b <= (t-a)/3
+                if( b > (long)(target-a)/3+1)
+                    break;
+                if( ((long)a + b + nums[size-2] + nums[size-1]) < target )
+                    continue;
+                if( ((long)a + b + nums[i+1] + nums[i+2]) > target )
+                    break;
+                
+                for(int k = size-1; k > (j+1); --k){
+                    if( k < (size-1) && nums[k] == nums[k+1] )
                         continue;
-
-                   vector<int> r = {nums[pa.first], nums[pa.second], nums[pb.first], nums[pb.second]};
-                   sort( r.begin(),r.end());
-                   
-                   int xv = 0;
-                   for( int v : r )
-                       xv ^= v;
-                   
-                   bool findEqual = false;
-                   
-                   if( xorSet.count( xv ) > 0 ) {
-                       int nc = res.size();
-                       for( int i = 0; i < nc && !findEqual; ++i) {
-                           if( xorVec[i] == xv ) {
-                               vector<int>& rr = res[i];
-                               int j = 0;
-                               for(; j < 4; ++j){
-                                    if( r[j] != rr[j] )
-                                        break;
-                               }
-                               if ( j == 4 )
-                                   findEqual = true;
-                           }   
-                       }
-                   }
-                   else
-                       xorSet.insert(xv);
-
-                   if( !findEqual ) {
-                        res.push_back(r);
-                        xorVec.push_back(xv);
-                   }
+                    long d = nums[k];
+                    if( d < ((long)target-a-b)/2 ) //  c+d = t-a-b ==> d > (t-a-b)/2
+                        break;
+                    long c = (long)target - a - b - d;
+                    if (c < b || c > d )
+                        continue;
+                    int l = j+1, h = k - 1;
+                    while(l <= h ) {   
+                        int m = (l+h)/2, r = nums[m];
+                        if( r == c ) {
+                            rst.push_back({a, b, (int)c, (int)d});
+                            break;
+                        }
+                        else if( r < c)
+                            l = m + 1;
+                        else 
+                            h = m - 1;
+                    }
                 }
             }
-        }
-        
-        return res;
+        }       
+        return rst; 
     }
 };
+
 
 
 void test(vector<int> nums, int target)
@@ -115,3 +73,6 @@ int main(void)
     test({1,0,-1,0,-2,2}, 0);
 }
 
+// Result 
+//
+// 2023-09-16: Runtime 4ms 99.39% Memory 12.96MB 7.05%, https://leetcode.cn/problems/4sum/submissions/466690866/
