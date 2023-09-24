@@ -3,27 +3,25 @@
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
+        static char buf[16];
         vector<string> rst;
-        string str;
-        makeParenthesis(n, n, rst, str);
+        _generateParenthesis(rst, buf, 0, n, n);
         return rst;
     }
     
-    void makeParenthesis(int left, int right, vector<string>& rst, string& str){
-        if( left > 0 )
-        {   str.push_back('(');
-            makeParenthesis(left-1, right, rst, str);
-            str.pop_back();
+    void _generateParenthesis(vector<string>& rst, char* buf, int len, int left, int right) {
+        if( left == 0 && right == 0 ){
+            rst.push_back(string(buf, len));
+            return;
         }
-
-        if( right > 0 && left < right )
-        {   str.push_back(')');
-            makeParenthesis(left, right-1, rst, str);
-            str.pop_back();
+        if( left > 0 ){
+            buf[len] = '(';
+            _generateParenthesis(rst, buf, len+1, left-1, right);
         }
-
-        if( left == 0 && right == 0)
-            rst.push_back(str);
+        if( left < right ){
+            buf[len] = ')';
+            _generateParenthesis(rst, buf, len+1, left, right-1);
+        }
     }
 };
 
@@ -46,5 +44,6 @@ int main(void)
 //
 // 2022-11-05: Runtime 4ms 66.14% Memory 11.4MB 87.16%, https://leetcode.com/problems/generate-parentheses/submissions/837410154/
 // 2023-02-16: Runtime 0ms 100% Memory 11.6MB 78.22%, https://leetcode.com/problems/generate-parentheses/submissions/899167716/
+// 2023-09-23: Runtime 0ms 100% Memory 11.12MB 56.60%, https://leetcode.cn/problems/generate-parentheses/submissions/468974184/
 
 

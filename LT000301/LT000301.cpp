@@ -3,24 +3,17 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        if( s.length() == 0 )
-            return 0;
-        
+        int max_len = 0, idx = 1, last = 0;
         int idx_map[256] = {0};
-        int len = s.length(), max_len = 0, last = 0;
-        
-        for(int i = 0; i < len; ++i)
-        {   char c = s.at(i);
-            int idx = idx_map[c];
-            if( idx > last)
-            {   max_len = std::max(max_len, i - last);
-                last = idx;
-            }
-            idx_map[c] = i + 1;            
+        for( auto c : s )
+        {   last = std::max(last, idx_map[c]);
+            max_len = std::max(max_len, idx - last);
+            idx_map[c] = idx++;
         }
-        return std::max(max_len, len - last);
+        return max_len;
     }
 };
+
 
 void test(string s)
 {
@@ -38,6 +31,7 @@ int main(void)
 //
 // 2023-02-06: Runtime 7ms 92.71% Memory 7MB 92.60%, https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/892658509/
 // 2023-07-20: Runtime 4 ms 97.17% Memory 6.7 MB 92.18%, https://leetcode.cn/submissions/detail/448576825/
+// 2023-09-23: Runtime 8 ms 91.14% Memory 6.86 MB 87.07%, https://leetcode.cn/problems/longest-substring-without-repeating-characters/submissions/468890816/
 
 
 
