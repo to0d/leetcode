@@ -3,19 +3,24 @@
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> res;
-        vector<int>r;
-        findSubSets(res,nums,r,0);
-        return res;
+        vector<vector<int>> rst;
+        vector<int> path;
+        _subsets(rst, nums, path, 0);
+        return rst;
     }
-
-    void findSubSets(vector<vector<int>>& res, vector<int>& nums, vector<int>& r, int pos){
-        res.push_back(r);
-        for(int i = pos; i < nums.size(); ++i)
-        {   r.push_back( nums[i] );
-            findSubSets(res, nums, r, i + 1);
-            r.pop_back();
+    
+    void _subsets(vector<vector<int>>& rst, vector<int>& nums, vector<int>& path, int index) {
+        int size = nums.size();
+        if( index == size ){
+            rst.push_back(path);
+            return;
         }
+        
+        _subsets(rst, nums, path, index+1);
+
+        path.push_back(nums[index]);
+        _subsets(rst, nums, path, index+1);
+        path.pop_back();
     }
 };
 
@@ -40,5 +45,7 @@ int main(void)
 //
 // 2022-11-19: Runtime 8ms 17.12% Memory 7.1MB 88.14%, https://leetcode.com/problems/subsets/submissions/846151150/
 // 2023-02-18: Runtime 2ms 69.43% Memory 7.2MB 71.55%, https://leetcode.com/problems/subsets/submissions/900099242/
+// 2023-09-25: Runtime 4ms 47.42% Memory 11 MB 5.2%, https://leetcode.cn/problems/subsets/submissions/469405478/
+
 
 

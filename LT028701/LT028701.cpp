@@ -3,26 +3,19 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        int size = nums.size();
-        for(int i = 0 ; i < size; ++i )
-        {   int& n = nums[i];
-            if( n > 0)
-            {   if( n == (i + 1) )
-                    n = -1;
-                else
-                {   int last_number = n;
-                    n = 0;
-                    while( last_number > 0 && last_number <= size )
-                    {   int& m = nums[last_number - 1];
-                        if(m == -1 || m == last_number )
-                            return last_number;
-                        last_number = m;
-                        m = -1;
-                    }
-                }
+        int size = nums.size(), l = 0, h = size-1, ans = -1;
+        while( l <= h ){
+            int m = (l+h)/2, cn = 0;
+            for( int num : nums )
+                cn += num <= m;
+            if( cn <= m )
+                l = m + 1;
+            else {
+                h = m -1;
+                ans = m;
             }
         }
-        return -1;
+        return ans;
     }
 };
 
@@ -44,3 +37,5 @@ int main(void)
 // Result 
 //
 // 2023-02-17: Runtime 113ms 83.7% Memory 61.3MB 34.89%, https://leetcode.com/problems/find-the-duplicate-number/submissions/899788372/
+// 2023-09-27: Runtime 84ms 77.59% Memory 60.2MB 15.29%, https://leetcode.cn/problems/find-the-duplicate-number/submissions/469971179/
+

@@ -5,8 +5,7 @@ date = "2016-04-19"
 !top = ""
 !mark = ""
 tags = [
-    "LT0215",
-    "HeapSort"
+    "LT0215"
 ]
 !template = md2.template
 !domain = ""
