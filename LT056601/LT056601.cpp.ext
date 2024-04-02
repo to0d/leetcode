@@ -12,6 +12,6 @@ tags = [
 +++
 
 
-- LT0566 (name=Reshape the Matrix, ptag=Leetcode) @TAG(Term, Easy-OJ)
+- LT0566 (name=Reshape the Matrix, ptag=Leetcode) @TAG(Term, Easy-OJ, Matrix-reshape)
     - [Reshape the Matrix - Leetcode](https://leetcode.com/problems/reshape-the-matrix/ ) @TAG(LT0566)
 
